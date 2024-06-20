@@ -1,0 +1,3 @@
+https://www.cnet.com/rss/smart-home/
+https://www.theregister.com/emergent_tech/internet_of_things/headlines.atom
+https://keenlab.tencent.com/en/atom.xml

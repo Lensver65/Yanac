@@ -1,0 +1,3 @@
+http://www.kali.org/feed/
+https://ubuntu.com/blog/feed
+https://linuxsecurity.com/linuxsecurity_articles.xml

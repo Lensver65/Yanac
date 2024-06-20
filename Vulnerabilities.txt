@@ -1,0 +1,13 @@
+https://cxsecurity.com/wlb/rss/all/
+https://security.paloaltonetworks.com/rss.xml
+https://www.oracle.com/ocom/groups/public/@otn/documents/webcontent/rss-otn-sec.xml
+https://www.vmware.com/security/advisories.xml
+https://www.drupal.org/security/rss.xml
+https://us-cert.cisa.gov/ics/advisories/advisories.xml
+http://tools.cisco.com/security/center/psirtrss20/CiscoSecurityAdvisory.xml
+https://vuldb.com/?rss.recent
+https://linuxsecurity.com/linuxsecurity_advisories.xml
+https://www.huawei.com/en/rss-feeds/psirt/rss
+https://malware.dontneedcoffee.com/feed.xml
+https://0patch.blogspot.com/feeds/posts/default
+https://www.cisa.gov/uscert/ncas/bulletins.xml
