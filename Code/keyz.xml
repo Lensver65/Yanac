@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<keyz>
+    <set>
+        <field1>ChatGPT</field1>
+        <field2>ADD YOUR CHATGPT KEY HERE</field2>
+    </set>
+    <set>
+        <field1>Deepl</field1>
+        <field2>ADD YOUR DEEPL KEY HERE</field2>
+    </set>
+    <set>
+        <field1>ADD YOUR WP API USER HERE</field1>
+        <field2>ADD YOUR WP API USER PASS HERE</field2>
+    </set>
+</keyz>
