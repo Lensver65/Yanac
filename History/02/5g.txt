@@ -1,0 +1,4 @@
+http://5gobservatory.eu/feed/
+https://5g.security/feed/
+https://www.5gradar.com/feeds/all
+https://www.computerworld.com/category/5g/index.rss
