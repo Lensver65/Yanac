@@ -4,16 +4,16 @@
 	<title>SitCEN news</title>
 	<link>https://github.com/Lensver65/Yanac/blob/main/SitCEN_News.xml</link>
 	<description>Latest news for SitCEN</description>
-		<item>
+	<item>
 		<date>18 March, 2025></date>
 		<title>Targeted OAuth redirection attacks exploit Microsoft 365 for credential theft and malware delivery</title>
 		<description><![CDATA[Threat researchers at Proofpoint have detected two ongoing, highly targeted cyber campaigns that exploit OAuth redirection mechanisms in combination with brand impersonation. These campaigns are designed to facilitate Microsoft 365-themed credential phishing and distribute malware, ultimately leading to account takeovers (ATO).
-The campaigns highlight growing risks associated with OAuth-based attacks, which leverage legitimate authentication mechanisms to deceive users and gain unauthorized access.]]>
+		The campaigns highlight growing risks associated with OAuth-based attacks, which leverage legitimate authentication mechanisms to deceive users and gain unauthorized access.]]>
 		</description>
 		<link><![CDATA[https://www.bleepingcomputer.com/news/security/malicious-adobe-docusign-oauth-apps-target-microsoft-365-accounts/]]></link>
 		<link><![CDATA[https://x.com/threatinsight/status/1899869276053635553]]></link>
 	</item>
-		<item>
+	<item>
 		<date>18 March, 2025></date>
 		<title>Babuk ransomware group claimed to have hacked the French telecommunications company Orange</title>
 		<description><![CDATA[On 16 March 2025, Babuk ransomware claimed responsibility for a cyberattack against Orange, a French multinational telecommunications company. The threat actor alleges to have exfiltrated 4.5 terabytes of sensitive data, including customer records, employee information, internal documents, and financial data. If verified, this breach could pose significant risks to Orange customers and employees. Cybernews researchers consider the claims credible based on a provided data sample.]]>
@@ -21,42 +21,42 @@ The campaigns highlight growing risks associated with OAuth-based attacks, which
 		<link><![CDATA[https://cybernews.com/security/hackers-threaten-release-of-orange-clients-data/]]></link>
 		<link><![CDATA[https://dnsc.ro/citeste/precizari-cu-privire-la-informatii-aparute-public-despre-un-potential-nou-atac-cibernetic-asupra-companiei-orange]]></link>
 	</item>
-		<item>
+	<item>
 		<date>18 March, 2025></date>
 		<title>Cybercriminals Exploit CSS to Bypass Spam Filters and Track Users</title>
 		<description><![CDATA[Cisco Talos researchers identified a new technique used by cybercriminals to bypass spam filters and track user behavior via email. Malicious actors are exploiting Cascading Style Sheets (CSS) properties to hide content from detection engines and fingerprint recipients' email clients. This method allows attackers to evade security measures and potentially direct users to phishing sites.]]>
 		</description>
 		<link><![CDATA[https://thehackernews.com/2025/03/cybercriminals-exploit-css-to-evade.html]]></link>
 	</item>
-		<item>
+	<item>
 		<date>18 March, 2025></date>
 		<title>Microsoft Discovers StilachiRAT: A Sophisticated Remote Access Trojan</title>
 		<description><![CDATA[Microsoft has identified a new remote access trojan (RAT), dubbed StilachiRAT, that employs sophisticated evasion, persistence, and data exfiltration techniques. The malware can steal credentials, monitor clipboard activity, clone security tokens, and hijack active RDP sessions. Though its distribution remains limited, Microsoft has issued indicators of compromise (IOCs) and mitigation guidance to assist defenders.]]>
 		</description>
 		<link><![CDATA[https://www.bleepingcomputer.com/news/security/microsoft-new-rat-malware-used-for-crypto-theft-reconnaissance/]]></link>
 	</item>
-		<item>
+	<item>
 		<date>18 March, 2025></date>
 		<title>CISA Rehires Fired Employees, Immediately Puts Them on Leave</title>
 		<description><![CDATA[CISA rehires fired employees immediately on administrative leave pending a court decision. The agency plans to place them on immediate leave pending the outcome of a federal judge's ruling. The agency is charged with protecting U.S. federal networks, but has been forced to remove 130 employees amid Trump and Musk's push for workforce cuts.]]>
 		</description>
 		<link><![CDATA[https://www.bankinfosecurity.com/cisa-rehires-fired-employees-immediately-puts-them-on-leave-a-27743]]></link>
 	</item>
-		<item>
+	<item>
 		<date>18 March, 2025></date>
 		<title>Third of UK Supply Chain Relies on “Chinese Military” Companies</title>
 		<description><![CDATA[UK companies with larger, complex digital supply chains are heavily reliant on firms linked to the Chinese military, while a study by Bitsight found that 29.1 different providers and 81.6 different products amount to a 10% larger attack surface for threat actors. Providers of digital products are often more exposed to security risks than their customers due to complex vendor relationships and larger attack surfaces.]]>
 		</description>
 		<link><![CDATA[https://www.infosecurity-magazine.com/news/third-uk-supply-chain-relies/]]></link>
 	</item>
-		<item>
+	<item>
 		<date>18 March, 2025></date>
 		<title>Alleged Data Breach at Korea Aerospace Research Institute Sparks Major Investigation</title>
 		<description><![CDATA[The investigation into a suspected breach of South Korea's Nuri space launch vehicle project involves an employee named A, who is under scrutiny for violating unfair competition laws. Colleague B, who resigned and joined a private company, has also been investigated. Evidence suggests that A and B exchanged sensitive data via messenger.]]>
 		</description>
 		<link><![CDATA[https://databreaches.net/2025/03/18/alleged-data-breach-at-korea-aerospace-research-institute-sparks-major-investigation/]]></link>
 	</item>
-		<item>
+	<item>
 		<date>18 March, 2025></date>
 		<title>Chinese Hackers Target European Diplomats with Malware</title>
 		<description><![CDATA[Chinese hackers targeted European diplomats with malware, and MirrorFace expanded its operations to target a European organization with a refreshed set of hacking tools. Researchers from Eset spotted the hacking group tracked as MirrorFace and Earth Kasha deploying a backdoor previously exclusively used by APT10. The backdoor is known as Anel, also tracked as Uppercut. MirrorFace's use of the backdoor caused Eset to reclassify the group as a subgroup of APT10. Researchers observed the group running a heavily customized AsyncRAT inside Windows Sandbox and abusing Visual Studio Code's remote tunnels for stealthy access.]]>
