@@ -1,3 +1,5 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
 <channel>
 	<title>SitCEN news</title>
 	<link>https://github.com/Lensver65/Yanac/blob/main/SitCEN_News.xml</link>
@@ -1120,3 +1122,4 @@
 		<link><![CDATA[https://thecyberexpress.com/budget-2025-india-cybersecurity-data-privacy/]]></link>
 	</item>
 </channel>
+</rss>
