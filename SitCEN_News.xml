@@ -138,17 +138,12 @@
 		<link><![CDATA[https://cyberinsider.com/signal-no-longer-cooperating-with-ukraine-to-tackle-russian-cyber-threats/]]></link>
 	</item>
 	<item>
-		<date>14 March, 2025></date>		
-	</item>
-	<item>
 		<date>13 March, 2025></date>
 		<title>Over 400 IPs exploiting multiple SSRF vulnerabilities in coordinated cyberattack</title>
 		<description><![CDATA[On March 9, 2025, GreyNoise started to observe a coordinated surge in Server-Side Request Forgery (SSRF)  exploitation, with over 400 unique IP addresses actively targeting multiple SSRF vulnerabilities across various platforms. The United States, Germany, Singapore, India, Lithuania, Israel and Japan have been identified as the top countries experiencing SSRF exploitation attempts
 			ENISA has issued a Flash Report on the subject on 13.03.]]>
 		</description>
 		<link><![CDATA[https://thehackernews.com/2025/03/over-400-ips-exploiting-multiple-ssrf.html]]></link>
-	</item>
-	<item>
 		<link><![CDATA[https://www.greynoise.io/blog/new-ssrf-exploitation-surge]]></link>
 	</item>
 	<item>
@@ -223,8 +218,6 @@
 		<description><![CDATA[Microsoft's claim of having made quantum computing breakthroughs has attracted strong criticism from scientists, but the software giant says it’s work is sound – and it will soon reveal data that proves it. The quantum claims were made in February when Microsoft announced its in-house boffins had created "the world’s first topoconductor, a breakthrough type of material which can observe and control Majorana particles to produce more reliable and scalable qubits, which are the building blocks for quantum computers."	]]>
 		</description>
 		<link><![CDATA[https://www.theregister.com/2025/03/12/microsoft_majorana_quantum_claims_overshadowed/]]></link>
-	</item>
-	<item>
 	</item>
 	<item>
 		<date>11 March, 2025></date>
@@ -313,8 +306,6 @@
 			Over 900 VMware ESXi Servers in Netherlands Affected by Critical Vulnerability]]>	
 		</description>
 		<link><![CDATA[https://www.heise.de/news/Attacken-auf-VMware-ESXi-Immer-noch-zehntausende-Server-verwundbar-10307632.html]]></link>
-	</item>
-	<item>
 		<link><![CDATA[https://www.security.nl/posting/878852/%2737_000+VMware+ESXi-servers+missen+update+voor+actief+aangevallen+lek%27?channel=rss]]></link>
 	</item>
 	<item>
@@ -330,9 +321,6 @@
 		<description><![CDATA[Japanese telecommunication services provider NTT Communications Corporation (NTT) is warning almost 18,000 corporate customers that their information was compromised during a cybersecurity incident.]]>	
 		</description>
 		<link><![CDATA[https://www.bleepingcomputer.com/news/security/data-breach-at-japanese-telecom-giant-ntt-hits-18-000-companies/]]></link>
-	</item>
-	<item>
-		<date>7 March, 2025></date>		
 	</item>
 	<item>
 		<date>6 March, 2025></date>
@@ -614,8 +602,6 @@
 		<description><![CDATA[The Secretary of the Department of Home Affairs has today issued a mandatory Direction under the Protective Security Policy Framework (PSPF) to government entities to manage a protective security risk to the Commonwealth. This Direction requires Australian Government entities to prevent the installation of Kaspersky Lab, Inc. products and web services from all Australian Government systems and devices, and where found, to remove all existing instances.]]>	
 		</description>
 		<link><![CDATA[https://www.protectivesecurity.gov.au/news/pspf-direction-update-kaspersky-lab-inc-products-and-web-services]]></link>
-	</item>
-	<item>
 		<link><![CDATA[https://cyberinsider.com/australia-bans-kaspersky-software-over-national-security-concerns/]]></link>
 	</item>
 	<item>
@@ -798,8 +784,6 @@
 		<description><![CDATA[The ransomware leak page associated with the victim identified as Leonardo, a well-known global aerospace, defense, and security company, details a significant data breach affecting their operations. According to the extracted information, the ransomware group’s name is threeam, and they have disclosed data regarding 39 users and 62 third-party entities. Shortly after the claim Leonardo has issued a public statement, reading "Leonardo states that rumors claiming the hacker group ThreeAM breached Leonardo Spa's computer systems are completely unfounded."]]>	
 		</description>
 		<link><![CDATA[https://www.redpacketsecurity.com/threeam-ransomware-victim-leonardo-com/]]></link>
-	</item>
-	<item>
 		<link><![CDATA[https://x.com/Leonardo_IT/status/1890142102434250997]]></link>
 	</item>
 	<item>
@@ -1282,11 +1266,7 @@
 		European Commission President Ursula Von der Leyen reiterated her pledges to improve the security of the bloc's critical infrastructure following reports that an undersea Baltic cable had been damaged.]]>	
 		</description>
 		<link><![CDATA[https://www.ft.com/content/b8765ad0-3e72-41b8-9915-da86b25de033]]></link>
-	</item>
-	<item>
 		<link><![CDATA[https://www.themoscowtimes.com/2025/01/27/sweden-seizes-ship-suspected-of-damaging-baltic-sea-cable-a87744]]></link>
-	</item>
-	<item>
 		<link><![CDATA[https://www.euractiv.com/section/politics/news/von-der-leyen-pledges-solidarity-after-latvia-sweden-undersea-cable-damage/]]></link>
 	</item>
 	<item>
@@ -1302,8 +1282,6 @@
 		<description><![CDATA[The HU and SI threats have many similarities. Like the email address starts with "fighter" translated to the local language, the first sentence translated to English of the email appears to be the same in both cases. No technical details are available from Bih.]]>	
 		</description>
 		<link><![CDATA[https://www.dnevnik.si/novice/kronika/zaradi-groznje-evakuirali-vec-slovenskih-sol-2714086/]]></link>
-	</item>
-	<item>
 		<link><![CDATA[https://www.thestar.com.my/news/world/2025/01/26/false-bomb-threats-lead-to-school-suspensions-in-bih]]></link>
 	</item>
 	<item>
@@ -1312,11 +1290,7 @@
 		<description><![CDATA[DeepSeek R1 is an innovative open source artificial intelligence model developed by DeepSeek, a Chinese company, which is making a sensation in the AI world. DeepSeek R1 has been praised by researchers for its ability to tackle complex reasoning tasks, particularly in mathematics and coding. The model employs a “chain of thought” approach similar to that used by ChatGPT o1, which lets it solve problems by processing queries step by step. Little is known about the lab and its founder, Liang WenFeng. DeepSeek was born of a Chinese hedge fund called High-Flyer Quant that manages about $8 billion in assets, according to media reports. Researchers claim that DeepSeek has built-in censorship.]]>	
 		</description>
 		<link><![CDATA[https://www.redhotcyber.com/post/e-guerra-aperta-sulle-ai-la-cina-sfida-con-deepseek-r1-i-giganti-statunitensi/]]></link>
-	</item>
-	<item>
 		<link><![CDATA[https://www.trendingtopics.eu/deepseek-this-is-what-live-censorship-looks-like-in-the-chinese-ai-chatbot/]]></link>
-	</item>
-	<item>
 		<link><![CDATA[https://www.cnbc.com/2025/01/24/how-chinas-new-ai-model-deepseek-is-threatening-us-dominance.html]]></link>
 	</item>
 	<item>
