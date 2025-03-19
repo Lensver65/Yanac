@@ -14,7 +14,9 @@
 		<pubDate>19 March, 2025></pubDate>
 		<title>Windows Shortcut Exploit ZDI-CAN-25373 abused as zeroday in widespread APT campaigns</title>
 		<description><![CDATA[<p>Researchers from Trend Zero Day Initiative (ZDI) have identified nearly 1,000 malicious .lnk files leveraging ZDI-CAN-25373, a vulnerability that allows attackers to execute hidden malicious commands via crafted shortcut files. This flaw has been exploited in cyber espionage and data theft campaigns led by state-sponsored groups from North Korea, Iran, Russia, and China, affecting government, financial, telecommunications, defense, military, and energy sectors across North America, Europe, Asia, South America, and Australia.</p>
+		<p></p>
 		<p>ZDI researchers traced the use of ZDI-CAN-25373 across multiple cyber operations dating back to 2017, uncovering its widespread abuse by at least 11 state-sponsored APT groups. North Korean APT groups were found to be the most active exploiters of this vulnerability, with nearly half of the known state-sponsored attacks attributed to them. These groups demonstrated extensive cross-collaboration in techniques, tools, and infrastructure.</p>
+		<p></p>
 		<p><a href="https://www.trendmicro.com/en_us/research/25/c/windows-shortcut-zero-day-exploit.html">Reference</a></p>]]>
 		</description>
 		<link><![CDATA[https://www.bleepingcomputer.com/news/security/new-windows-zero-day-exploited-by-11-state-hacking-groups-since-2017/]]></link>
@@ -23,6 +25,7 @@
 		<pubDate>19 March, 2025></pubDate>
 		<title>DCRat distribution campaign against defense-industrial base</title>
 		<description><![CDATA[<p>CERT-UA has reportedly observed a series of targeted cyberattacks against employees of Ukraine's defense-industrial complex and members of the Defense Forces. These attacks, tracked as UAC-0200, have been ongoing since mid-2024 and escalated in early 2025.</p>
+		<p></p>
 		<p>In March 2025, Signal Messenger was identified as a distribution channel for malicious archived messages, often disguised as meeting reports. To enhance credibility, attackers used previously compromised contacts to send messages. The archives typically included a PDF file along with DarkTortilla, a cryptor/loader designed to decrypt and execute Dark Crystal RAT (DCRAT) for remote control of infected systems.</p>]]>
 		</description>
 		<link><![CDATA[https://cert.gov.ua/article/6282737]]></link>
@@ -47,6 +50,7 @@
 		<title>Targeted OAuth redirection attacks exploit Microsoft 365 for credential theft and malware delivery</title>
 		<description><![CDATA[<p>Threat researchers at Proofpoint have detected two ongoing, highly targeted cyber campaigns that exploit OAuth redirection mechanisms in combination with brand impersonation. These campaigns are designed to facilitate Microsoft 365-themed credential phishing and distribute malware, ultimately leading to account takeovers (ATO).
 		The campaigns highlight growing risks associated with OAuth-based attacks, which leverage legitimate authentication mechanisms to deceive users and gain unauthorized access.</p>
+		<p></p>
 		<p><a href="https://x.com/threatinsight/status/1899869276053635553">Reference</a></p>]]>
 		</description>
 		<link><![CDATA[https://www.bleepingcomputer.com/news/security/malicious-adobe-docusign-oauth-apps-target-microsoft-365-accounts/]]></link>
@@ -55,6 +59,7 @@
 		<pubDate>18 March, 2025></pubDate>
 		<title>Babuk ransomware group claimed to have hacked the French telecommunications company Orange</title>
 		<description><![CDATA[<p>On 16 March 2025, Babuk ransomware claimed responsibility for a cyberattack against Orange, a French multinational telecommunications company. The threat actor alleges to have exfiltrated 4.5 terabytes of sensitive data, including customer records, employee information, internal documents, and financial data. If verified, this breach could pose significant risks to Orange customers and employees. Cybernews researchers consider the claims credible based on a provided data sample.</p>
+		<p></p>
 		<p><a href="https://dnsc.ro/citeste/precizari-cu-privire-la-informatii-aparute-public-despre-un-potential-nou-atac-cibernetic-asupra-companiei-orange">Reference</a></p>]]>
 		</description>
 		<link><![CDATA[https://cybernews.com/security/hackers-threaten-release-of-orange-clients-data/]]></link>
@@ -147,6 +152,7 @@
 		<pubDate>14 March, 2025></pubDate>
 		<title>Head Mare and Twelve reportedly collaborating to attack Russian entities</title>
 		<description><![CDATA[<p>Analysts from Kaspersky identified a series of cyberattacks targeting Russian companies in September 2024, revealing a strong correlation between two hacktivist groups, Head Mare and Twelve (alias -=TWELVE=-). Analysis identified shared infrastructure, malware, and tactics between the two groups, suggesting a potential collaboration in their campaigns.</p>
+		<p></p>
 		<p>Formed in April 2023, Twelve historically targeted Russian entities. The group reportedly went silent for several months, but on mid-2024, the group appeared to have re-emerged. Head Mare is believed to be a hacktivist group that historically targeted Russian and Russia-aligned organizations, active since at least the end of 2023.</p>]]>	
 		</description>
 		<link><![CDATA[https://securelist.com/head-mare-twelve-collaboration/115887/]]></link>
@@ -155,6 +161,7 @@
 		<pubDate>14 March, 2025></pubDate>		
 		<title>Phishing campaign impersonates Booking .com, delivers a suite of credential-stealing malware</title>
 		<description><![CDATA[<p>Starting in December 2024, leading up to some of the busiest travel days, Microsoft Threat Intelligence identified a phishing campaign that impersonates online travel agency Booking.com and targets organizations in the hospitality industry. The campaign uses a social engineering technique called ClickFix to deliver multiple credential-stealing malware in order to conduct financial fraud and theft. As of February 2025, this campaign is ongoing.</p>
+		<p></p>
 		<p>This phishing attack specifically targets individuals in hospitality organizations in North America, Oceania, South and Southeast Asia, and Northern, Southern, Eastern, and Western Europe, that are most likely to work with Booking.com, sending fake emails purporting to be coming from the agency.</p>]]>
 		</description>
 		<link><![CDATA[https://www.microsoft.com/en-us/security/blog/2025/03/13/phishing-campaign-impersonates-booking-com-delivers-a-suite-of-credential-stealing-malware/]]></link>
@@ -163,6 +170,7 @@
 		<pubDate>14 March, 2025></pubDate>		
 		<title>Europe's telecoms sector under increased threat from cyber spies, warns Denmark</title>
 		<description><![CDATA[<p>Denmark’s cybersecurity agency published a threat assessment on Thursday warning of an increase in state-sponsored cyber espionage activities targeting the telecommunications sector in Europe.</p>
+		<p></p>
 		<p>It is the first public warning by a European government agency that suggests governments on the continent share the alarm of the United States over a Chinese spying campaign tracked as Salt Typhoon, although the Danish authorities did not explicitly mention Salt Typhoon or China.</p>]]>
 		</description>
 		<link><![CDATA[https://therecord.media/europe-increased-cyber-espionage-telecoms-denmark-report]]></link>
@@ -171,6 +179,7 @@
 		<pubDate>14 March, 2025></pubDate>		
 		<title>Signal No Longer Cooperating with Ukraine to Tackle Russian Cyber Threats</title>
 		<description><![CDATA[<p>The encrypted messaging app Signal has ceased responding to Ukrainian law enforcement requests regarding Russian cyber threats, a senior Ukrainian official claimed, warning that this inaction is aiding Moscow’s intelligence operations.</p>
+		<p></p>
 		<p>According to Serhii  Demediuk (deputy secretary of Ukraine’s National Security and Defense Council), Ukraine had previously communicated with Signal through an official channel to warn about the app’s abuse by Russian hackers. These attacks reportedly involve phishing campaigns and account takeovers, often targeting Ukrainian military and government personnel. While Signal previously responded to such concerns, Demediuk said this is no longer the case.</p>]]>
 		</description>
 		<link><![CDATA[https://cyberinsider.com/signal-no-longer-cooperating-with-ukraine-to-tackle-russian-cyber-threats/]]></link>
@@ -179,7 +188,9 @@
 		<pubDate>13 March, 2025></pubDate>
 		<title>Over 400 IPs exploiting multiple SSRF vulnerabilities in coordinated cyberattack</title>
 		<description><![CDATA[<p>On March 9, 2025, GreyNoise started to observe a coordinated surge in Server-Side Request Forgery (SSRF)  exploitation, with over 400 unique IP addresses actively targeting multiple SSRF vulnerabilities across various platforms. The United States, Germany, Singapore, India, Lithuania, Israel and Japan have been identified as the top countries experiencing SSRF exploitation attempts</p>
+		<p></p>
 		<p>ENISA has issued a Flash Report on the subject on 13.03.</p>
+		<p></p>
 		<p><a href="https://www.greynoise.io/blog/new-ssrf-exploitation-surge">Reference</a></p>]]>
 		</description>
 		<link><![CDATA[https://thehackernews.com/2025/03/over-400-ips-exploiting-multiple-ssrf.html]]></link>
@@ -188,7 +199,9 @@
 		<pubDate>13 March, 2025></pubDate>		
 		<title>A new Android spyware named 'KoSpy' is linked to North Korean threat actors who have infiltrated Google Play</title>
 		<description><![CDATA[<p>A new Android spyware named 'KoSpy' is linked to North Korean threat actors who have infiltrated Google Play and third-party app store APKPure through at least five malicious apps.</p>
+		<p></p>
 		<p>The spyware campaign primarily targets Korean and English-speaking users by disguising itself as file managers, security tools, and software updaters. The campaign was attributed to APT37.</p>
+		<p></p>
 		<p><a href="https://www.lookout.com/threat-intelligence/article/lookout-discovers-new-spyware-by-north-korean-apt37">Reference</a></p>]]>
 		</description>
 		<link><![CDATA[https://www.bleepingcomputer.com/news/security/new-north-korean-android-spyware-slips-onto-google-play/]]></link>
@@ -259,6 +272,7 @@
 		<pubDate>11 March, 2025></pubDate>
 		<title>X hit by massive cyberattack amid Dark Storm’s DDoS claims</title>
 		<description><![CDATA[<p>The Dark Storm hacktivist group claims to be behind DDoS attacks causing multiple X worldwide outages on Monday, leading the company to enable DDoS protections from Cloudflare.</p>
+		<p></p>
 		<p>While X owner Elon Musk did not specifically state that DDoS attacks were behind the outages, he did confirm that it was caused by a "massive cyberattack."</p>]]>	
 		</description>
 		<link><![CDATA[https://www.bleepingcomputer.com/news/security/x-hit-by-massive-cyberattack-amid-dark-storms-ddos-claims/]]></link>
@@ -267,6 +281,7 @@
 		<pubDate>11 March, 2025></pubDate>		
 		<title>Researchers expose new polymorphic attack that clones browser extensions to steal credentials</title>
 		<description><![CDATA[<p>Cybersecurity researchers have demonstrated a novel technique that allows a malicious web browser extension to impersonate any installed add-on. The harvested credentials could then be abused by the threat actors to hijack online accounts and gain unauthorized access to sensitive personal and financial information. The attack affects all Chromium-based web browsers, including Google Chrome, Microsoft Edge, Brave, Opera, and others.</p>
+		<p></p>
 		<p><a href="https://labs.sqrx.com/polymorphic-extensions-dd2310006e04">Reference</a></p>]]>
 		</description>
 		<link><![CDATA[https://thehackernews.com/2025/03/researchers-expose-new-polymorphic.html]]></link>
@@ -275,6 +290,7 @@
 		<pubDate>11 March, 2025></pubDate>		
 		<title>SideWinder APT Targets Maritime, Nuclear, and IT Sectors Across Asia, Middle East, and Africa</title>
 		<description><![CDATA[<p>Maritime and logistics companies in South and Southeast Asia, the Middle East, and Africa have become the target of an advanced persistent threat (APT) group dubbed SideWinder.</p>
+		<p></p>
 		<p>The attacks, observed by Kaspersky in 2024, spread across Bangladesh, Cambodia, Djibouti, Egypt, the United Arab Emirates, and Vietnam. Other targets of interest include nuclear power plants and nuclear energy infrastructure in South Asia and Africa, as well as telecommunication, consulting, IT service companies, real estate agencies, and hotels.</p>]]>
 		</description>
 		<link><![CDATA[https://thehackernews.com/2025/03/sidewinder-apt-targets-maritime-nuclear.html]]></link>
@@ -297,6 +313,7 @@
 		<pubDate>10 March, 2025></pubDate>		
 		<title>Ministry of Internal Affairs Hospital in Krakow became the target of a cyberattack</title>
 		<description><![CDATA[<p>According to the Vice PM, cybersecurity agencies, including Poland’s Cyberspace Emergency Response Team (CERT Polska), e-Health Center, and Central Bureau for Combating Cybercrime, are gathering evidence and helping the healthcare facility resume normal operations. Law enforcers have coordinated efforts to identify the perpetrators of the attack.</p>
+		<p></p>
 		<p><a href="https://www.ukrinform.net/rubric-society/3968608-police-hospital-in-poland-targeted-in-cyberattack.html">Reference</a></p>]]>	
 		</description>
 		<link><![CDATA[https://dorzeczy.pl/kraj/700629/cyberatak-na-szpital-mswia-w-krakowie-komunikat-z-rzadu.html]]></link>
@@ -312,6 +329,7 @@
 		<pubDate>10 March, 2025></pubDate>		
 		<title>North Korean hackers cash out hundreds of millions from $1.5bn ByBit hack</title>
 		<description><![CDATA[<p>Hackers thought to be working for the North Korean regime have successfully converted at least $300m (£232m) of their record-breaking $1.5bn crypto heist to unrecoverable funds. The criminals, known as Lazarus Group, swiped the huge haul of digital tokens in a hack on crypto exchange ByBit two weeks ago.</p> 
+		<p></p>
 		<p>Since then, it's been a cat-and-mouse game to track and block the hackers from successfully converting the crypto into usable cash. Experts say the infamous hacking team is working nearly 24 hours a day - potentially funnelling the money into the regime's military development.</p>]]>	
 		</description>
 		<link><![CDATA[https://www.bbc.com/news/articles/c2kgndwwd7lo]]></link>
@@ -320,6 +338,7 @@
 		<pubDate>10 March, 2025></pubDate>		
 		<title>Large-scale cryptocurrency miner campaign targets Russian users with SilentCryptoMiner</title>
 		<description><![CDATA[<p>Kaspersky researchers discovered a mass malware campaign spreading SilentCryptoMiner by disguising it as a tool to bypass internet restrictions. While investigating the increased use of Windows Packet Divert (WPD) tools by crooks to distribute malware under this pretense, the researchers spotted the campaign.</p>
+		<p></p>
 		<p><a href="https://www.kaspersky.com/blog/miner-disguised-as-circumvention-tools/53118/">Reference</a></p>]]>	
 		</description>
 		<link><![CDATA[https://securityaffairs.com/175169/breaking-news/miner-campaign-targeting-russian-users-with-silentcryptominer.html]]></link>
@@ -335,7 +354,9 @@
 		<pubDate>7 March, 2025></pubDate>		
 		<title>Vulnerable ESXi Servers exploited all over EU</title>
 		<description><![CDATA[<p>2,800 Vulnerable VMware ESXi Servers in Germany Exploited.</p>
+		<p></p>
 		<p>Over 900 VMware ESXi Servers in Netherlands Affected by Critical Vulnerability</p>
+		<p></p>
 		<p><a href="https://www.security.nl/posting/878852/%2737_000+VMware+ESXi-servers+missen+update+voor+actief+aangevallen+lek%27?channel=rss">Reference</a></p>]]>
 		</description>
 		<link><![CDATA[https://www.heise.de/news/Attacken-auf-VMware-ESXi-Immer-noch-zehntausende-Server-verwundbar-10307632.html]]></link>
@@ -379,6 +400,7 @@
 		<pubDate>6 March, 2025></pubDate>		
 		<title>Typosquatted Go packages delivering malware loader targeting Linux and macOS systems</title>
 		<description><![CDATA[<p>Security researchers at Socket have identified an ongoing malware campaign infiltrating the Go ecosystem using typosquatted packages. The campaign introduces malicious loader malware targeting Linux and macOS systems, with at least 7 fraudulent packages impersonating widely used Go libraries. One of these packages appears to specifically target developers in the financial sector.</p> 
+		<p></p>
 		<p>The malicious packages have been found using consistent obfuscation techniques and repeated filenames, indicating a well-organized threat actor capable of rapidly adjusting their tactics. These packages remain available on the Go Module Mirror, and Socket has requested their removal while reporting the associated GitHub repositories and user accounts.</p>]]>	
 		</description>
 		<link><![CDATA[https://socket.dev/blog/typosquatted-go-packages-deliver-malware-loader]]></link>
@@ -394,6 +416,7 @@
 		<pubDate>6 March, 2025></pubDate>		
 		<title>US charges 12 Chinese hackers in major government-backed espionage campaign</title>
 		<description><![CDATA[<p>US authorities have announced criminal charges against 12 Chinese nationals allegedly involved in a long-running cyber-espionage campaign tied to China’s government.</p>
+		<p></p>
 		<p>According to court documents, among those charged are two officers from China’s Ministry of Public Security (MPS), while the remaining ten worked for Anxun Information Technology, commonly known as i-Soon, a private firm allegedly connected to China’s APT27 hacking group, also called Silk Typhoon.</p>]]>	
 		</description>
 		<link><![CDATA[https://www.csoonline.com/article/3840168/us-charges-12-chinese-hackers-in-major-government-backed-espionage-campaign.html]]></link>
@@ -437,6 +460,7 @@
 		<pubDate>4 March, 2025></pubDate>
 		<title>Outage of Dutch government authentication system DigiD</title>
 		<description><![CDATA[<p>On 3 March 2025, a series of distributed denial-of-service (DDoS) attacks caused an outage of DigiD, the Netherlands' government authentication system. The attack reportedly affected several digital government services as it was not possible to log in to several websites where DigiD is used as an authentication method. These include, for example, municipal government websites, health insurers, pension funds and the Tax and Customs Administration. MijnOverheid, the platform for citizens to access government correspondence and personal records, was also impacted by the outage.</p>
+		<p></p>
 		<p><a href="https://nltimes.nl/2025/03/03/cyberattack-hits-dutch-government-login-digid-blocking-access-many-services">Reference</a></p>]]>	
 		</description>
 		<link><![CDATA[https://www.nu.nl/tech/6347833/storing-bij-digid-opgelost-inloggen-op-overheidswebsites-weer-mogelijk.html]]></link>
@@ -473,6 +497,7 @@
 		<pubDate>3 March, 2025></pubDate>
 		<title>USA - Russia cyber relations</title>
 		<description><![CDATA[<p>On February 28, The Record reported that Defense Secretary Pete Hegseth ordered US Cyber Command to halt all planning against Russia, including offensive cyber operations. This directive, issued to Cyber Command chief General Timothy Haugh, does not affect the National Security Agency's intelligence activities targeting Russia. The move aligns with the administration's efforts to normalise relations with Moscow.</p>
+		<p></p>
 		<p>On February 28, The Guardian reported that the Trump administration is downplaying Russia's cyber threat, diverging from longstanding intelligence assessments. This shift was evident when State Department official Liesyl Franz named China and Iran as cyber threats but omitted Russia. Additionally, the Cybersecurity and Infrastructure Security Agency (CISA) has reportedly been directed to deprioritise reporting on Russian cyber threats.	</p>]]>
 		</description>
 		<link><![CDATA[https://therecord.media/hegseth-orders-cyber-command-stand-down-russia-planning]]></link>
@@ -484,10 +509,15 @@
 		<pubDate>4 March, 2025></pubDate>		
 		<title>CERT-EU Cyber brief - February 2025</title>
 		<description><![CDATA[<p>In the brief  the reader will find the analysis based on 433 Open Source reports. </p>
+		<p></p>
 		<p>Policy, cooperation, and law enforcement. The EU aims to strengthen the EU's response to large-scale cyber incidents, Sweden and the UK seek backdoor access to private companies, and a former Polish Justice Minister arrested in Pegasus spyware case. Moreover, the US stands down on cyber Russia planning, Japan approves Cyber Defence Bill to counter sophisticated threats, Australian government bans Kaspersky products from government systems, and several police operations result in the arrest of cybercriminals.</p>
+		<p></p>
 		<p>Cyberespionage. China-linked threat actors compromised Belgian Secret Service e-mail exchanges, as well as telecommunications worldwide. Russia-linked threat actor Sandworm was active in targeting critical infrastructure in Europe. Multiple Russian threat actors targeted Microsoft device code authentication and Signal Messenger in multiple sectors, including defence. Pegasus software infected at least one EU government official, while another Israeli spyware targeted EU civil society, and North Korea continues targeting developers.</p>
+		<p></p>
 		<p>Cybercrime. The Belgian Port of Ostend was a victim of a cyberattack, China-linked threat actors were active in cybercrime worldwide, as were North Korea-linked Lazarus group, who namely carried out what is considered the largest cryptocurrency theft in history.</p>
+		<p></p>
 		<p>Information operations. China-linked Spamouflage operation targets the Spanish government, and a report analysed the impact of AI-driven disinformation in financial destabilisation. OpenAI removed accounts from China and North Korea that misused ChatGPT for malicious activities.</p>
+		<p></p>
 		<p>Data exposure and leaks. Orange group was a victim of a hack-and-leak attack in Romania, as was the Bulgarian Supreme Administrative Court.</p>]]>	
 		</description>
 		<link><![CDATA[https://cert.europa.eu/publications/threat-intelligence/cb25-03/]]></link>
@@ -517,6 +547,7 @@
 		<pubDate>27 February, 2025></pubDate>
 		<title>China-linked threat actors compromised Belgian Secret Service e-mail exchanges</title>
 		<description><![CDATA[<p>On February 26, the newspaper Le Soir revealed that Chinese threat actors compromised the Belgian Secret Service (VSSE) e-mail exchanges between 2021 and 2023. The threat actors exploited a vulnerability in the e-mail system of a US software supplier, called Barracuda, that was previously reported in 2023 and was being used by Belgian intelligence as well as the Belgian Pipeline Organisation, which monitors pipelines in the North Sea.</p>
+		<p></p>
 		<p>ENISA has issued a Flash Report on this subject on 27 Feb.</p>]]>	
 		</description>
 		<link><![CDATA[https://www.lesoir.be/657866/article/2025-02-26/des-hackers-chinois-ont-vole-des-donnees-sensibles-la-surete-de-letat]]></link>
@@ -532,6 +563,7 @@
 		<pubDate>27 February, 2025></pubDate>	
 		<title>FBI confirms Lazarus hackers were behind $1.5B Bybit crypto heist</title>
 		<description><![CDATA[<p>FBI has confirmed that North Korean hackers stole $1.5 billion from cryptocurrency exchange Bybit on Friday in the largest crypto heist recorded until now.</p>
+		<p></p>
 		<p>The state-sponsored hacking group (tracked as TraderTraitor, Lazarus Group, and APT38) intercepted a scheduled transfer of funds from one of Bybit's cold wallets into a hot wallet, subsequently redirecting the cryptocurrency to a blockchain address under their control.</p>]]>	
 		</description>
 		<link><![CDATA[https://www.bleepingcomputer.com/news/security/fbi-confirms-lazarus-hackers-were-behind-15b-bybit-crypto-heist/]]></link>
@@ -540,6 +572,7 @@
 		<pubDate>27 February, 2025></pubDate>		
 		<title>UK Delays Plans for AI Regulation</title>
 		<description><![CDATA[<p>The British Labour Government has reportedly delayed plans to put forward a draft bill on artificial intelligence over concerns that binding AI regulation could stifle the country's AI growth potential.</p>
+		<p></p>
 		<p>The United Kingdom, like the United States, has so far taken a decentralized approach to AI governance by trusting to existing statutes surrounding data, consumer protection, and product safety to do the work of protecting the populace.</p>]]>	
 		</description>
 		<link><![CDATA[https://www.bankinfosecurity.com/uk-delays-plans-for-ai-regulation-a-27596]]></link>
@@ -632,6 +665,7 @@
 		<pubDate>24 February, 2025></pubDate>		
 		<title>Australia bans Kaspersky</title>
 		<description><![CDATA[<p>The Secretary of the Department of Home Affairs has today issued a mandatory Direction under the Protective Security Policy Framework (PSPF) to government entities to manage a protective security risk to the Commonwealth. This Direction requires Australian Government entities to prevent the installation of Kaspersky Lab, Inc. products and web services from all Australian Government systems and devices, and where found, to remove all existing instances.</p>
+		<p></p>
 		<p><a href="https://cyberinsider.com/australia-bans-kaspersky-software-over-national-security-concerns/">Reference</a></p>]]>	
 		</description>
 		<link><![CDATA[https://www.protectivesecurity.gov.au/news/pspf-direction-update-kaspersky-lab-inc-products-and-web-services]]></link>
@@ -654,6 +688,7 @@
 		<pubDate>21 February, 2025></pubDate>
 		<title>Salt Typhoon campaigns targeting telecommunications analyzed</title>
 		<description><![CDATA[<p>Researchers from Cisco Talos have released an analysis on the widespread campaign targeting major U.S. telecommunications providers attributed to Salt Typhoon, believed to be a Chinese state-sponsored cyberespionage actor. Initially reported in late 2024 and later confirmed by the U.S. government, the campaign primarily involves persistent access to core networking infrastructure, extensive credential harvesting, and infrastructure pivoting.</p>
+		<p></p>
 		<p>According to the recent findings, Salt Typhoon has primarily gained access to Cisco networking devices using legitimate stolen credentials, rather than exploiting vulnerabilities. The only confirmed instance of vulnerability exploitation involved CVE-2018-0171, a known Cisco vulnerability. Other reported cases of vulnerability abuse, including CVE-2023-20198, CVE-2023-20273, and CVE-2024-20399, remain unverified.</p>]]>
 		</description>
 		<link><![CDATA[https://blog.talosintelligence.com/salt-typhoon-analysis/]]></link>
@@ -690,6 +725,7 @@
 		<pubDate>20 February, 2025></pubDate>		
 		<title>Italy is under DDoS siege</title>
 		<description><![CDATA[<p>For the third consecutive day, the pro-Russian hacker group Noname057(16) has carried out a wave of cyberattacks targeting Italy. On Wednesday, the group's latest offensive focused on financial institutions, arms manufacturers, and public transportation companies.</p> 
+		<p></p>
 		<p>Earlier this week, the hackers targeted around 20 websites, including those of Italy’s Guardia di Finanza, the Carabinieri, and multiple government ministries—Industry and Made in Italy, Foreign Affairs, Economy, Infrastructure and Transport, and Economic Development.</p>]]>	
 		</description>
 		<link><![CDATA[https://www.euractiv.com/section/politics/news/pro-russian-hackers-target-italy-for-the-third-consecutive-day-in-retaliation-for-mattarellas-remarks/]]></link>
@@ -698,6 +734,7 @@
 		<pubDate>20 February, 2025></pubDate>		
 		<title>FBI Warns of Ghost Ransomware Attacks Targeting 70 Countries</title>
 		<description><![CDATA[<p>The Federal Bureau of Investigation (FBI), Cybersecurity and Infrastructure Security Agency (CISA), and the Multi-State Information Sharing and Analysis Center (MS-ISAC) are releasing this joint advisory to disseminate known Ghost (Cring)— (“Ghost”)—ransomware IOCs and TTPs identified through FBI investigation as recently as January 2025.</p> 
+		<p></p>
 		<p>Beginning early 2021, Ghost actors began attacking victims whose internet facing services ran outdated versions of software and firmware. This indiscriminate targeting of networks containing vulnerabilities has led to the compromise of organizations across more than 70 countries, including organizations in China. Ghost actors, located in China, conduct these widespread attacks for financial gain. Affected victims include critical infrastructure, schools and universities, healthcare, government networks, religious institutions, technology and manufacturing companies, and numerous small- and medium-sized businesses.</p>]]>	
 		</description>
 		<link><![CDATA[https://www.ic3.gov/CSA/2025/250219.pdf]]></link>
@@ -706,7 +743,9 @@
 		<pubDate>20 February, 2025></pubDate>		
 		<title>Microsoft’s Majorana 1 chip carves new path for quantum computing</title>
 		<description><![CDATA[<p>Microsoft introduced Majorana 1, the world’s first quantum chip powered by a new Topological Core architecture that it expects will realize quantum computers capable of solving meaningful, industrial-scale problems in years, not decades.</p>
+		<p></p>
 		<p>It leverages the world’s first topoconductor, a breakthrough type of material which can observe and control Majorana particles to produce more reliable and scalable qubits, which are the building blocks for quantum computers.</p>
+		<p></p>
 		<p>The topoconductor, or topological superconductor, is a special category of material that can create an entirely new state of matter – not a solid, liquid or gas but a topological state. This is harnessed to produce a more stable qubit that is fast, small and can be digitally controlled, without the tradeoffs required by current alternatives.</p>]]>	
 		</description>
 		<link><![CDATA[https://news.microsoft.com/source/features/innovation/microsofts-majorana-1-chip-carves-new-path-for-quantum-computing/]]></link>
@@ -736,6 +775,7 @@
 		<pubDate>19 February, 2025></pubDate>		
 		<title>GreenBravo novel infrastructure detected</title>
 		<description><![CDATA[<p>Among the newly observed TTPs, Recorded Future identified evidence that GreenBravo operators have registered infrastructure using Onion Mail accounts and pivoted to bulletproof hosting providers such as Stark Industries Solutions.</p>
+		<p></p>
 		<p>Historically, Recorded Future observed GreenBravo infrastructure linked to attacks targeting Israeli academics and Iranian investigative journalists. While no active targeting has surfaced at this time, the server configurations, matching Document Object Model (DOM) hashes, domain naming conventions, and use of specific infrastructure providers strongly indicate that the newly identified clusters are linked to this Iran-nexus group.</p>]]>	
 		</description>
 		<link><![CDATA[Leonardo, URL is not disclosed]]></link>
@@ -814,6 +854,7 @@
 		<pubDate>14 February, 2025></pubDate>
 		<title>Alleged data leak at Leonardo</title>
 		<description><![CDATA[<p>The ransomware leak page associated with the victim identified as Leonardo, a well-known global aerospace, defense, and security company, details a significant data breach affecting their operations. According to the extracted information, the ransomware group’s name is threeam, and they have disclosed data regarding 39 users and 62 third-party entities. Shortly after the claim Leonardo has issued a public statement, reading "Leonardo states that rumors claiming the hacker group ThreeAM breached Leonardo Spa's computer systems are completely unfounded."</p>
+		<p></p>
 		<p><a href="https://x.com/Leonardo_IT/status/1890142102434250997">Reference</a></p>]]>	
 		</description>
 		<link><![CDATA[https://www.redpacketsecurity.com/threeam-ransomware-victim-leonardo-com/]]></link>
@@ -1046,6 +1087,7 @@
 		<pubDate>6 February, 2025></pubDate>
 		<title>Baltics brace for cyberattacks as they depart Russian electricity grid</title>
 		<description><![CDATA[<p>Europe’s Baltics are bracing for cyberattacks as they plan to decouple from a Soviet-era joint power grid with Russia and Belarus this weekend.</p>
+		<p></p>
 		<p>Estonia has prepared for many possible risk scenarios regarding our departure from BRELL, including cyberthreats,” Gert Auväärt, head of Estonia’s Cyber Security Centre, told POLITICO in a written response. He said the country is ready to call in its cyber reserve, which includes the Estonian Defense League’s cyber unit, a volunteer group of cyber defenders.</p>]]>	
 		</description>
 		<link><![CDATA[https://www.politico.eu/article/baltics-brace-cyberattacks-depart-russian-electricity-grid-brell/]]></link>
@@ -1097,10 +1139,15 @@
 		<title>After Texas and Italy, Taiwan and Australia also bans Chinese AI DeepSeek</title>
 		<description><![CDATA[<p>Taiwan on 04. February banned government departments from using Chinese startup DeepSeek's artificial intelligence (AI) service as it was a security risk, toughening language from last week which said it should not be used.
 		During a cabinet meeting, Taiwan Premier Cho Jung-tai said DeepSeek was banned from use in all government agencies "to ensure the country's information security", his office said in a statement.</p>
+		<p></p>
 		<p>There were also concerns about censorship on DeepSeek and the risk of data ending up in China, the statement said.</p>
+		<p></p>
 		<p>Australia has banned DeepSeek from all government devices on the advice of security agencies, a top official said on Wednesday (05. February), citing privacy and malware risks posed by China's breakout AI programme.</p>
+		<p></p>
 		<p>Risks included that uploaded information "might not be kept private", government cyber security envoy Andrew Charlton told national broadcaster ABC, and that applications such as DeepSeek "may expose you to malware".</p>
+		<p></p>
 		<p><a href="https://www.reuters.com/technology/taiwan-bans-government-departments-using-deepseek-ai-2025-02-03/">Reference</a></p>
+		<p></p>
 		<p><a href="https://timesofindia.indiatimes.com/technology/tech-news/after-us-italy-and-taiwan-another-country-ban-deepseek-on-government-devices/articleshow/117922102.cms">Reference</a></p>]]>	
 		</description>
 		<link><![CDATA[https://www.channelnewsasia.com/world/australia-bans-deepseek-government-devices-privacy-malware-4917296]]></link>
@@ -1116,6 +1163,7 @@
 		<pubDate>4 February, 2025></pubDate>		
 		<title>Swedish authorities release seized cargo ship ruling out sabotage in Baltic Sea cable incidents</title>
 		<description><![CDATA[<p>The Swedish Prosecution Authority (SPA) announced that it is releasing the Vezhen, a cargo ship previously suspected of sabotaging a communications cable in the Baltic Sea. Investigators determined that the cable break was not an act of sabotage, but instead resulted from a combination of weather conditions, equipment deficiencies, and seamanship errors.</p>
+		<p></p>
 		<p>The Vezhen was seized on January 26. Swedish authorities have now concluded their investigations finding that although the ship was confirmed to be responsible for the cable break, no indications of deliberate interference were found.</p>]]>	
 		</description>
 		<link><![CDATA[https://via.tt.se/pressmeddelande/3776460/prosecutor-revokes-decision-on-seized-ship]]></link>
@@ -1131,6 +1179,7 @@
 		<pubDate>4 February, 2025></pubDate>		
 		<title>Chinese-Linked APT Targets Telecoms in South Asia</title>
 		<description><![CDATA[<p>Unit 42 researchers uncovered a cyberespionage campaign, CL-STA-0048, targeting high-value organizations in South Asia, including a telecom company, with evidence suggesting a Chinese state-backed APT group. The attackers persistently exploited vulnerable internet-facing services, eventually breaching an unpatched MSSQL server to escalate privileges and deploy malware. They employed stealthy exfiltration techniques, including DNS-based data theft via ping commands and SQLcmd for extracting sensitive information. PlugX RAT played a central role, utilizing DLL sideloading to evade detection, while Cobalt Strike and privilege escalation tools enabled persistence. The attackers leveraged SoftEther VPN and a custom downloader for C2 communications and used a unique "Hex Staging" method for malware deployment. Unit 42 linked CL-STA-0048 to Chinese APT groups like DragonRank, based on shared TTPs, infrastructure, and malware use.</p>
+		<p></p>
 		<p><a href="https://securityonline.info/cl-sta-0048-chinese-linked-apt-targets-telecoms-in-south-asia/">Reference</a></p>]]>	
 		</description>
 		<link><![CDATA[https://unit42.paloaltonetworks.com/espionage-campaign-targets-south-asian-entities/]]></link>
@@ -1160,7 +1209,9 @@
 		<pubDate>3 February, 2025></pubDate>		
 		<title>DeepSeek is being banned for official use (Italy, USA)</title>
 		<description><![CDATA[<p>Texas has banned Chinese AI company DeepSeek and social media apps Xiaohongshu (RedNote) and Lemon8 from all state-issued devices, citing concerns over data-harvesting and national security risks. Governor Greg Abbott emphasized the state’s commitment to protecting infrastructure from foreign threats, following similar actions against TikTok. Meanwhile, Italy’s data protection authority (Garante) has blocked DeepSeek’s chatbot service due to insufficient transparency regarding data collection, storage, and legal compliance. The regulator demanded clarification on data sources, processing purposes, and storage locations, but DeepSeek denied its operations in Italy, leading to an ongoing investigation.</p>  
+		<p></p>
 		<p>The Garante’s order to block DeepSeek's chatbot in Italy took immediate effect after the company’s responses were deemed totally insufficient. DeepSeek removed its AI assistant from Italian app stores but claimed it was not subject to local regulations, refusing to provide further information. Italian authorities warned that non-cooperation would keep the ban in place, with some users still able to access the chatbot. The case has drawn broader European scrutiny, as data regulators in Ireland and France are also questioning DeepSeek over its privacy policies. Italy’s Garante, known for its strict stance on AI-related privacy issues, had previously blocked ChatGPT over EU privacy rule concerns.</p>
+		<p></p>
 		<p><a href="https://www.reuters.com/technology/artificial-intelligence/italys-privacy-watchdog-blocks-chinese-ai-app-deepseek-2025-01-30/">Reference</a></p>]]>	
 		</description>
 		<link><![CDATA[https://securityaffairs.com/173764/laws-and-regulations/texas-bans-deepseek-and-rednote-govt-devices.html]]></link>
@@ -1183,6 +1234,7 @@
 		<pubDate>31 January, 2025></pubDate>		
 		<title>Malware Discovered in Healthcare Patient Monitors</title>
 		<description><![CDATA[<p>Traced to Chinese IP Address The Cybersecurity and Infrastructure Security Agency (CISA) has issued a critical advisory on multiple vulnerabilities in Contec Health’s CMS8000 Patient Monitor, which pose serious risks such as remote attacks, data breaches, and unauthorized access. These flaws, with CVSS v4 scores reaching 9.3, could be exploited with minimal effort, threatening healthcare systems globally. The U.S. Food and Drug Administration (FDA) has also issued a safety warning, emphasizing the severity of these security issues.</p>
+		<p></p>
 		<p><a href="https://gbhackers.com/malware-discovered-in-healthcare-patient-monitors/">Reference</a></p>]]>	
 		</description>
 		<link><![CDATA[https://www.cisa.gov/resources-tools/resources/contec-cms8000-contains-backdoor]]></link>
@@ -1219,7 +1271,9 @@
 		<pubDate>30 January, 2025></pubDate>		
 		<title>Russia-nexus APT possibly related to APT28 conducts cyber espionage on Central Asia and Kazakhstan diplomatic relations</title>
 		<description><![CDATA[<p>Since the start of the Ukraine war , the geopolitical landscape of Central Asia has undergone significant shifts, impacting the region's relationships with both Russia and China. Russia's influence, once dominant, has noticeably declined due to its actions in Ukraine, which have damaged its reputation as a regional security guarantor, with some Central Asian countries feeling that Russia doesn't respect their sovereignty.</p>
+		<p></p>
 		<p>Bitdefender Labs warns of an active cyber-espionage campaign targeting organizations in Central Asia and European countries. The group, tracked as UAC-0063, employs sophisticated tactics to infiltrate high-value targets, including government entities and diplomatic missions, expanding their operations into Europe.</p>
+		<p></p>
 		<p><a href="https://blog.sekoia.io/double-tap-campaign-russia-nexus-apt-possibly-related-to-apt28-conducts-cyber-espionage-on-central-asia-and-kazakhstan-diplomatic-relations/">Reference</a></p>]]>	
 		</description>
 		<link><![CDATA[https://www.bitdefender.com/en-us/blog/businessinsights/uac-0063-cyber-espionage-operation-expanding-from-central-asia]]></link>
@@ -1235,6 +1289,7 @@
 		<pubDate>30 January, 2025></pubDate>		
 		<title>US Cyber Agency’s Future Role in Elections Remains Murky Under the Trump Administration</title>
 		<description><![CDATA[<p>The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has played a key role in securing election systems, but its future is uncertain amid Republican criticism and changes under the Trump administration. President Trump has not appointed a new leader for CISA, and Homeland Security Secretary Kristi Noem has suggested the agency has strayed from its core mission. Many Republicans, including Trump allies, accuse CISA of working with social media companies to censor conservative viewpoints on elections and health. The agency denies these claims, stating that it only helped notify platforms about misinformation but never coerced them to take action. Despite bipartisan praise from election officials for strengthening cybersecurity ahead of the 2020 and 2024 elections, CISA remains under political scrutiny.</p>
+		<p></p>
 		<p>Trump has signed an executive order to "end federal censorship" and investigate past actions, raising questions about CISA's role moving forward. A conservative policy proposal, Project 2025, suggests moving CISA to the Transportation Department and limiting its role to assessing states’ election cybersecurity rather than directly assisting them. This shift would significantly reduce CISA’s influence on election security, despite its success in helping states combat foreign interference since Russia's 2016 election meddling. Some election officials, initially skeptical of federal involvement, now acknowledge CISA’s contributions to strengthening voting systems, but the agency’s future remains uncertain under the new administration.</p>]]>
 		</description>
 		<link><![CDATA[https://www.securityweek.com/us-cyber-agencys-future-role-in-elections-remains-murky-under-the-trump-administration/]]></link>
@@ -1258,6 +1313,7 @@
 		<pubDate>29 January, 2025></pubDate>		
 		<title>NATO: There was officially a Russian plot to kill European weapons chief</title>
 		<description><![CDATA[<p>A senior NATO official has confirmed that there was a Russian scheme to kill Armin Papperger, the head of German arms manufacturer Rheinmetall.</p>
+		<p></p>
 		<p>The plot, which was foiled by United States and German intelligence, was part of a series of Russian plans to assassinate defense industry executives across Europe, according to NATO Deputy Assistant Secretary-General for Innovation, Hybrid, and Cyber James Appathurai.</p>]]>	
 		</description>
 		<link><![CDATA[https://www.politico.eu/article/nato-official-confirms-russian-plot-kill-european-weapons-chief-armin-papperger/]]></link>
@@ -1295,8 +1351,11 @@
 		<pubDate>27 January, 2025></pubDate>
 		<title>Baltic Sea data cable damaged in latest case of potential sabotage</title>
 		<description><![CDATA[<p>Disruption of line between Sweden and Latvia follows earlier incidents linked to Russia and China. The ship suspected to be responsible for the potential sabotage was captured by Sweden. Latvia's navy identified a suspect vessel, the Michalis San, near the location of the cable damage, along with two other ships. Naval tracking sites showed the Michalis San was en route to Russia. Sweden said Sunday that it seized a vessel suspected of damaging a fiber-optic cable under the Baltic Sea that links the country to Latvia, in what authorities are investigating as an act of "aggravated sabotage."</p>
+		<p></p>
 		<p>European Commission President Ursula Von der Leyen reiterated her pledges to improve the security of the bloc's critical infrastructure following reports that an undersea Baltic cable had been damaged.</p>
+		<p></p>
 		<p><a href="https://www.themoscowtimes.com/2025/01/27/sweden-seizes-ship-suspected-of-damaging-baltic-sea-cable-a87744">Reference</a></p>
+		<p></p>
 		<p><a href="https://www.euractiv.com/section/politics/news/von-der-leyen-pledges-solidarity-after-latvia-sweden-undersea-cable-damage/">Reference</a></p>]]>	
 		</description>
 		<link><![CDATA[https://www.ft.com/content/b8765ad0-3e72-41b8-9915-da86b25de033]]></link>
@@ -1312,6 +1371,7 @@
 		<pubDate>27 January, 2025></pubDate>		
 		<title>After Bulgaria and Hungary last week, new bomb threats for schools in Slovenia and Bosnia-Hercegovina</title>
 		<description><![CDATA[<p>The HU and SI threats have many similarities. Like the email address starts with "fighter" translated to the local language, the first sentence translated to English of the email appears to be the same in both cases. No technical details are available from Bih.</p>
+		<p></p>
 		<p><a href="https://www.thestar.com.my/news/world/2025/01/26/false-bomb-threats-lead-to-school-suspensions-in-bih">Reference</a></p>]]>	
 		</description>
 		<link><![CDATA[https://www.dnevnik.si/novice/kronika/zaradi-groznje-evakuirali-vec-slovenskih-sol-2714086/]]></link>
@@ -1320,7 +1380,9 @@
 		<pubDate>27 January, 2025></pubDate>		
 		<title>China's new cheap AI competes with the Western Giants</title>
 		<description><![CDATA[<p>DeepSeek R1 is an innovative open source artificial intelligence model developed by DeepSeek, a Chinese company, which is making a sensation in the AI world. DeepSeek R1 has been praised by researchers for its ability to tackle complex reasoning tasks, particularly in mathematics and coding. The model employs a “chain of thought” approach similar to that used by ChatGPT o1, which lets it solve problems by processing queries step by step. Little is known about the lab and its founder, Liang WenFeng. DeepSeek was born of a Chinese hedge fund called High-Flyer Quant that manages about $8 billion in assets, according to media reports. Researchers claim that DeepSeek has built-in censorship.</p>
+		<p></p>
 		<p><a href="https://www.trendingtopics.eu/deepseek-this-is-what-live-censorship-looks-like-in-the-chinese-ai-chatbot/">Reference</a></p>
+		<p></p>
 		<p><a href="https://www.cnbc.com/2025/01/24/how-chinas-new-ai-model-deepseek-is-threatening-us-dominance.html">Reference</a></p>]]>	
 		</description>
 		<link><![CDATA[https://www.redhotcyber.com/post/e-guerra-aperta-sulle-ai-la-cina-sfida-con-deepseek-r1-i-giganti-statunitensi/]]></link>
@@ -1378,6 +1440,7 @@
 		<pubDate>23 January, 2025></pubDate>		
 		<title>Bomb threatening in 268 Hungarian schools via email</title>
 		<description><![CDATA[<p>Following the bomb threats in Slovakia and Serbia in the autumn of 2024, on 23. January 2024 around 268 Hungarian schools have received bomb threats from the email address harcos@coredp.com.</p>
+		<p></p>
 		<p>Until the afternoon of 23th no devices were found in any institutions. Schools will resume in normal operation on the morning of 24th.</p>]]>	
 		</description>
 		<link><![CDATA[https://telex.hu/belfold/2025/01/23/bombariado-magyarorszag-retvari-bence-orfk]]></link>
@@ -1484,6 +1547,7 @@
 		<pubDate>20 January, 2025></pubDate>
 		<title>Deputy MP wants Italian trains back on track</title>
 		<description><![CDATA[<p>Italy’s rail network is under scrutiny following incidents of suspected sabotage and significant service disruptions. Deputy Prime Minister and Infrastructure Minister Matteo Salvini announced plans to address parliament, citing "shocking episodes" reported by Italian State Railways. Among the incidents, a chain was discovered hanging from an overhead electrical system, risking severe damage to train pantographs and power lines, and an attempted break-in targeted a control unit. Rome prosecutors have launched an investigation into what appears to be deliberate interference, as reports indicate suspiciously frequent and coordinated malfunctions in critical areas.</p>
+		<p></p>
 		<p>The disruptions come amid a €100 billion railway modernization initiative, with over 1,200 active construction sites. Salvini has attributed current challenges to decades of mismanagement while defending the government's efforts to improve the rail system. However, the opposition has criticized Salvini, with former Prime Minister Matteo Renzi accusing him of mismanagement and calling for his resignation. The issue has sparked a political debate, adding pressure on Salvini as public frustration grows over the rail crisis.</p>]]>	
 		</description>
 		<link><![CDATA[https://www.euractiv.com/section/politics/news/deputy-mp-wants-italian-trains-back-on-track/]]></link>
@@ -1492,6 +1556,7 @@
 		<pubDate>20 January, 2025></pubDate>		
 		<title>Otelier data breach triggers serious data security concerns</title>
 		<description><![CDATA[<p>The hospitality industry is grappling with a significant cybersecurity incident involving Otelier, a popular data management software provider for major hotel chains such as Marriott, Hilton, and Hyatt. A breach occurred between July and October 2024, during which attackers stole over 8 terabytes of data stored in Amazon Web Services (AWS) storage buckets. The unauthorized access is suspected to have originated from compromised AWS credentials, potentially obtained through malware targeting an Otelier employee. Despite the scale of the breach, reports suggest no payment, employee, or operational data was affected.</p>
+		<p></p>
 		<p>Otelier, previously known as “MyDigitalOffice,” has temporarily suspended operations and engaged cybersecurity experts to investigate. Speculation indicates that the stolen data might include guest details, stay purposes, and contact information, which could be leveraged for phishing or identity theft. This breach underscores the critical need for robust cybersecurity measures in the hospitality sector to protect sensitive customer data and maintain trust. Recommendations include implementing strict data protection policies, employee training, network traffic monitoring, and encryption of sensitive information to mitigate future risks.</p>]]>
 		</description>
 		<link><![CDATA[https://www.cybersecurity-insiders.com/otelier-data-breach-triggers-serious-data-security-concerns/]]></link>
@@ -1500,7 +1565,9 @@
 		<pubDate>20 January, 2025></pubDate>		
 		<title>Anne Neuberger Steps Down as White House Cybersecurity Advisor: What’s Next for U.S. Cyber Defense?</title>
 		<description><![CDATA[<p>Anne Neuberger, Deputy National Security Advisor for Cyber and Emerging Technologies at the National Security Council, resigned on January 17, 2025, amidst heightened cybersecurity challenges in the U.S., particularly from China. Neuberger played a pivotal role in shaping the Biden administration's cybersecurity policies, including overseeing the U.S. Cyber Trust Mark program to improve consumer product security and guiding two significant cybersecurity executive orders. Her leadership helped address cyber threats targeting critical infrastructure such as power grids and communication networks.</p>
+		<p></p>
 		<p>President Biden reinforced the administration's cybersecurity efforts with an executive order issued on January 18, 2025. This directive focuses on bolstering software and cloud security, mandating secure development practices for providers, and enhancing safeguards for federal systems. Agencies like NIST, CISA, and the OMB will enforce these standards while introducing policies for securing open-source software. These measures aim to address vulnerabilities highlighted by recent cyberattacks, including breaches like Salt Typhoon and incidents targeting the Treasury Department. Experts, including Robert Huber of Tenable Public Sector, praised these advancements for addressing supply chain security and rebuilding trust in U.S. cybersecurity infrastructure.</p>
+		<p></p>
 		<p>Beyond immediate cybersecurity threats, the administration is integrating resilience against climate change into its broader strategy. Officials from CISA have emphasized enhancing critical infrastructure to address environmental risks alongside national defense, reflecting a holistic approach to cybersecurity as an intersectional issue. As Neuberger departs, her legacy underscores the importance of sustained leadership and adaptive measures in addressing the evolving threat landscape.</p>]]>	
 		</description>
 		<link><![CDATA[https://thecyberexpress.com/neuberger-resigns-national-security-council/]]></link>
@@ -1509,7 +1576,9 @@
 		<pubDate>20 January, 2025></pubDate>		
 		<title>Salt Typhoon - The Chinese Telecom Hack – UPDATE</title>
 		<description><![CDATA[<p>The Salt Typhoon cyberattack, attributed to Chinese state-sponsored actors, has emerged as one of the most significant cybersecurity incidents in U.S. history, targeting major telecommunications firms like AT&amp;T, Verizon, and T-Mobile. First disclosed in November 2024, the breach potentially compromised the cellular data of millions of Americans and highlighted the hackers' ability to maintain prolonged access to critical systems. Federal agencies, including the FBI, CISA, and NSA, alongside international partners from Australia, Canada, and New Zealand, are still investigating the attack's scope and objectives. Officials have confirmed the activity as a "persistent threat," with ongoing malicious activity and an uncertain timeline for full remediation.</p>
+		<p></p>
 		<p>The attack is part of a broader Chinese intelligence operation that has also targeted communications firms across Asia, Europe, and the MENA regions. The hack, involving advanced persistent threats (APTs) like Salt Typhoon, underscores the strategic value of telecommunications networks for espionage, destabilization, and geopolitical leverage. High-profile victims in the U.S. include presidential campaigns and Senate offices, raising national security alarms. Homeland Security Secretary Alejandro Mayorkas and Deputy National Security Adviser Anne Neuberger have called the breach highly sophisticated and deeply concerning.</p>
+		<p></p>
 		<p>The incident has prompted calls for improved cybersecurity practices, including roader encryption use and stricter measures for protecting critical infrastructure. Experts emphasize the need for heightened vigilance among telecom providers and governments globally, as well as stronger collaboration with private cybersecurity firms like Microsoft and Mandiant to combat evolving threats. This breach also intensifies tensions between the U.S. and China over cyber-espionage and underscores the urgent need to fortify the resilience of digital infrastructure against nation-state attacks.</p>]]>
 		</description>
 		<link><![CDATA[https://www.cybersecurityintelligence.com/blog/salt-typhoon-the-chinese-telecom-hack-whats-next-8189.html]]></link>
@@ -1518,8 +1587,11 @@
 		<pubDate>20 January, 2025></pubDate>		
 		<title>Budget 2025 on the Horizon: Will India Take the Leap in Enhancing Cybersecurity and Data Privacy?</title>
 		<description><![CDATA[<p>India’s Union Budget 2025 is poised to play a transformative role in bolstering the nation’s cybersecurity framework as digital platforms and technologies become increasingly integral to business, governance, and daily life. Manish Mimani, CEO of Protectt.ai, highlights the urgency of addressing cybersecurity challenges by allocating resources for innovation, resilience, and skill development to safeguard India’s digital ecosystem. His recommendations focus on fostering innovation, enabling cost-effective security solutions, and developing a skilled cybersecurity workforce.</p>
+		<p></p>
 		<p>Key recommendations include establishing dedicated cybersecurity R&amp;D hubs across cities to drive innovation in homegrown security technologies and reduce dependency on foreign solutions. Mimani also emphasizes financial incentives for cybersecurity startups through tax holidays, grants, and subsidized loans to stimulate growth in this critical sector. Bridging the talent gap is another priority, with calls for comprehensive upskilling programs, subsidized training, and collaboration with educational institutions to attract and nurture cybersecurity talent.</p>
+		<p></p>
 		<p>To encourage broader adoption of security practices, Mimani suggests reducing GST on Indian-made cybersecurity products and lowering import duties on essential hardware like servers and GPUs, making advanced technologies more accessible. Public-private partnerships could also accelerate the development of shared cybersecurity infrastructure, enabling threat intelligence sharing and innovation. Tax benefits for businesses implementing strong cybersecurity measures could further incentivize proactive defenses, ensuring a resilient digital economy.</p>
+		<p></p>
 		<p>By integrating these measures into Budget 2025, India can enhance its defenses, foster technological innovation, and secure its position as a global technology hub while safeguarding its rapidly expanding digital ecosystem.</p>]]>	
 		</description>
 		<link><![CDATA[https://thecyberexpress.com/budget-2025-india-cybersecurity-data-privacy/]]></link>
