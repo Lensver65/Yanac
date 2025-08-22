@@ -61,16 +61,18 @@ def ChatGPT(apikey,inputtext):
 
   print("ChatGPR Run completed with status: " + run.status)
 
-  if run.status == "completed":
-    messages = client.beta.threads.messages.list(thread_id=thread.id)
-    # print("messages: ")
-    # for message in messages:
-    #     assert message.content[0].type == "text"
-    #     print({"role": message.role, "message": message.content[0].text.value})
-  else:
-    print("Futasi hiba: ",run.status)      
+  if run.status != "completed":
+    print("Futasi hiba: ", run.status)
+    client.beta.assistants.delete(assistant.id)
+    return None
 
-  vissza=messages.data[0].content[0].text.value
+  messages = client.beta.threads.messages.list(thread_id=thread.id)
+  # print("messages: ")
+  # for message in messages:
+  #     assert message.content[0].type == "text"
+  #     print({"role": message.role, "message": message.content[0].text.value})
+
+  vissza = messages.data[0].content[0].text.value
   client.beta.assistants.delete(assistant.id)
   return vissza
 
