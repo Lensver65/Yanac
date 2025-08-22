@@ -153,7 +153,7 @@ def fordito(key,szoveg): # Fordito function, calls DEEPL to translate the text.
 
     result = translator.translate_text(text=szoveg, target_lang="HU", formality="prefer_more")
     # print("Fordito lefutott")
-    return result
+    return result.text
 
 
 ##########################################
