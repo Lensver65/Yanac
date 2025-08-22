@@ -90,7 +90,7 @@ def ChatGPT(apikey,inputtext):
     assistant_id=assistant.id,
   )
 
-  print("ChatGPR Run completed with status: " + run.status)
+  print("ChatGPT Run completed with status: " + run.status)
 
   if run.status == "completed":
     messages = client.beta.threads.messages.list(thread_id=thread.id)
