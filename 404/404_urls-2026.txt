@@ -1,0 +1,22 @@
+Cim: Aktívan kihasználják az Exchange sérülékenységet, URL: https://yanac.hu/wp-content/uploads/2021/03/Mass-Exploitation-of-Microsoft-Exchange.pdf">Mass-Exploitation-of-Microsoft-Exchange</
+Cim: Air Europa: több adat szivárgott ki, mint eredetileg gondoltuk, URL: https://yanac.hu/2023/10/11/air-europa-breach-exposes-credit-card-information/
+Cim: A brit Kommunikációs Dolgozók Szakszervezete (CWU) támadás alatt, URL: https://yanac.hu/2024/03/26/outages-at-major-uk-tech-trade-union-linked-to-cyberattack/
+Cim: A finn parlamentet az APT31 támadta 2021-ben, URL: https://yanac.hu/2021/03/19/finland-implicates-china-linked-apt31-in-parliament-hack-2/
+Cim: A finn parlamentet az APT31 támadta 2021-ben, URL: https://yanac.hu/2021/03/18/finland-ids-hackers-linked-to-parliament-spying-attack-the-associated-press/
+Cim: A finn parlamentet az APT31 támadta 2021-ben, URL: https://yanac.hu/2021/03/18/finland-pins-parliament-hack-on-chinese-hacking-group-apt31/
+Cim: A FlightNight művelet indiai kormányzati szereplőket céloz meg, URL: https://yanac.hu/2024/03/27/eclecticiq-details-operation-flightnight-targeting-indian-government-entities-energy-sector/
+Cim: Forest Blizzard GooseEgg használata, URL: https://yanac.hu/tag/ta422/">TA422</
+Cim: Forest Blizzard GooseEgg használata, URL: https://yanac.hu/tag/apt28/">APT28</
+Cim: Forest Blizzard GooseEgg használata, URL: https://yanac.hu/tag/bluedelta/">BlueDelta</
+Cim: Ryuk ransomware új változata, URL: https://yanac.hu/2021/01/18/researchers-estimate-ryuk-ransomware-operations-to-be-worth-150-million/
+Cim: A Ransomware Task Force a zsarolóvírusok ellen, URL: https://yanac.hu/2021/02/05/the-national-cyber-investigative-joint-task-force-releases-ransomware-fact-sheet-2/
+Cim: REvil visszafejtő kód, URL: https://yanac.hu/2021/07/04/a-revill-ismet-nagyot-utott/">Júliusban</
+Cim: FoggyWeb backdoor, URL: https://yanac.hu/2021/06/27/a-nobelium-csoport-uj-kampanya/">Nobelium</
+Cim: BrakTooth – kihasználási koncepció, URL: https://yanac.hu/2021/09/03/braktoot-a-vezetek-nelkuli-serulekenyseg/">Braktoot-</
+Cim: Ikea – belső adathalász támadás, URL: https://yanac.hu/2021/09/01/aktivan-kihasznalva-proxyshell-es-proxytoken/">ProxyShell</
+Cim: Ikea – belső adathalász támadás, URL: https://yanac.hu/2021/03/28/a-proxylogont-kihasznalasanak-elemzese/">ProxyLogon</
+Cim: Ikea – belső adathalász támadás, URL: https://yanac.hu/2021/11/17/emotet-aktivitas/">Emotet</
+Cim: Ikea – belső adathalász támadás, URL: https://yanac.hu/2021/11/24/kihasznalt-microsoft-exchange-szerverek/">Qbot</
+Cim: Log4j 2.17.1 frissítés, URL: https://yanac.hu/2021/12/19/megjelent-a-log4j-2-17-0/">2.17.0</
+Cim: Diavol zsarolóvírus, URL: https://yanac.hu/2021/06/07/latvian-woman-charged-for-role-in-crafting-trickbot-malware/
+Cim: MoonBounce UEFI kártevő, URL: https://yanac.hu/2021/10/06/especter-uefi-bootkit/">Lojax</

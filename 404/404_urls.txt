@@ -1,0 +1,26 @@
+Cim: Aktívan kihasználják az Exchange sérülékenységet, URL: https://yanac.hu/wp-content/uploads/2021/03/Mass-Exploitation-of-Microsoft-Exchange.pdf">Mass-Exploitation-of-Microsoft-Exchange</
+Cim: REvil visszafejtő kód, URL: https://yanac.hu/2021/07/04/a-revill-ismet-nagyot-utott/">Júliusban</
+Cim: FoggyWeb backdoor, URL: https://yanac.hu/2021/06/27/a-nobelium-csoport-uj-kampanya/">Nobelium</
+Cim: BrakTooth – kihasználási koncepció, URL: https://yanac.hu/2021/09/03/braktoot-a-vezetek-nelkuli-serulekenyseg/">Braktoot-</
+Cim: Ikea – belső adathalász támadás, URL: https://yanac.hu/2021/09/01/aktivan-kihasznalva-proxyshell-es-proxytoken/">ProxyShell</
+Cim: Ikea – belső adathalász támadás, URL: https://yanac.hu/2021/03/28/a-proxylogont-kihasznalasanak-elemzese/">ProxyLogon</
+Cim: Ikea – belső adathalász támadás, URL: https://yanac.hu/2021/11/17/emotet-aktivitas/">Emotet</
+Cim: Ikea – belső adathalász támadás, URL: https://yanac.hu/2021/11/24/kihasznalt-microsoft-exchange-szerverek/">Qbot</
+Cim: Log4j 2.17.1 frissítés, URL: https://yanac.hu/2021/12/19/megjelent-a-log4j-2-17-0/">2.17.0</
+Cim: MoonBounce UEFI kártevő, URL: https://yanac.hu/2021/10/06/especter-uefi-bootkit/">Lojax</
+Cim: WhisperGate – Ukrán kibertámadás elemzése, URL: https://yanac.hu/2022/01/15/ukran-weboldalak-tomeges-tamadasa/">t</
+Cim: Foxblade malware, URL: https://yanac.hu/2022/02/24/adatorlok-jelentek-meg-ukrajnaban/">HermeticWipernek</
+Cim: DENSO zsarolóvírus támadás, URL: https://yanac.hu/2022/03/13/zsarolovirus-tamadas-erte-a-bridgestonet/">Bridgestone</a>.</
+Cim: BlackCat/ALPHV zsarolóvírus riasztás, URL: https://yanac.hu/2022/04/12/blackcat-es-blackmatter-kapcsolat/">BlackCat/ALPHV</
+Cim: SunCrypt Ransomware részletes elemzése, URL: https://yanac.hu/2022/03/30/suncrypt-ransomware/">SunCrypt</
+Cim: Adattörlök elemzése, URL: https://yanac.hu/2022/03/02/isaacwiper-es-hermeticwizard/">,</
+Cim: Élő kapcsolatok kikapcsolt iPhonnál, URL: https://yanac.hu/2021/11/07/braktooth-kihasznalasi-koncepcio/">Braktooth</a>.</
+Cim: BlackCat zsarolóvírus ciklusai, URL: https://yanac.hu/2022/04/21/blackcat-alphv-zsarolovirus-riasztas/">i</
+Cim: Rozena Backdoor, URL: https://yanac.hu/2022/06/07/celzott-follina-tamadasok/">kihasznált</
+Cim: MirrorFace APT, URL: https://yanac.hu/2022/11/03/lodeinfo-malware/">LODEINFO</
+Cim: 0Day Technologies kiszivárgott adatainak feldolgozása, URL: https://yanac.hu/2022/03/29/a-nokia-kivonul-a-sorm-marad/">SORM</
+Cim: Megbukott a kiberbiztonsági ellenőrzésen a választási rendszer, URL: https://yanac.hu/2023/08/08/britt-valasztasi-rendszert-ert-tamadas/">bejelentette</
+Cim: Forest Blizzard GooseEgg használata, URL: https://yanac.hu/tag/ta422/">TA422</
+Cim: Forest Blizzard GooseEgg használata, URL: https://yanac.hu/tag/apt28/">APT28</
+Cim: Forest Blizzard GooseEgg használata, URL: https://yanac.hu/tag/bluedelta/">BlueDelta</
+Cim: Ingyenes ShrinkLocker ransomware decryptor, URL: https://yanac.hu/2024/05/27/shrinklocker-uj-ransomware-torzs-titkositja-a-bitlockert-hasznalo-rendszereket/">dokumentálta</
