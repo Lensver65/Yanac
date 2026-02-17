@@ -4,7 +4,7 @@ import requests
 from time import sleep
 
 # Define the regex pattern for URLs
-pattern = r'https:\/\/yanac\.hu\S*\/'
+pattern = r'https://yanac\.hu[^\s"]+'
 
 # Specify the path to your JSON file
 file_path = '404-2026.json'
