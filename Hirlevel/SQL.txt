@@ -1,0 +1,31 @@
+--Utolsó 7 nap posztjai Editors Oick-ben
+
+SELECT
+  p.ID,
+  p.post_title,
+  p.post_content,
+  GROUP_CONCAT(DISTINCT t.name ORDER BY t.name SEPARATOR ', ') AS tags
+FROM wp_posts p
+
+-- Filter: posts must be in the special category term_taxonomy_id = 16
+INNER JOIN wp_term_relationships tr_cat
+  ON tr_cat.object_id = p.ID
+ AND tr_cat.term_taxonomy_id = 16
+
+-- Get tags for those posts
+LEFT JOIN wp_term_relationships tr
+  ON tr.object_id = p.ID
+LEFT JOIN wp_term_taxonomy tt
+  ON tt.term_taxonomy_id = tr.term_taxonomy_id
+LEFT JOIN wp_terms t
+  ON t.term_id = tt.term_id
+
+WHERE p.post_status = 'publish'
+  AND p.post_type = 'post'
+  AND p.post_date >= NOW() - INTERVAL 7 DAY
+
+  -- only tags (so category 16 doesn't show up in the tag list)
+  AND (tt.taxonomy = 'post_tag' OR tt.taxonomy IS NULL)
+
+GROUP BY p.ID, p.post_title, p.post_content, p.post_date
+ORDER BY p.post_date DESC;

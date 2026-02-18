@@ -1,0 +1,2 @@
+Háttér: #FF3F5A
+Szöveg: Fehér

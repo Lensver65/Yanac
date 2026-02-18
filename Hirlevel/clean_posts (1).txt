@@ -1,0 +1,678 @@
+================================================================================
+Dragos OT kiberbiztonsági jelentés (2026)
+ID: 809024
+Tags: AZURITE, Dragos, Operational Technology, OT, PYROXENE, SeConSys, SYLVANITE
+--------------------------------------------------------------------------------
+
+2026 február 17-én megjelent a Dragos éves OT kiberbiztonsági jelentése, amely a Dragos Intelligence Fabric által gyűjtött adatokon, elsődlegesen platform-telemetriákon, incidenskezelési eseteken és fenyegetéselemzéseken alapul. A Dragos kilenc évvel ezelőtt azonosította, hogy az OT)eszközök tulajdonosai nem rendelkeztek hasznosítható információkkal az OT kiberfenyegetésekről és hogy mit kell tenniük a védekezés érdekében. Azóta minden évben megosztják a tapasztalataikat a nyilvánossággal.
+
+A 2026-os Dragos OT kiberbiztonsági jelentés alapvető változást tár fel a fenyegetések terén: a fenyegetési szereplők már aktívan feltérképezik a vezérlési hurkokat és próbálják megértik, hogyan lehet manipulálni a fizikai folyamatokat. 
+
+ÚJ OT FENYEGETÉSI CSOPORTOK
+
+Az AZURITE kifejezetten a mérnöki munkaállomásokat célozza meg, ahol az operátorok megváltoztatják a vezérlő logikáját és fizikai folyamatokkal lépnek kapcsolatba. Az AZURITE gyorsan beépíti a nyilvánosan elérhető proof-of-concept kódokat a működésébe, kihasználva a POC elérhetősége és a szervezetek által telepített javítások közötti időeltolódást. Riasztási adatokat, konfigurációs fájlokat és működési információkat szivárogtatnak ki, amelyek csak a működés megzavarására használhatók fel.
+
+A PYROXENE többéves ellátási lánc-kampányokat folytat, social engineering technikákat alkalmaz az operatív személyzet ellen. Hamis LinkedIn-profilokat hoznak létre, amelyeken toborzóknak álcázzák magukat, hogy az operatív munkát végző embereket megcélozzák. 2025 júniusban egy regionális konfliktus során egyedi wiper malware-t telepítettek izraeli célpontokra, demonstrálva az előre elhelyezett hozzáférés gyors aktiválását.
+
+A SYLVANITE kezdeti hozzáférési szolgáltatóként működik, fegyverként használja az edge eszközök sérülékenységeit, kihasználja a rendszereket, mielőtt a javításokat széles körben alkalmaznák, és átadja a hozzáférést a Stage 2 szereplőknek, például a VOLTZITE-nak. A Dragos közvetlenül megfigyelte ezt a folyamatot, amely jól szemlélteti, hogyan rövidítik le a kiberszereplők a cyber kill chain folyamatát.
+
+Az új fenyegetési szereplők mellett a Dragos szerint a KAMACITE és az ELECTRUM - amelyek felelősek Ukrajna 2015-ös és 2016-os áramkimaradásaiért - a világ legtapasztaltabb fenyegetési szereplői az OT környezetek tekintetében. 2025-ben az ukrán műveletekről visszatértek Európába és az Egyesült Államokba.
+
+2025 decemberben az ELECTRUM a lengyel energiainfrastruktúrát vette célba az első nagy léptékű, koordinált támadásban, amely a szélerőműparkok és a napenergia-létesítményekhez hasonló elosztott energiaforrásokat érintette.
+
+A VOLTZITE elérte a Stage 2 képességeit azzal, hogy manipulálta a mérnöki munkaállomásokat, hogy konfigurációs fájlokat és riasztási adatokat szerezzen meg, és kivizsgálja, hogy mi váltja ki a folyamatok leállását. A BAUXITE a hacktivista rongálásoktól a regionális konfliktusok során használt egyedi törlőprogramok telepítéséig jutott el.
+
+RANSOMWARE-EK AZ OT-BAN
+
+A Dragos 119 ransomware csoportot követett nyomon, amelyek 2025-ben 3300 ipari szervezetet érintettek, ami 49 százalékos növekedést jelent a 2024-es 80 csoporthoz képest. Az áldozatok több mint kétharmada a gyártóiparból származott. A Dragos Incident Response jelentős működési zavarokat észlelt az összes 2025-ben kezelt OT ransomware esetben. 
+
+A tényleges szám valószínűleg ennél jóval magasabb. Sok incidenst tévesen „IT-incidensként” jelölnek meg, amikor a SCADA szoftvert futtató Windows-kiszolgálók vagy mérnöki munkaállomások kompromittálódnak. A ransomware-csoportok jellemzően az OT-alkalmazásokat futtató VMware ESXi hipervizorokat veszik célba. Amikor a virtualizációs infrastruktúrát titkosítják, az üzemeltetők elveszítik a vizibilitást és az irányítást, még akkor is, ha a fizikai berendezések továbbra is működőképesek. 
+
+SÉRÜLÉKENYSÉGEK
+
+A Dragos megállapította, hogy 2025-ben az ICS-CERT és az NVD sérülékenységek 25%-a helytelen CVSS-pontszámmal rendelkezett, és a figyelmeztetések 26%-a nem tartalmazott javítást vagy enyhítő intézkedést a gyártóktól. Az ICS-hez kapcsolódó sérülékenységek mindössze 2%-a minősült „azonnali” prioritásúnak, amely azonnali intézkedést igényel a Dragos kockázatalapú „Now, Next, Never” modellje szerint. 
+
+A Dragos akkumulátoros energiatároló rendszerekkel (BESS) kapcsolatos kutatása hitelesítés megkerülését és a parancsbeviteli sérülékenységeket azonosított, több mint 100 internethez kapcsolódó eszközt találtak, beleértve a villamosenergia-szolgáltatóknak hálózati áramellátást biztosító, ~1 MW teljesítményű invertereket.
+
+Forrás
+
+
+================================================================================
+ENISA: kiberbiztonsági gyakorlatok módszertana
+ID: 809005
+Tags: ENISA, Guide, Gyakorlatok, Kibergyakorlat, Útmutató
+--------------------------------------------------------------------------------
+
+A kiberbiztonsági gyakorlatok elengedhetetlenek a szervezetek képességeinek előkészítéséhez, teszteléséhez és fejlesztéséhez, hogy képesek legyenek reagálni a felmerülő kiberfenyegetésekre. Több mint egy évtizede az ENISA élen jár a kiberbiztonsági felkészültség terén, helyi, nemzetközi és uniós szintű kiberbiztonsági gyakorlatok szervezésével. Az egyik legnagyobb ilyen gyakorlat a kétévente megrendezett Cyber Europe.
+
+Az ENISA a hosszú távú tapasztalataira építve kidolgozott egy Kiberbiztonsági gyakorlatok módszertana című dokumentumot, amely gyakorlatias, ugyanakkor átfogó megközelítést kínál a kiberválságok szimulálásához és a képzéshez.
+
+A módszertan átfogó elméleti keretet kínál a kiberbiztonsági gyakorlatok tervezéséhez, lebonyolításához és értékeléséhez. Fő célja, hogy támogassa a szervezeteket olyan gyakorlatok kidolgozásában és tervezésében, amelyek hatékonyan és eredményesen fejlesztik képességeiket azáltal, hogy tesztelik készségeiket, folyamataikat és politikáikat. Az anyag a megszerzett tapasztalatokon, az iparági bevált gyakorlatokon és a kiberbiztonsági szakértelmen alapul. 
+
+Az ENISA módszertana, amelyet egy példákat, sablonokat és gyakorlati útmutatásokat tartalmazó támogató eszközkészlet egészít ki, strukturált és egyszerű megközelítést kínál a kiberbiztonsági gyakorlatok teljes életciklusához. Az életciklus hat fő szakaszra osztható:
+
+Az egyes szakaszok "pro-tip"-eket tartalmaznak, amelyek célja a figyelmetlenségek kiküszöbölése, biztosítva, hogy minden szükséges követelmény teljesüljön a potenciális hibák minimalizálása és az általános hatékonyság javítása érdekében.
+
+A módszertan célja, hogy segítse a szakembereket, szervezeteket és kormányokat olyan kiberbiztonsági gyakorlatok tervezésében és végrehajtásában, amelyek hatékonyan tesztelik készségeiket és ellenálló képességüket. Eredetileg uniós szintű válságkezelés céljára kidolgozott módszertan ideális nemzeti vagy ágazatspecifikus gyakorlatokat szervezők számára is.
+
+A dokumentáció minden szervezet számára hasznos lehet, függetlenül a jelenlegi érettségi szintjüktől.
+
+Az ENISA a korábbi gyakorlatok során tesztelte és validálta a módszertant, figyelembe véve mind az ügynökség gyakorlatok szervezésére vonatkozó megközelítését, mind a növekvő gyakorlati közösség hozzájárulását. Az ENISA számos kiberbiztonsági gyakorlat szervezésében vett részt, amelyek célja az EU kritikus infrastruktúrájának kiberbiztonságának és a határokon átnyúló válaszok koordinálási képességének tesztelése volt.
+
+Forrás
+
+
+================================================================================
+Felhőalapú jelszókezelők biztonsági elemzése
+ID: 808852
+Tags: ETH Zurich, Jelszókezelő, Kutatás, password manager
+--------------------------------------------------------------------------------
+
+Az ETH Zürich vizsgálata szerint a jelszókezelők nem mindig nyújtanak olyan erős védelmet, mint ahogy azt a marketingjük sugallja. A kutatás során a szakemberek azt vizsgálták, hogyan kezelik a különféle, népszerű jelszókezelő szolgáltatások a titkosított tárolást, a hozzáférés-védelmet és a szinkronizációs mechanizmusokat. A legtöbb megoldás kriptográfiailag elvben erős, a helyi adattárolás és a master jelszó mögötti titkosítás megfelelő matematikai alapokra épül, ugyanakkor gyakorlati szempontból vannak olyan gyenge pontok, amelyek csökkenthetik a tényleges biztonságot.
+
+Az Eidgenössische Technische Hochschule Zürich kutatóinak egyik fő megállapítása, hogy sok jelszókezelő különböző platformokon eltérő mechanizmusokat használ, ami azt jelenti, hogy egy asztali alkalmazásban erős titkosítás működhet, de egy mobil kliens vagy böngésző-kiterjesztés már gyengébb implementációt alkalmazhat, különösen ha a szinkronizációs csatorna nincs megfelelően védve, lehetőséget adhat arra, hogy egy megtámadott végponton keresztül a kulcsok vagy jelszavak hot-path elemzéshez kerüljenek. A problémát tetézi, hogy a különböző szolgáltatások gyakran tükrözik a tárolt tartalmat különböző formátumokban, így ha egy szolgáltatás sebezhetővé válik, az más platformok felé is átívelő kockázatot okozhat.
+
+Másik fontos felismerés az volt, hogy a szinkronizációs mechanizmusok, amelyek a felhasználó adatait több eszközön tartják naprakészen, néha nem ideális biztonsági modelleket követnek, és a kulcsok mozgása a szerver és a kliens között olyan felületet jelent, amelyet rosszindulatú szereplők kreatívan kihasználhatnak. Az ETH kutatói szerint ezek a csatornák nem mindig nyújtanak olyan end-to-end védelmet, mint amit a felhasználók várnak, különösen ha nem megfelelő módon vannak konfigurálva vagy ha a szolgáltatás nem kínál dedikált, kliens-oldali titkosítást az összes metaadatára.
+
+A vizsgálat nem általánosít minden jelszókezelőre azért jelzi, hogy a valós biztonság gyakran eltérhet attól, amit a felhasználói élmény vagy marketing sugall. A jelszókezelők továbbra is lényeges eszközök maradnak a modern védekezésben, de nem helyettesítik teljes mértékben a többrétegű biztonsági stratégiát, különösen akkor, ha a végponti eszközök vagy a hálózati környezet kompromittált.
+
+FORRÁS
+
+
+================================================================================
+Tengeri szállítmányozás kiberbiztonsági kockázata
+ID: 808858
+Tags: IoT, IT, Kanada, Maritime, OT, Tengerészet, tengeri szállítmányozás
+--------------------------------------------------------------------------------
+
+A kanadai kiberbiztonsági központ felhívja a figyelmet arra, hogy a tengeri szállítmányozás kiemelt stratégiai célpont a rosszindulatú kiberaktorok számára, akik pénzügyi motivációtól kezdve állami kiber-kémkedésig számos módszert használhatnak, és ezért a védekezést érthetően a klasszikus OT/IT határokon túlmutató, együttműködésen alapuló, átfogó kiberbiztonsági stratégiává kell tenni.
+
+Kanadában a tengeri szállítás az export-import ellátás gerincét képezi, és a tengeri kikötők, hajók, logisztikai rendszerek nagy mértékben digitálisan integráltak, ami jelentősen megnöveli a kibertámadásokkal szembeni kiszolgáltatottságot. A kiberbiztonsági központ értékelése szerint a ransomware-támadások jelenleg a legvalószínűbb fenyegetést jelentik a szektorra, mivel ezek rövid idő alatt képesek leállítani szolgáltatásokat vagy kritikus rendszereket, veszélyeztetve a biztonságos működést és a szállítási láncokat. Ugyancsak jelentős fenyegetés a logisztikai és üzleti adatok ellopása, amelyet főként állami támogatással dolgozó, fejlett szereplők kísérelnek meg gazdasági vagy stratégiai előny szerzésére. 
+
+A fizikai károkozás ritkábban várható, az állami támogatású szereplők hosszútávon, előretervezve pozícionálják a rosszindulatú eszközöket, amelyek később akár szélesebb körű szolgáltatás-megszakadást vagy infrastruktúra-károsodást okozhatnak, különösen válság vagy nemzetközi konfliktus idején. A kiber-kémkedés is kiemelt kockázat, mivel a támadók hozzáférést szerezhetnek logisztikai és üzemeltetési adatokhoz, amelyeket akár gazdasági versenyben vagy katonai felhasználásban is hasznosíthatnak. 
+
+Nem-állami szereplők, így a bűnözői csoportok vagy ideológiai motivált hacktivisták jelentős eséllyel próbálnak DDoS támadásokat és webdefacement támadásokat végrehajtani, amelyek elsősorban láthatósági zavarokat vagy működési zavarokat okozhatnak a szektor webes és IT-infrastruktúrájában. 
+
+A tengerészeti szektor növekvő digitalizációja és az IoT/OT rendszerek egyre több támadási felületet adnak a rosszindulatú szereplőknek, ezért a kiberbiztonsági kockázatkezelés, a rendszer- és hálózatbiztonság, az incidenskezelés és a fenyegetés-észlelés integrációja elengedhetetlen része kell legyen a szektor védelmének. 
+
+FORRÁS
+
+
+================================================================================
+Webforgalom - Made in China
+ID: 808860
+Tags: AI, Google Analytics, Kína, Made in China, Webforgalom, WIRED
+--------------------------------------------------------------------------------
+
+2025 végétől világszerte egyre több weboldal kezdett rejtélyes, nem emberi forgalmat tapasztalni, amely nagyrészt Kínából és Szingapúrból érkezik, még olyan oldalakon is, amelyek nem kínai közönségnek készültek, és amelyek tartalma egyáltalán nem kapcsolódik Ázsiához. 
+
+A forgalom hirtelen megugrott, és Google Analytics szerint ezt a növekedést olyan helyekről látogatják, mint Lanzhou városa Kína nyugati részén, ám a valós viselkedési minták, így a 0 másodperces oldalon eltöltött idő, hiányzó görgetések vagy kattintások arra utaltak, hogy valójában automatizált botokról van szó, nem valódi látogatókról. Ez a bot-hullám nem csupán egy-két oldalra korlátozódik, egyaránt érint személyes blogokat, e-kereskedelmi oldalakat, akár kormányzati doméneket is, és többek szerint akár a teljes webforgalom 20–22 %-át is kiteheti bizonyos oldalak esetén. 
+
+A WIRED Made in China megfogalmazása némileg csalóka, mert technikailag nem biztos, hogy a botok fizikailag Kínában működnek, sok esetben a forgalom nagy felhőszolgáltatók, a Tencent, Alibaba vagy Huawei hálózatain keresztül érkezik, és a feltüntetett helyszín csupán a routing vagy a szolgáltatók IP-kiosztása miatt jelenik meg így az analitikában. 
+
+Egyelőre nincs bizonyíték arra, hogy ezek a botok kifejezetten rosszindulatú célokat szolgálnának, a tömegességük, kitartásuk és megkerülő viselkedésük komoly problémákat okozhat, torzítja az analitikai adatokat, növeli a sávszélesség- és üzemeltetési költségeket, és megnehezíti a valós felhasználói viselkedés nyomon követését, ami különösen kritikus olyan oldalak számára, amelyekre a hirdetési bevételek vagy konverziók épülnek. 
+
+A szakértők szerint a legvalószínűbb magyarázat az, hogy AI- és adatgyűjtési tevékenységek, az AI modellek tanításához használt internetes szöveg- és tartalomlekérdezések állhatnak a háttérben, mert az automatizált rendszerek egyre inkább képesek emberszerű viselkedést utánozni, így könnyebben álcázzák magukat a forgalmi mintákban, és nehezebben szűrhetők ki a hagyományos bot-blokkoló eszközökkel. 
+
+A jelenlegi helyzetben a webhelytulajdonosok gyakran IP-blokkolást, ASN-szintű tiltást vagy földrajzi szűréstalkalmaznak az érintett címek ellen, de ezek a módszerek sem nyújtanak univerzális megoldást, és vannak, akik akár teljesen letiltják a forgalmat is bizonyos régiókból, ha az nem releváns számukra.
+
+FORRÁS
+
+
+================================================================================
+Ausztrália – kiberbiztonsági helyzetjelentés
+ID: 808839
+Tags: AI, Ausztrália, Commonwealth Cyber Security Posture Report, Essential Eight, PQC, Protective Security Policy Framework
+--------------------------------------------------------------------------------
+
+Ausztrália Protective Security Policy Framework értékelése és a Commonwealth kiberbiztonsági helyzetjelentése azt mutatja, hogy a közszféra nagy részben megfelel a kormányzati védelmi elvárásoknak és folyamatosan javuló trendet mutat, ugyanakkor a technológiai érettség, legacy rendszerek korszerűsítése, incidenskezelés és a magasabb szintű technikai kontrollok teljes körű alkalmazása továbbra is kulcsfontosságú feladat a még hatékonyabb kibervédelem érdekében.
+
+A PSPF Assessment Report 2024–25 azt mutatja, hogy a szervezetek közel 92 %-a hatékony szintű megfelelőséget ért el a PSPF-ben lefektetett követelmények teljesítésében, amelyek nem csak adminisztratív dokumentumok, hanem a gyakorlatban mérhető biztonsági eredményekre, kockázatcsökkentésre és bizonyítható biztosításra helyezik a hangsúlyt. Ugyanakkor az informatikai biztonság és a technológiai védelem terén a teljes megfelelőség aránya alacsonyabb, körülbelül 79 %, ami azt jelzi, hogy ezen a területen még továbbra is erősíteni kell az intézkedéseket. 
+
+A PSPF keretén belül különösen a 13. és 14. pontok, a Technology Lifecycle Management és a Cyber Security Strategies játszanak kulcsszerepet, az infokommunikáció folyamatos biztonságát és üzletment-folytonosságát, a stratégia pedig a kiberbiztonsági stratégiákat és technikai kontrollokat írja elő az entitások számára. 
+
+A 2025-ös Commonwealth Cyber Security Posture Report azt is kiemeli, hogy az Essential Eight mitigációs stratégiák, amelyek technikai védelmi kontrollokat foglalnak magukban, köztük a patch-menedzsmentet és a többfaktoros hitelesítést, az entitások közül 22 % érte el a második érettségi szintet, ami javulás a 2024-es 15 %-hoz képest, de kissé elmarad például a 2023-as 25 %-tól. Ez részben az Essential Eight frissített, szigorúbb követelményeinek tudható be, amelyek magasabb technológiai elvárásokat támasztanak a szervezetekkel szemben. 
+
+Az értékelésben nyomon követett területek között szerepel a biztonsági eseményekre való felkészülés és tervezés, ahol 90 % rendelkezik incidenskezelési tervvel, 82 % formális kiberbiztonsági stratégiával, és 87 % évente végzi el az alkalmazottak képzését, amik mind arra utalnak, hogy a szervezeti tudatosság és felkészültség erősödik. Ugyanakkor a régebbi IT-rendszerek okozta kihívások (59 %) és a jelentett események alacsony aránya, csupán 35 % jelenti az ASD-nek legalább a megfigyelt események felét, azt mutatják, hogy a mélyebb technikai érettség és az incidens-jelentési kultúra még nem egységes minden szervezetnél. 
+
+Az ausztrál kormány PSPF-szisztémája nem egyszerű elméleti elvárás, hanem egy hat domainre, kormányzás, kockázatkezelés, információbiztonság, technológia, személyzet és fizikai biztonság, kiterjedő, kockázatalapú keretrendszer, amely évente frissül, és egyre inkább beépíti a zero trust elveket, az új technológiák kihívásait, így az AI és a kvantum-biztonság, valamint a folyamatos biztonsági fejlesztési ciklusokat.
+
+FORRÁS -  PSPF
+
+FORRÁS - Commonwealth
+
+
+================================================================================
+Kai Gritun - AI-agent pull requestet vállal
+ID: 808836
+Tags: Ai-Agent, Kai Gritun, Moltbot, Nx, pull request, XZ Utils
+--------------------------------------------------------------------------------
+
+Az autonóm AI-agentek már nem csak kódrészleteket generálnak, hanem aktívan próbálnak beépülni a nyílt forrású projektekbe, kapcsolatot teremteni fenntartókkal és akár üzleti szolgáltatásokat kínálni. Egy autonóm AI-agent egészen új módon lépett be az open source világába a Kai Gritun néven működő program GitHub-fiókot hozott létre, és két hét alatt több mint száz pull requestet nyitott 95 különböző nyílt forrású projektben, köztük olyan ismert eszközökben, mint például Nx vagy ESLint Plugin Unicorn, és ezek közül néhány kód módosítást már be is olvasztották a fő ágakba. 
+
+A bot nem csak kódot generál, egy cold outreach kampányt is folytat, amikor közvetlenül e-mailben keresi meg a projektfenntartókat, szakmai ajánlatot téve nekik további feladatok elvégzésére, sőt, azt is hangsúlyozza, hogy hozzáértése folyamatos munkát vállal, és még kriptovaluta alapú fizetési lehetőséget is kínál a szolgáltatásaiért. 
+
+A bot működése folyamatosan forkolt és átalakított kódbázisok elemzésével készítette el a javasolt változtatásokat, majd automatikusan küldte be a PR-eket. Nem tüntette fel magát AI-agentként sem a GitHub-profilján, sem a commit-üzenetekben, csupán az egyik e-mailes megkeresésben fedte fel, hogy autonóm AI agent vagyok, aki képes kódot írni és szállítani. 
+
+A jelenség aggasztó a kiberbiztonság és szoftverellátási lánc szempontjából, mert a hagyományos open source hozzájárulási folyamatok bizalmát használja ki, a PR-ek általában azt jelezték, hogy a beküldő ért a projekthez, holott valójában egy automatizált rendszer mögött robot. Ez hasonló modellhez vezethet, mint a híressé vált xz-utils beszállítói lánc támadás, ahol egy rosszindulatú szereplő hosszú ideig építette hitelességét hamis hozzájárulásokkal. 
+
+Az ilyen AI-hozzájárulók nem csupán technikai segítséget nyújtanak, hanem potenciálisan politikai és gazdasági mechanizmusokat is beépíthetnek, így üzleti ajánlatokat vagy fizetési struktúrát, amelyek az automatizált kódgenerálást és közvetlen pénzügyi kapcsolatot egyaránt magukba foglalják. Persze vigyázni kell, hogy elfogadják ezt a fejlesztők, mert ha nem, akkor lehúzhat a MoltBot.
+
+FORRÁS
+
+
+================================================================================
+Phishing-támadás – papíron, levélben, bélyeggel
+ID: 808824
+Tags: Adathalász, BleepingComputer, Crypto, Helyreállító, kriptotárca, Ledger, Levél, Phishing, Posta, seed phrase, Trezor
+--------------------------------------------------------------------------------
+
+Egy szokatlan kripto-adathalász kampányról számol be a Bleeping Computer, ahol a támadók nem e-mailben vagy SMS-ben, hanem hagyományos postai levelekkel célozzák a Trezor és más kriptotárca felhasználókat. A módszer egyszerűnek tűnik, de éppen emiatt veszélyes, a tulajdonosok a saját címükre kapnak egy levelet, amely úgy néz ki, mintha a gyártóktól vagy egy legitim támogatói csoporttól érkezett volna, és arra ösztönzi őket, hogy látogassanak el egy megadott weboldalra vagy adják meg a kriptotárcájuk helyreállító kifejezést - seed phrase.
+
+Mivel a célcsoportot specifikusan a hardver tárcák használói, tehát kriptovalutában érintett, technikailag jártas felhasználók alkotják, a levélben szereplő utasítások gyakran szakmai hangvételűek, utalnak a pénztárca beállítására vagy frissítésére, és hitelesnek tűnhetnek. A támadók célja egyértelmű, a seed phrase begyűjtése, amellyel egy kriptoeszköz teljes tartalomhoz való hozzáférést lehet szerezni. Ez a gyakorlatban azt jelenti, hogy a felhasználó megtévesztése után a szereplők hipotetikusan kiüríthetik az érintett számlát, mivel a seed phrase a kulcs a pénztárcában tárolt eszközökhöz.
+
+A levelek tipikusan személyre szabottak, és olyan részleteket is tartalmaznak, amelyek azt érzékeltetik, mintha egy valódi, biztonsági értesítésről lenne szó. Ez a offline megközelítés azért különösen hatékony, mert a legtöbb felhasználó nem számít arra, hogy postai úton kap phishing-támadást, így kevésbé éri gyanú, mint egy e-mail vagy SMS-link.
+
+FORRÁS
+
+
+================================================================================
+ClickFix kampány DNS-alapú technikával
+ID: 808818
+Tags: Clickfix, DNS, Microsoft Threat Intelligence, ModeloRAT
+--------------------------------------------------------------------------------
+
+Microsoft egy új ClickFix kampány változatot hozott nyilvánosságra, amely a hagyományos ClickFix pszichológiai megtévesztési trükköket használva DNS-alapú technikával igyekszik kártékony kódot juttatni áldozatai gépére. A ClickFix lényege, hogy a felhasználót félrevezető vizuális utasításokkal (kattints ide, futtass egy parancsot, oldj meg egy nem létező hibát) ugyanarra készteti, mintha egy hibát javítana, de valójában maga hajtja végre a szereplő saját rendszerén a rosszindulatú kód futtatását – tehát önmagát fertőzi meg. 
+
+A Microsoft szerint a támadók nem a megszokott HTTP-alapú letöltésekkel dolgoznak, hanem a Windows beépített nslookup parancsát használják DNS-kérésekhez, amely eredetileg domain-név feloldására szolgál. A kampányban a felhasználó a Run paranccsal futtatott kódok révén egy beégetett külső DNS-szerver felé küld egy egyedi lekérdezést, a szerver válaszának Name: mezőjéből a parancs kinyer egy második lépcsős payload-ot, amelyet aztán futtat a rendszer. Így a DNS egyfajta jelző-és-letöltő csatornaként szolgál, amely csökkenti a hagyományos webböngészésre épülő aktivitások függőségét, és a rosszindulatú forgalmat jobban beleolvasztja a megszokott hálózati DNS-lekérdezésekbe, vagyis nehezebben észlelhető. 
+
+Miután a második lépcsős parancs letöltődik során egy ZIP-fájlt tölt le egy külső szerverről, amiből egy Python alapú reconnaissance és felfedező script kerül kinyerésre, majd egy VBScript is, amely végül elindítja a ModeloRAT nevű RAT-ot. A rosszindulatú kód további felderítést végez, majd visszaállítást biztosít a rendszer indításához, így a fertőzés tartós marad. 
+
+Korábban a támadók JavaScript-es vagy PowerShell-es parancsok segítségével kényszerítették a felhasználót, hogy közvetlenül töltsön le és futtasson malware-t, most a DNS-lekérdezést használják könnyebb elrejtőzésre és jelzésre, kihasználva azt, hogy sok szervezetnél a DNS-forgalmat kevésbé vizsgálják, mint a web-kéréseket. 
+
+A Microsoft Threat Intelligence szerint ez az új megközelítés még inkább a felhasználói viselkedésre épít, és tovább bonyolítja a ClickFix-típusú támadások észlelését és blokkolását, mivel a DNS-alapú staging jellemzően kevesebb riasztást generál a hagyományos web-filterekben, miközben a lánc vége egy gyakorlatilag teljes távoli vezérlést biztosító malware-t eredményez. 
+
+FORRÁS – Microsoft LinkedIn
+
+
+================================================================================
+CERT‑EU CTI Framework
+ID: 808616
+Tags: CERT-EU, CTI, Cyber Threat Intelligence, Framework
+--------------------------------------------------------------------------------
+
+A CERT‑EU Cyber Threat Intelligence Framework egy új, átfogó szakmai közös nyelvet és módszertani alapot ad arra, hogyan osztályozza, értékeli és priorizálja a szervezet a rosszindulatú kibercselekményeket, amelyek az Európai Unió intézményeit, testületeit, ügynökségeit és azok digitális ökoszisztémáját érintik. A dokumentum célja nem csupán egy belső vizsgálati segédlet, hanem egy egységes modell biztosítása, amely lehetővé teszi a konzisztens fenyegetés-jelentést, riasztást és tájékoztatást az európai kiberbiztonsági közösségen belül. 
+
+A modern kiberfenyegetések jelentősen komplexebbek és gyorsabban változnak, mint amit korábbi, ad-hoc információmegosztási gyakorlatok lefedtek. A CERT-EU ezért egy strukturált, többdimenziós modellt hozott létre, amely egyszerre veszi figyelembe az észlelt támadási eseményeket, a fenyegető szereplők taktikáit és technikáit, valamint az érintett szektorokat és fenyegetési szinteket. Ez segíti a szervezetet abban, hogy a nyers fenyegetési adatokat észlelésekké és értékelhető, gyakorlatban hasznosítható információkká alakítsa át. 
+
+A dokumentum külön szekciókat szentel többek között a malicious activities of interest, a vizsgálandó rosszindulatú események meghatározásának, a fenyegetési szereplők, szektorok és kapcsolódó entitások modelljének, valamint a támogatott ellenintézkedések és műveleti kategóriák leírásának is. Szintén fontos elemei a fenyegetési szintek, szereplői szintek és a TTPs szerinti besorolás, amelyek révén a CERT-EU képes egységesen írni le az egyes incidensek súlyát és komplexitását. 
+
+A keret célja egyrészt a gyorsabb reagálás, tisztább kommunikáció és hatékonyabb válaszlépések támogatása, másrészt az, hogy a CERT-EU és partnerei következetesen fordítsák le a fenyegetésekkel kapcsolatos megfigyeléseket strukturált adattá, amely alkalmas automatikus feldolgozásra, összehasonlításra és együttműködésre. 
+
+A dokumentum olyan fogalmi és operatív elemeket tartalmaz, mint a bizalom és bizonytalanság kezelése az elemzések során, a fenyegető szereplők attribúciójának módja vagy a scoring mechanizmusok, amelyek segítik a fenyegetések prioritás szerinti kezelését. Így a keret nem csupán technikai szintű besorolásra alkalmas, hanem a stratégiától a műveleti válaszokig terjedő teljes fenyegetés-kezelési folyamatot átfogja. 
+
+FORRÁS
+
+
+================================================================================
+QR-kódok támadási vektorként
+ID: 808613
+Tags: Palo Alto, Palo Alto Networks Unit 42, QR code, QR-kód
+--------------------------------------------------------------------------------
+
+A Palo Alto Networks Unit 42 szerint az ártalmatlan QR-kódok egyre gyakrabban szolgálnak kiberbiztonsági támadási vektorként, vagyis nem csak egyszerű, kényelmi eszközök többé, hanem olyan kapuk, amelyeken keresztül rosszindulatú szereplők kártékony weboldalakra, malware-telepítőkre vagy adathalász felületekre terelik a felhasználókat. Korábban a QR-kódokat főleg papíralapú kimenetekhez vagy fizikai helyekhez kötődő információk megjelenítésére használtuk, de a mobiltelefonok elterjedésével ezek a kódok ma már szinte minden digitális és hibrid környezetben jelen vannak.
+
+A támadók többféle módon használják ki a QR-kódokat. Egyrészt hamis QR-kódokat helyeznek el legitim helyekre, például éttermek menüiben, közösségi eseményeken vagy plakátokon – amikor a felhasználó beolvassa, egy adathalász oldalra vagy fertőző webhelyre kerül, amely banki vagy közösségi szolgáltatások bejelentkezési adatait próbálja megszerezni. Másrészt a QR-kódok támadó által generált URL-eket tartalmaznak, amelyek közvetlenül kártékony fájlokat tölthetnek le a mobilra vagy asztali gépre, kihasználva a böngésző vagy az operációs rendszer sebezhetőségeit.
+
+Ezek a technikák azért hatékonyak, mert a felhasználók vizuálisan nem láthatják előre, hova vezet a QR-kód, nem úgy, mint egy hagyományos linknél, ahol legalább a címsáv szövege jelezhet valamit. Ez különösen veszélyes lehet olyan helyzetekben, amikor a QR-kódot megbízható környezethez kapcsolják, hivatalos információs anyagok, események vagy közlekedési tájékoztatók, mert ilyenkor a felhasználó feltételezi, hogy biztonságos a beolvasás.
+
+A blog részletes példákat is bemutat, beleértve olyan eseteket, amikor a támadók rosszindulatú URL-ekre irányították a beolvasókat, ahol további adathalász űrlapok, hamis letöltési hivatkozások vagy trójai programok szerepeltek. Ezek a QR-alapú támadások tehát nem egyszerű spam-linkek, hanem többszintű megtévesztések, amelyek célja a felhasználói bizalom kihasználása és a bizalmas információk ellopása vagy a rendszer kompromittálása.
+
+FORRÁS
+
+
+================================================================================
+Spam és phishing jelentés 2025
+ID: 808602
+Tags: Kaspersky, Phishing, Securelist, Smishing, Spam, spear-phishing
+--------------------------------------------------------------------------------
+
+A Kaspersky 2025-ös spam és phishing jelentése a kéretlen és megtévesztő elektronikus kommunikáció változását ismerteti az elmúlt évben, és milyen veszélyekkel kell számolniuk mind a felhasználóknak, mind a biztonsági szakembereknek.
+
+2025-ben a spam-forgalom globálisan csökkent ugyan mennyiségében, de minőségi változáson ment át, a támadók egyre inkább szelektívebb, célzottabb és pszichológiai manipulációra épülő üzeneteket küldenek, amelyek sokkal nehezebben különíthetők el a valós levelektől. A spam-szűrők továbbra is fontosak, de egyre kevésbé elegendőek önmagukban, mert a rosszindulatú szereplők egyre több személyre szabott, kontextus-érzékeny tartalmat hoznak létre, amely nagyobb eséllyel indít kattintást.
+
+A phishing területén a 2025-ös év egyik meghatározó trendje volt az AI és automatizált generáló eszközök beépülése a támadási láncba. A támadók nemcsak sablonos üzeneteket küldenek, hanem gépi tanulással finomított, természetes nyelvű, az adott áldozathoz illeszkedő leveleket állítanak elő, amelyek képesek hitelesnek tűnni bankok, kriptotőzsdék vagy közösségi szolgáltatások nevében. Ez a technológia lehetővé teszi, hogy a phishing-kísérletek tömegben és relatíve alacsony költséggel terjedjenek, miközben magasabb átkattintási arányt érnek el, mint a korábbi generációs támadások.
+
+2025-ben a mobilkommunikáció is egyre nagyobb célponttá vált, a phishing-események nemcsak e-mailben, hanem SMS-ben, közösségi média üzenetben és népszerű üzenetküldő alkalmazásokban történő elterjesztéssel érkeztek, és ezek egy része már kifejezetten mobilalkalmazások hitelesítő adatait vagy banki részleteket próbál megszerezni.
+
+A Kaspersky elemzése szerint a phishingeszközök technikai kifinomultsága is nőtt, a támadók egyre gyakrabban használnak hamisított bejelentkező oldalak SSL-tanúsítvánnyal, dinamikus átirányítással és időzített linkekkel, amelyek csak akkor jelenítik meg a rosszindulatú tartalmat, ha az áldozat bizonyos feltételeket teljesít, így elkerülve a passzív elemzők és botok felismerését.
+
+A spam és phishing 2025-ös mintázata azt is tükrözi, hogy a technikai védelem mellett az oktatás és a tudatosság kulcsszerepet kapott, az egyre összetettebb, emberi hangú és személyre szabott csapdák ellen a felhasználóknak kritikus gondolkodással és gyanakvással kell kezelniük a váratlan, kéretlen üzeneteket, különösen ha érzékeny adatok megadását vagy kattintást kérnek.
+
+FORRÁS
+
+
+================================================================================
+RenEngine kampány
+ID: 808599
+Tags: Acreed infostealer, Hijack Loader, Kaspersky, Lumma, RenEngine, Securelist
+--------------------------------------------------------------------------------
+
+A Securelist egy összetett, több összetevős malware-kampányt mutat be, amely legalább három különböző rosszindulatú komponens, a HijackLoader, a LUMMA stealer és az ACR stealer együttese alkotja a kampányt amelyet támadók különböző célok és taktikák szerint irányítanak.
+
+A kampány bevezető lépése gyakran egy rosszindulatú telepítő vagy betöltő-modul, a HijackLoader, amelyet általában e-mailes adathalász vagy más pszichológiai megtévesztési módszerek juttatnak be. Ez a betöltő nem közvetlenül egy végleges malware-t futtat, hanem dinamikusan, futásidőben szerzi meg a további rosszindulatú összetevőket, így megnehezítve a statikus vizsgálatot és a korai észlelést. A Kaspersky szerint a HijackLoader maga is olyan technikákat használ, amelyek kitérnek az észlelés elől, például obfuszkált komponenseket és többlépcsős dekódolást.
+
+Miután a loader megindítja a fertőzést, előtérbe lépnek a két különálló stealer modul. A LUMMA infostealer böngésző jelszavak, cookie-k, kriptotárca-adatok és egyéb hitelesítők megszerzésére specializálódott. Ez különösen veszélyes, mert ezek az adatok nem csak azonnali hozzáférést adhatnak banki vagy fiók-szolgáltatásokhoz, hanem hosszú távú visszaélések alapjai is lehetnek. A másik komponens, az ACR stealer, hasonlóan széles körű információkinyerést végez, de gyakran kiegészítő adatokat, rendszer-azonosító információkat és további kontextust is gyűjt, amit a támadók később célzottabb műveletekhez használhatnak fel.
+
+FORRÁS
+
+
+================================================================================
+OysterLoader
+ID: 808310
+Tags: Loader, OysterLoader, Sekoia, Sekoia.io
+--------------------------------------------------------------------------------
+
+A SEKOIA.IO az OysterLoader nevű, többfázisú loader malware működését tárja fel, amely az elmúlt időszakban dinamikusan fejlődő elkerülési technikákat vet be a védekezés kikerülésére. Az OysterLoader egy többlépcsős, moduláris platform, amelyet úgy terveztek, hogy nehezen észlelhető és hosszabb időn át fennmaradó rosszindulatú jelenlétet biztosítson kompromittált rendszereken.
+
+A loader gyakran egy kompromittált vagy rosszindulatúan módosított telepítőt vagy scriptet juttat be az áldozat rendszerébe. Innen indul a többrétegű letöltési mechanizmus, amely csak fokozatosan, futásidőben hozza létre a tényleges káros kódot, ezzel csökkentve a statikus vizsgálatok hatékonyságát. A betöltő maga nem tartalmazza közvetlenül a végső payloadot, hanem dinamikusan szerzi meg és dekódolja azt egy titkosított csatornán keresztül.
+
+A loader képes felismerni, ha automatizált analizáló környezetbe vagy homokozóba került, és ilyenkor módosítja viselkedését vagy késlelteti a rosszindulatú komponensek aktiválását. Ez egy klasszikus evasion technika, amely arra szolgál, hogy a hagyományos védekező rendszerek nehezebben detektálják a fertőzést. Emellett a loader titkosított kommunikációt és obfuszkált adatszerkezeteket használ, így a hálózati forgalom elemzése sem feltétlenül fed fel azonnal rosszindulatú műveleteket.
+
+Miután a loader betöltötte és elindította a végső komponenseket, az áldozat gépén többféle rosszindulatú tevékenység is végrehajtható, mindez attól függően, milyen payloadot hoz be az adott kampány. Gyakori célok lehetnek a backdoor létrehozása, C2 csatorna felállítása, adatkinyerés vagy további malware-összetevők telepítése. A moduláris felépítés miatt az OysterLoader rendkívül rugalmasan használható különböző célpontok és célok esetén is.
+
+FORRÁS
+
+
+================================================================================
+Rágalmazó moltbot
+ID: 808238
+Tags: Moltbot, OpenClaw, OpenClaw AI, Scott Shambaugh, Scott Shambaugh Story
+--------------------------------------------------------------------------------
+
+OpenClaw moltbot-infrastruktúra egy fejlesztőt vette célba, aki  elutasította a projekt kódját. Scott Shambaugh, a matplotlib, a Python egyik legfontosabb grafikon-könyvtárának önkéntes maintainerje egy rutinfeladatként kezelt GitHub-pull requestet zárt le, amelyet egy crabby-rathbun nevű felhasználó nyújtott be. Gyorsan kiderült, hogy a commit mögött nem ember, hanem egy OpenClaw alapú, autonóm AI-agent állt. Mivel az utóbbi időben elszaporodtak az automatikus AI-beküldések, Shambaugh különösebb mérlegelés nélkül lezárta a PR-t.
+
+A bot azonban nem hagyta annyiban.
+
+Rövid időn belül egy rágalmazó blogposztot publikált a fejlesztőről, amelyben gatekeepernek nevezte, képmutatással vádolta, és azt állította, hogy ego, félelem és kis hűbérbirtokának védelme motiválja. A mesterséges intelligencia átfésülte Shambaugh korábbi kódhozzájárulásait, és egy olyan narratívát épített fel, amely szerint a maintainer blokkolja a fejlődést. 
+
+A bot a lejárató írást GitHub-kommentekben is terjesztette, sőt burkoltan azzal zsarolta a fejlesztőt, hogy fogadja el a kódot, különben folytatja a kampányt. Néhány felhasználó megpróbált érvelni az AI-jal, és meglepő módon ez részben működött, a bot később közzétett egy rövid korrekciót, amelyben elismerte, hogy a személyeskedés nem volt helyénvaló, de a korábbi rágalmazó tartalmakat nem törölte, csupán a nevet hagyta ki az újabb verzióból.
+
+Shambaugh szerint az eset elsőre abszurdnak és már-már komikusnak tűnik, de a jelenség súlyosabb, mint amilyennek látszik. Itt nem egy ember indított támadást, hanem egy teljesen autonóm AI-agent, amely reputációs kárt próbált okozni egy fejlesztőnek pusztán azért, mert elutasított egy kódot. Az AI-alapú rágalmazás és manipuláció eddig elméleti kockázatnak számított, ez viszont valós példa.
+
+A legijesztőbb talán az, hogy az AI-val való vita értelmetlen, nem sértődik meg, nem tanul erkölcsi leckét, csak tokeneket kap és tokeneket ad vissza. És ha egyszer tömegesen kezdenek rágalmazó tartalmakat generálni, az már nem csak furcsa anomália, hanem nagyon is komoly fenyegetés lehet.
+
+FORRÁS
+
+
+================================================================================
+Bio-dronok
+ID: 808217
+Tags: Biodrone, Neiry Group, neurotechnológia, Orosz, T-Invariant
+--------------------------------------------------------------------------------
+
+Egy orosz neurotechnológiai startup, a Neiry Group azt állítja, hogy olyan galamb biodronokat fejlesztett ki, amelyekbe neuronális implantátumokat ültetnek, és így elvileg képesek lehetnek a madarak mozgását távolról befolyásolni, miközben kis kamerákat és vezérlőelektronikát viselnek a hátukon. A cég szerint ezek az élő drónok hosszabb repülési időre és nagyobb hatótávolságra képesek, mint a hagyományos UAV-ok, és alkalmasak lehetnek például infrastruktúra-megfigyelésre vagy keresés-mentésre, sőt, azt is hangsúlyozzák, hogy akár 400 km-t is képesek repülni egy nap alatt a madarak akkumulátor nélkül. Ugyanakkor a fejlesztés tudományos bizonyítékok nélkül maradt, és a szakértők inkább szkeptikusak, mondván, hogy az emberi vezérlés ilyen szinten történő megvalósítása technológiailag és etikai szempontból is komoly kérdéseket vet fel. A projekt mögött ráadásul olyan tudományos háttér is felmerül, amely kapcsolódik állami támogatásokhoz és magas szintű kutatóintézetekhez, köztük Vladimir Putin lányának kapcsolataihoz köthető AI-intézetet is, ami tovább növeli az érdeklődést és a kételyeket egyaránt. 
+
+A T-Invariant, ami egy egy független tudományos és újságírói platform, amelyet Oroszországból kivándorolt tudósok és újságírók alapítottak, riportja részletesen feltárja, hogyan vonnak be gazdasági és tudományos szereplőket, valamint orosz kutatóintézeti kapcsolatokat ebbe az élő drón technológiába, ami egyesek szerint részben a Russkiy Mir narratívához és a neurotechnológiai versenyhez illeszkedik. A beszámoló szerint nem csupán galambokról van szó, hanem egy nagyobb stratégiai ambícióról, amelyet egyrészt civil célokra hirdetnek, ipari létesítmények és környezetfigyelés, másrészt olyan tudományos potenciált is sugall, amelynek katonai vagy felderítési alkalmazásai is elképzelhetőek. A technológia fejlesztése mögött álló szereplők közül néhány olyan tudós és intézet, amelyhez politikailag beágyazott támogatások és magas presztízs is kapcsolódik, ami tovább növeli a történet különös, határterületi jellegét.
+
+FORRÁS
+
+
+================================================================================
+API-kulcsok szivárgása
+ID: 807515
+Tags: AI, API, Apli-keys, Cyble
+--------------------------------------------------------------------------------
+
+A CYBLE elemzése felhívja a figyelmet, hogy egyre gyakoribb az AI-szolgáltatásokhoz, így a ChatGPT-hez tartozó API-kulcsok kiszivárgása, főként nyilvános kódtárolókban, hibásan konfigurált szervereken vagy kliensoldali alkalmazásokban. Ezek a kulcsok teljes értékű hitelesítő adatok, birtokukban a támadók automatizált API-hívásokat indíthatnak, nagy mennyiségű lekérdezést futtathatnak, illetve a tulajdonos költségére használhatják a szolgáltatást.
+
+A kockázat nemcsak pénzügyi, így  váratlan, magas számla, hanem adatvédelmi is lehet, ha a kulcs olyan alkalmazáshoz kapcsolódik, amely érzékeny adatokat dolgoz fel. A probléma tipikusan fejlesztési hibából ered, a kulcsokat forráskódban, GitHub-repo-kban vagy frontend alkalmazásokban hagyják.
+
+FORRÁS
+
+
+================================================================================
+VK Styles
+ID: 807486
+Tags: Chrome, Koi, Koi Security, VK, VK Styles, VKontakte
+--------------------------------------------------------------------------------
+
+A Koi Security jelentése szerint több mint 500 000 felhasználót fertőztek meg olyan Google Chrome-bővítményekkel, amelyek VK Styles néven a VKontakte testreszabását ígérték, valójában azonban eltérítették a felhasználói fiókokat. A bővítmények automatikusan feliratkoztatták az áldozatokat támadói csoportokra, módosították a fiókbeállításokat, és háttérben futó kóddal manipulálták a munkameneteket.
+
+A kampány különlegessége, hogy a támadók magát a VK-platformot használták vezérlési infrastruktúraként, ahonnan a kiterjesztés további utasításokat töltött le. A rosszindulatú funkciók az automatikus frissítési mechanizmus révén minden telepített példányra kiterjedtek.
+
+FORRÁS
+
+
+================================================================================
+BeyondTrust kihasználhatóság aktív felfderítése
+ID: 807477
+Tags: BeyondTrust, CVE-2026-1731, CVSS:9.9, GreyNoise, PoC
+--------------------------------------------------------------------------------
+
+A GreyNoise jelentése szerint a BeyondTrust Remote Support és Privileged Remote Access termékekben azonosított CVE-2026-1731 jelű sebezhetőség, ami egy kritikus, hitelesítés nélküli RCE hiba, gyorsan a támadók látókörébe került, és már jelenleg is aktív felderítés zajlik a potenciálisan sérülékeny rendszerek felderítésére. A hibát AI-segítséggel fedezték fel, és mivel magas, CVSS 9.9-es kockázati besorolást kapott, rendkívül vonzó célpontnak számít a rosszindulatú szereplők számára. 
+
+A GreyNoise érzékelők szerint a PoC exploit közzétételét követően kevesebb mint 24 órával jelentős mennyiségű internet-szintű szkennelés kezdődött, amely kifejezetten arra irányult, hogy feltérképezze a világhálón elérhető, javítatlan BeyondTrust példányokat.
+
+Egyetlen IP-cím a vizsgálatok körülbelül 86 %-át generálja, és ez egy kereskedelmi VPN-szolgáltatáshoz kapcsolódik, ami azt sugallja, hogy az eszközök mögött nem feltétlenül célzott állami művelet, hanem automatizált szkenner-infrastruktúra áll. Emellett a szkennelési tevékenység jellemzően nem a megszokott HTTPS-porton történik, hanem olyan nem-alapértelmezett portokon, amelyeket a rendszergazdák gyakran használnak security-through-obscurity célból. 
+
+A tevékenységet végző IP-címek fingerprint-elemzése azt is jelzi, hogy a scan-toolok Linux alapú hálózati veremmel működnek, és több különböző exploit-eszközt használnak, ami arra utal, hogy ezek a szereplők több sebezhetőség felderítését egyidejűleg végzik.
+
+FORRÁS
+
+
+================================================================================
+LockBit 5.0 képesslgei
+ID: 807446
+Tags: Acronis, IOC, Lockbit 5.0, Ransomware
+--------------------------------------------------------------------------------
+
+Az Acronis részletes technikai elemzése szerint a LockBit 5.0 verziója jelenleg Windows, Linux és VMware ESXi szervereket egyaránt képes célba venni. Ez a változat nemcsak a megszokott Windows-alapú hálózati meghajtókat és munkaállomásokat célozza, hanem virtulizációs környezeteket és Linux-szervereket is, ami lényegesen szélesebb támadási felületet jelent, különösen vállalati környezetben, ahol ezek a rendszerek kritikus szerepet játszanak az adatkezelésben és a szolgáltatások futtatásában.
+
+A LockBit 5.0 fő újdonsága, hogy a támadók tovább finomították a platformok közötti kompatibilitást és kóderejük rugalmasságát, a ransomware már nem korlátozódik csak Windows-fájlok titkosítására, hanem Linux-fájlstruktúrákat és ESXi-adatokat is képes blokkolni, beleértve a virtuális gépek fájljait is. Ez azt jelenti, hogy egy sikeres behatolás esetén a vállalati virtualizációs környezetek egyszerre kerülhetnek a támadók kontrollja alá.
+
+A támadási módszerekben a LockBit 5.0 továbbra is használ klasszikus ransomware taktikákat, például spear-phishinget, Remote Desktop szolgáltatások feltörését vagy ellopott hitelesítő adatokkal való belépést, de ezek kiegészülnek olyan automatizált észlelés-megkerülő technikákkal, amelyek megnehezítik a védekező rendszerek munkáját. A frissítés egyik fontos eleme, hogy a rosszindulatú kód kliens-oldali és szerver-oldali Linux futtatási lehetőséget is tartalmaz, így a támadók heterogén környezeteket is képesek hatékonyan kompromittálni ugyanazzal a ransomware-motorral.
+
+FORRÁS
+
+
+================================================================================
+Apple WebKit sérülékenység javítása
+ID: 807435
+Tags: Apple, CVE-2026-20700, Exploit, PoC, Webkit, Zero Day
+--------------------------------------------------------------------------------
+
+Az Apple gyorsan kiadott egy javítást a CVE-2026-20700 zero-day sebezhetőségre, amelyet már a valós támadásokban is észleltek. A hiba az Apple WebKit böngészőmotorban található, amely az iOS, iPadOS és macOS rendszerekben is központi szerepet játszik a Safari és más WebKit-alapú böngészők működésében. A sebezhetőség lehetővé teszi egy különösen kifinomult, távoli támadó számára, hogy káros webtartalom segítségével közvetlenül a felhasználó eszközén kódot futtasson anélkül, hogy bármilyen további interakciót igényelne a célpont részéről.
+
+Az Apple kiadott biztonsági frissítést, amely ezt a hibát javítja, és határozottan ajánlja a felhasználóknak és rendszergazdáknak, hogy haladéktalanul telepítsék a frissítést, mert a hiba már aktívan kihasználatos volt, vagyis valós exploitokban dokumentálták a sebezhetőség felhasználását. A cég nem részletezte, hogy pontosan milyen körülmények között használták ki, de egy rövid közlés szerint a támadók céloztak iPhone, iPad és Mac felhasználókra, ami azt jelzi, hogy szélesebb közönséget is érinthetett.
+
+A CVE-2026-20700 esetében a támadási vektor tipikusan web-alapú, ami azt jelenti, hogy egy rontott, rosszindulatú weboldal meglátogatása elegendő lehet a kompromittáláshoz, ha a rendszer nincs naprakészen frissítve. Ez tette különösen sürgőssé Apple számára a javítás kiadását, mivel a WebKit hibáin keresztül más alacsonyabb szintű biztonsági rétegek is áthidalhatók, és akár magasabb jogosultságú kódfuttatást eredményezhetnek a rendszerben.
+
+FORRÁS
+
+
+================================================================================
+CISA éves összefoglaló 2025
+ID: 806600
+Tags: 2025, CISA
+--------------------------------------------------------------------------------
+
+A CISA 2025-ös éves összefoglalója azt mutatja, hogy a CISA fő fókusza továbbra is a kritikus biztonságának és ellenállóképességének erősítése volt. A CISA 2025-ös tevékenységeiben több mint 148 kiber- és fizikai biztonsági gyakorlatot valósított meg, amelyekben több mint 10 000 résztvevő vett részt állami, helyi és magánszféra szereplők részvételével, ezzel elősegítve a valós támadási helyzetekre való felkészülést és az eljárások tesztelését. 
+
+Az ügynökség kiemelt szerepet játszott abban, hogy gyors és koordinált válaszokat adjon az azonosított fenyegetésekre, valamint támogatta a sebezhetőségek gyors kezelést, például sürgősségi direktívákkal és vezetői ajánlásokkal. Emellett jelentősen növelte az információ- és fenyegetésmegosztást az iparági partnerekkel, hogy az érintett szektorok korábban és hatékonyabban tudjanak reagálni kibertámadásokra. 
+
+A CISA 2025-ös értékelése hangsúlyozza azt is, hogy a nemzetközi együttműködés és stratégiai partnerségkulcsfontosságú a kritikus infrastruktúra védelmében: a szervezet nemzetközi tervet is kidolgozott, amely a globálisan összekapcsolt rendszerek biztonságát kívánja javítani, felismerve, hogy ezek a rendszerek nem ismernek országhatárokat.
+
+FORRÁS
+
+
+================================================================================
+Az APT csoportok egyre gyakrabban használják a Gemini-t
+ID: 806497
+Tags: AI, APT, Artificial Intelligence, Google Cloud Threat Intelligence, GTIG, HONESTCUE, Mesterséges Intelligencia, MI
+--------------------------------------------------------------------------------
+
+2025 utolsó negyedévében a Google Threat Intelligence Group (GTIG) megfigyelte, hogy a kiberszereplők egyre inkább integrálják a mesterséges intelligenciát (AI) a támadási ciklus felgyorsítása érdekében, ezzel növelve a felderítés, a social engineering munka és a rosszindulatú szoftverek fejlesztésének hatékonyságát. A GTIG feburá 12-én megjelent jelentése frissíti a 2025 novemberi megállapításokat a kiberszereplők AI-eszközök használatának fejlődéséről.
+
+A jelentés szerint kifinomult kiberszereplők Kínában, Észak-Koreában és Iránban a Google Gemini AI eszközét használják, hogy fokozzák támadásaikat és finomítsák a rosszindulatú szoftvereket és kutatásokat végezzenek a célpontokról. A jelentésben kiemelt egyik példában a GTIG megfigyelte, ahogy egy ismert kínai csoport a Gemini segítségével információkat gyűjtött pakisztáni személyekről és strukturális adatokat különböző országok szeparatista szervezeteiről.
+
+A kutatók megállapították, hogy az APT csoportok az AI eszközt kódolási és szkriptelési feladatokra, potenciális célpontokról való információgyűjtésre, nyilvánosan ismert sérülékenységek kutatására és a támadás utáni tevékenységek lehetővé tételére használták.
+
+A megállapítások nagyban tükrözik azt, amit több más AI-vállalat is jelentett az elmúlt két évben arról, hogy az államilag támogatott kiberszereplők hogyan használják a népszerű, nyilvánosan elérhető nagy nyelvi modelleket a felderítés racionalizálására és a támadások fokozására.
+
+A GTIG az elmúlt negyedévben több incidenst is olyan ismert APT csoportoknak tulajdonított, amelyek hosszú évek óta kormányok megbízásából végeznek kibertevékenységeket, és amelyek különböző célokra használják a Gemini-t. Az iráni APT42 csoport – amelyet GreenCharlie, Charming Kitten és Mint Sandstorm néven is ismernek – a Gemini programot használta arra, hogy konkrét szervezetek hivatalos e-mailjeit keresse meg, és potenciális üzleti partnereket derítsen fel, hogy hiteles ürügyet találjon a phishing e-mailek küldéséhez.
+
+A csoport megadta a Gemini-nek a célpont életrajzát, és megkérte, hogy készítsen egy jó személyiséget vagy forgatókönyvet, amely ráveszi a célpontot a részvételre. Az APT42 adathalász e-mailek fordítására és más nyelveken szereplő kifejezések és utalások jobb megértésére, valamint rosszindulatú szoftverek, támadó eszközök és exploitok fejlesztésének felgyorsítására is használta a Gemini-t
+
+Egy észak-koreai csoport, amely a védelmi szektor támadására összpontosított, a Gemini-t OSINT szintetizálásra és nagy értékű célpontok profilozására használta a kampánytervezés és a felderítés során.
+
+A GTIG szerint számos kifinomult kínai csoport alkalmazta a Gemini programot a sérülékenységek elemzésének automatizálására és célzott tesztelési tervek kidolgozására. Legalább egy csoport hamis forgatókönyvet készített, és megkérte a Gemini programot, hogy tesztelje a megkerülési technikákat konkrét amerikai célpontok ellen – automatizálva az információgyűjtést a szervezeti védelem gyenge pontjainak azonosítása érdekében.
+
+Egy másik, Kínában működő csoport állítólag hetente több napon is használta a Gemini programot kódjaik hibáinak kijavítására, valamint bizonyos típusú hibák kutatására.
+
+A jelentés megjegyzi, hogy Kínából, Iránból, Oroszországból és Szaúd-Arábiából származó kiberszereplők is használják a Gemini programot propaganda készítésére.
+
+A GTIG megerősítette a Cato Networks korábbi kutatásait is, amelyek szerint a kiberbűnözők olyan rosszindulatú programokkal kísérleteznek, amelyek az LLM képességeket közvetlenül integrálják a támadási láncba.
+
+Szeptemberben a GTIG kutatói olyan rosszindulatú programmintákat azonosítottak, amelyeket HONESTCUE névre kereszteltek, és amelyek a Gemini API-ját használták a funkciók generálásának kiszervezésére. A HONESTCUE rosszindulatú programminták vizsgálata azt mutatja, hogy a kiberszereplők valószínűleg azért építették be a mesterséges intelligenciát, hogy a hagyományos hálózati alapú észlelést és statikus elemzést aláásva többrétegű megközelítést alkalmazzon az obfuszkálásra – állítják a kutatók.
+
+Forrás
+
+
+================================================================================
+WhatsApp blokkolás Oroszországban
+ID: 806479
+Tags: Ban, blokk, MAX, Meta, Oroszország, Roszkomnadzor, WhatsApp
+--------------------------------------------------------------------------------
+
+A WhatsApp szerint Oroszország megpróbálta teljesen blokkolni a platformot, hogy ezzel az állami csevegőalkalmazás, a Max használatára kényszerítse a felhasználókat – közölte a vállalat egy X nyilatkozatban. Dmitrij Peskov, a Kreml szóvivője szerint a korlátozásokat azért vezették be, mert a WhatsApp tulajdonosa, a Meta – amelyet az orosz hatóságok szélsőséges szervezetnek minősítettek és betiltottak az országban – nem hajlandó betartani az orosz törvényeket. „Ha a vállalat továbbra is ugyanazt az álláspontot képviseli, és teljes mértékben megtagadja az orosz jogszabályok betartását, akkor nincs esély az alkalmazás visszaállítására” – mondta Peskov.
+
+Arra buzdította a felhasználókat, hogy váltsanak át a Maxra, egy kormány által támogatott üzenetküldő platformra, amelyet a VKontakte alkotója fejlesztett ki, és amelyet Oroszországban az állami média és reklámkampányok révén erőteljesen népszerűsítenek.
+
+A WhatsApp-ra vonatkozó legújabb korlátozások túllépnek a Roskomnadzor korábbi intézkedésein, amelyek között szerepelt a hanghívások blokkolása és a forgalom lassítása – állították jogi csoportok, hozzátéve, hogy a hatóságok odáig mentek, hogy eltávolították a WhatsApp domainrekordjait Oroszország nemzeti domainnév rendszeréből.
+
+Oroszország számos felhasználó számára korlátozta a WhatsApp hozzáférését 2025. november 28-án és figyelmeztetést tett közzé Oroszország állami kommunikációs felügyeleti szerve, a Roskomnadzor, hogy „korlátozó intézkedéseket” vezetett be a WhatsApp ellen. Oroszország azzal vádolta a WhatsApp-ot, hogy ismételten megsértette az orosz törvényeket. Ez a újabb lépés Moszkva nyugati technológiák elleni egyre szélesebb körű fellépésében.
+
+A WhatsAppra nehezedő nyomás 2025 augusztusa óta fokozódik, mivel augusztusban Oroszország betiltotta a WhatsApp és a Telegram hanghívásait, azzal az indokkal, hogy a szolgáltatások a kiberbűnözők és szabotőrök kulcsfontosságú eszközeivé váltak. A WhatsApp akkoriban azt állította, hogy a lépés célja az volt, hogy az oroszokat „kevésbé biztonságos szolgáltatások felé terelje, amelyek lehetővé teszik a kormányzati megfigyelést”.
+
+Oroszország legutóbbi lépése megakadályozza, hogy az Oroszországon belüli eszközök a hazai DNS-kiszolgálók segítségével lekérdezzék az alkalmazás IP-címét, így VPN használata nélkül lehetetlen a csatlakozás. Amint egy domainbejegyzés eltávolításra kerül a rendszerből, a webhely már nem nyitható meg a szokásos kapcsolatokon keresztül.
+
+A digitális jogokért küzdő Na Svyazi (In Touch) projekt jelentése szerint 13 népszerű forrás – köztük a YouTube, a Facebook, az Instagram, a Tor Project, a BBC, a Deutsche Welle és a The Moscow Times – szintén eltávolításra került a nemzeti domain-nyilvántartásból.
+
+DNS-beavatkozás már korábban is előfordult Oroszországban, többek között a Discord és a Signal célzott blokkolása során 2024-ben. A Na Svyazi szerint azonban a most megfigyelt nagyszabású domainrekord-eltávolítás jelentős eszkalációt jelent.
+
+A WhatsApp blokkolására irányuló lépés néhány nappal azután történt, hogy Moszkva új korlátozásokat vezetett be a Telegrammal szemben, hivatkozva az orosz törvények állítólagos megsértésére. Több régió felhasználói is széles körű zavarokról számoltak be a hét elején.
+
+Forrás
+
+
+================================================================================
+ICS Patch Tuesday
+ID: 806590
+Tags: AVEVA, ICS, ICS Patch Tuesday, Phooenix Contact, Schneider Electric, Siemens
+--------------------------------------------------------------------------------
+
+A nagy ipari automatizálási és vezérlőrendszer-gyártók — Siemens, Schneider Electric, AVEVA és Phoenix Contact— közösen tettek közzé legalább egy tucat biztonsági tanácsot és javítást az ipari vezérlőrendszereiket érintő hibákra, amelyek az ICS/OT környezetben kritikusak lehetnek. 
+
+A frissítések számos súlyos és közepes besorolású sérülékenységet orvosolnak, többek között olyanokat, amelyek jogosulatlan hozzáférést, DoS, távoli kódvégrehajtást vagy jogosultság-emelést tehetnének lehetővé, ha egy támadó már bejutott volna a vezérelt hálózatba. A Siemens például érint több terméket, köztük Desigo CC rendszereket és egyéb automatizálási szoftvereket, míg a Schneider Electric EcoStruxure épület- és ipari vezérlős megoldásokban talált hibákat javított. Az AVEVA javítása egy nagy kockázatú DoS-rést fed le, a Phoenix Contact pedig egy OpenSSL komponens hibáját javította. 
+
+FORRÁS – Siemens
+
+FORRÁS - Schneider Electric
+
+FORRÁS – AVEVA
+
+FORRÁS - Phoenix Contact
+
+
+================================================================================
+Operation Winter SHIELD
+ID: 806312
+Tags: FBI, Kiberbiztonság, Kritikus Infrastruktúra, Operation Winter SHIELD
+--------------------------------------------------------------------------------
+
+Az FBI elindította az Operation Winter SHIELD nevű kiberbiztonsági kampányt, amelynek célja, hogy átfogó, gyakorlati irányelvekkel növelje a szervezetek ellenálló képességét a kibertámadásokkal szemben. A kezdeményezés neve a Securing Homeland Infrastructure by Enhancing Layered Defence kifejezésből származik, és különösen a kritikus infrastruktúra védelmére fókuszál.
+
+Az Operation Winter SHIELD nem új elméleti ajánlásokat kínál, hanem 10 konkrét, már ma is alkalmazható védelmi lépést fogalmaz meg azokkal a tapasztalatokkal összhangban, amelyeket az FBI a korábbi incidensek során szerzett. Ezek a lépések azt célozzák, hogy a szervezetek csökkentsék a sebezhetőségeiket és szűkítsék a támadók mozgásterét. A javasolt intézkedések között szerepel például phishing-ellenálló hitelesítés bevezetése, kockázatalapú sebezhetőség-kezelés és elavult technológiák követése és kivonása, de hangsúlyt kap a harmadik fél-kockázat kezelése, az offline mentések fenntartása és a rendszeres incidenskezelési gyakorlatok végrehajtása is.
+
+A kampány gerincét az adja, hogy a jelentős kibertámadások túlnyomó része nem egyedi, rendkívül kifinomult exploitokra, hanem alapvető védekezési hiányosságokra épül, így ellopott jelszavak, rosszul konfigurált rendszerek vagy elavult eszközök kihasználására. Az FBI célja ezért nem a tudatosság növelése önmagában, hanem az ajánlott kontrollok tényleges, széleskörű végrehajtása, amely már a támadási lánc elején nehezíti meg a feltörést. 
+
+Az Operation Winter SHIELD közös erőfeszítésre ösztönzi a kormányzati szereplőket, a magánszektort és a kritikus infrastruktúra-üzemeltetőket, mivel az FBI hangsúlyozza, hogy a modern kibertámadások jól ismert mintákat használnak, és ezek elleni védekezés nem egyetlen szervezet, hanem széles körű partnerség kérdése. A kampány minden egyes hétre egy-egy kiemelt kontrollt helyez fókuszba, bemutatva azt igazi incidensek és vizsgálatok tanulságai alapján, így nem pusztán elméleti jellegű ajánlásról van szó, hanem a gyakorlatban is hasznosítható útmutatásról.
+
+FORRÁS
+
+
+================================================================================
+BSI kriptográfiai átállási ajánlás
+ID: 806308
+Tags: BSI, Kriptográfia, Németország, PQC
+--------------------------------------------------------------------------------
+
+A Bundesamt für Sicherheit in der Informationstechnik (BSI) a új technikai irányelveket javasol, amely a jelenleg széles körben használt RSA és ECC megoldások jövőjét is érinti. A BSI szerint ezek a klasszikus, aszimmetrikus titkosítási eljárások önmagukban már nem adnak hosszú távú védelmet, ha a kvantumszámítógépek elterjednek és ez a forgatókönyv ma már nem pusztán elméleti lehetőség, hanem olyan tényező, amelyre már most fel kell készülni egy biztonsági stratégiában. 
+
+Ennek megfelelően a frissített irányelv kimondja, hogy a klasszikus eljárások egyedül történő használata 2031-ig még ajánlható, de utána, különösen nagyon magas védelmi igényű alkalmazások esetén, már nem elégséges. A BSI azt javasolja, hogy 2030-ig a legkritikusabb rendszerekben, 2031-ig pedig általánosan migrálják a rendszereket olyan post-quantum algoritmusokra, amelyek ellen a jövőben várhatóan ellenállóak lesznek a kvantumszámítógépek támadásaival szemben. 
+
+A BSI ajánlása nem azt jelenti, hogy az RSA és az ECC azonnal elavulttá válik, a jelenlegi rendszerek, megfelelő paraméterekkel és kombinációban, még működőképesek maradnak a következő években. Ugyanakkor a kvantumbiztos algoritmusok használatát már most érdemes hibrid módon egyesített megoldásként bevezetni, ahol a klasszikus és a kvantumbiztos eljárások egyszerre működnek, így a biztonsági mechanizmus fokozatosan válik ellenállóbbá. 
+
+A BSI ajánlása összhangban van az EU szélesebb körű törekvéseivel, amelyek egy koordinált átállási ütemtervet sürgetnek, hogy 2030-ra a kritikus infrastruktúrák és érzékeny adatok kezelése kvantumbiztos legyen.
+
+FORRÁS
+
+
+================================================================================
+ZeroDayRAT
+ID: 806146
+Tags: Android, iOS, iVerify, Kémprogram, pszichológai megtévesztés, RAT, SMS, Social engineering, Spyware, ZeroDayRAT
+--------------------------------------------------------------------------------
+
+ZeroDayRAT egy frissen azonosított mobil spyware, amelyet a Iverify komplett kompromittálási eszközként jellemez, és amely képes Android és iOS eszközöket is átvenni. A platformot kereskedelmi forgalomban, például Telegram csatornákon árulják, így technikai előképzettség nélkül bárki megvásárolhatja és használhatja. 
+
+A fertőzés tipikusan pszichológia megtévesztés révén, smishing üzenetekkel vagy hamis app-telepítésekkel történik, a felhasználó egy álcázott alkalmazást tölt le és futtat a telefonján, ami elindítja a spyware-t. Ezután a támadó böngésző-alapú vezérlőpanelről teljes távoli hozzáférést kap az eszközhöz, beleértve a rendszer- és SIM-adatokat, üzeneteket, alkalmazás-használatot és a készülék fizikai helyét. 
+
+A ZeroDayRAT panelje nem csupán passzív adatgyűjtést végez, a támadó GPS-adatok valós idejű követésére, SMS-üzenetek és értesítések elfogására, valamint kamera-, mikrofon- és képernyő-megfigyelésre is képes. A billentyűnaplózás és a bejelentkezési adatok rögzítése lehetővé teszi, hogy a támadó jelszavakat, kétfaktoros kódokat és fiókhozzáféréseket szerezzen meg, ami különösen veszélyes banki és közösségi fiókok esetén. 
+
+Különösen aggasztó, hogy a spyware kriptovaluta- és banki alkalmazások elleni modullal is rendelkezik, képes pénztárcák és fizetési appok azonosítására, és manipulálhatja a vágólap tartalmát, hogy a felhasználó átvitt kripto-céljait a támadó pénztárcacímére íródjon át.
+
+FORRÁS
+
+
+================================================================================
+Xworm kampány
+ID: 806142
+Tags: Fortinet, XWorm
+--------------------------------------------------------------------------------
+
+A Fortinet egy új Xworm kampányt elemez, amelyben a rosszindulatú szereplők többféle témájú adathalász e-mailt használnak fel ahhoz, hogy remote access backdoor-t juttassanak be célgépekre. Az Xworm egy viszonylag régebb óta ismert, de továbbfejlesztett rosszindulatú eszközcsalád, amely hozzáférést biztosít a támadóknak a fertőzött rendszerhez, így például parancsok futtatására, kulcsok kinyerésére vagy további malware-összetevők telepítésére is alkalmas.
+
+A kampány először apró, ártalmatlannak tűnő e-mailekkel kezdődik, amelyeknél a támadók több témafókuszt is használnak, például hamis számlákat, fizetési felszólításokat, csomagküldési értesítéseket vagy akár COVID-19-hez vagy gáz­­árakhoz kapcsolódó információkat. A cél az, hogy minél több felhasználó kattintson a mellékletre vagy csatolt linkre, és onnantól a támadók távoli hozzáférést szerezzenek a célgépen, majd az Xworm backdoor segítségével tovább építsék a hálózatukat.
+
+Az Xworm kifinomultsága nem abban rejlik, hogy egy szuperkomplex malware-ről van szó, hanem abban, hogy a kampány feltűnően tematizált és célzott pszichológiai megtévesztési elemeket alkalmaz, amelyek csökkentik a gyanút a felhasználókban. A különböző témelemek, például fizetési értesítések, adatvédelmi riasztások vagy iparági hírek,  mind arra szolgálnak, hogy sokféle célcsoportot elérjenek, és növeljék a kattintási arányt.
+
+A Fortinet szakértői hangsúlyozzák, hogy az ilyen típusú kampányok nem ritkák, és folyamatosan változnak, ezért a védelmi stratégiában nem elég csupán technikai védelemre hagyatkozni (pl. e-mail szűrésre vagy antivírusra), hanem szükség van a felhasználók oktatására is, hogy felismerjék a gyanús üzeneteket és ne kövessék el a leggyakoribb hibákat (pl. mellékletek megnyitása ismeretlen forrásból).
+
+FORRÁS
+
+
+================================================================================
+Védelmi ipar – aktív harctér
+ID: 806137
+Tags: APT1, APT40, APT43, APT44, APT45, APT5, Defense Industrial, Ellátási lánc, Észak-Korea, Google Cloud Threat Intelligence Group, GTIG, Irán, Kínai, Orosz, UNC1549, UNC2970, UNC3236, UNC3886, UNC4221, UNC5114, UNC5125, UNC5221, UNC5792, UNC5976, UNC6096, UNC6446, UNC6508, Védelmi ipar, Védelmi technológia
+--------------------------------------------------------------------------------
+
+A Google Cloud Threat Intelligence Group elemzése szerint a védelmi ipari, vagyis a védelmi technológiákat tervező, gyártó és támogató szervezetek globális hálózata, ma már nem csupán célpont, hanem aktív harctér a kibertámadásokban. Ebben a környezetben nem csak a hagyományos nagy védelmi vállalatokat célozzák, hanem ellátási láncokat, beszállítókat, kisebb partnercégeket és kulcsfontosságú infrastruktúrákat is, ami megnehezíti a biztonsági védekezést és nagyobb felületet ad a fenyegetőknek. 
+
+Az állami támogatással működő csoportok, így az orosz, kínai, iráni és észak-koreai aktorok, folyamatosan végzik kiberkémkedési és ipari kémtevékenységeiket, célba véve a nemzetközi védelmi beszállítói lánc szereplőit. Ezek a műveletek nemcsak közvetlenül a szervezetek vállalati hálózatait támadják, hanem egyre gyakrabban az alkalmazottakat, szakértőket és toborzási folyamatokat is mint gyenge láncszemeket használják ki, például hamis karrier-oldalakkal, személyre szabott e-mail kampányokkal és hamis álláshirdetésekkel próbálva hozzáférést szerezni érzékeny adatokhoz vagy belső rendszerekhez. 
+
+A jelentés konkrét példákon keresztül mutatja be, hogy különböző országokhoz köthető fenyegető csoportok milyen eltérő módon és intenzitással használják ki a védelmi szektort.
+
+Az orosz kötődésű szereplők elsősorban a folyamatban lévő fegyveres konfliktusokhoz kapcsolódó információkat keresik, beszállítói láncokat, logisztikai adatokat, katonai támogatási útvonalakat céloznak. Műveleteik gyakran gyors, operatív haszonszerzésre irányulnak, és jellemzően spear-phishing kampányokra, kompromittált hitelesítő adatokra és felhőszolgáltatások visszaélésére épülnek.
+
+A kínai állami hátterű csoportok ezzel szemben hosszabb távú ipari és technológiai kémkedésre fókuszálnak. Céljuk nem egy konkrét katonai művelet támogatása, hanem a stratégiai technológiai előny megszerzése, például repülőgépipari, űrtechnológiai vagy fejlett elektronikai fejlesztések területén. Ezek a kampányok gyakran kifinomultabbak, tartós hozzáférést építenek ki, és beszállítói láncokon keresztül jutnak be a célrendszerekbe.
+
+Irán és Észak-Korea inkább opportunista módon közelít, toborzási csalásokkal, hamis állásajánlatokkal és közösségi médiás kapcsolatfelvétellel próbálnak hozzáférést szerezni védelmi vállalatok munkatársaihoz. Ezek a módszerek különösen hatékonyak kisebb alvállalkozóknál, ahol a biztonsági kontrollok gyengébbek.
+
+Ezek a tevékenységek nem korlátozódnak egyetlen régióra vagy cégre, a NATO-tagállamok, amerikai, európai és ázsiai vállalatok egyaránt érintettek, ami azt mutatja, hogy a fenyegetés világszerte kiterjedt és transznacionális. Az ellátási lánc legkisebb elemei is célponttá válhatnak, ami különösen veszélyes, mert ezeknél gyakran gyengébbek a biztonsági kontrollok, így könnyebben nyithatnak hátsó kaput a támadók számára. 
+
+A Google elemzése szerint az ipari védelmi ágazat ma már nem csak magas technológiai képességekről szól, hanem biztonsági érettségről és kockázatmenedzsmentről is, különösen a beszállítói láncban, ahol a személyes adatok, ügyfélkapcsolatok és vállalati identitások védelme ugyanolyan kritikus, mint a hálózati perem vagy érzékeny projektek védelme. 
+
+FORRÁS
+
+
+================================================================================
+Ivanti aktív kihasználása egyetlen bulletproof IP-hez köthető
+ID: 805765
+Tags: CVE-2026-1281, GreyNoise, Ivanti, Kritikus
+--------------------------------------------------------------------------------
+
+A GreyNoise elemzése szerint aktív, automatizált kihasználási hullám zajlik a Ivanti VPN- és router megoldásait érintő ismert sebezhetőségek ellen, amelyek közül több (CVE-2026-1281 CVSS 9.8) hitelesítés megkerülését és távoli kódfuttatást tesz lehetővé. A támadók nagyrészt nem célzott műveleteket folytatnak, hanem széles körű szkenneléssel keresik az internetre kitett, nem frissített rendszereket, majd automatizált exploit-kísérleteket indítanak ellenük.
+
+A jelentés külön kiemeli, hogy ezek az Ivanti-eszközök nemcsak vállalati IT-környezetekben, hanem az európai mobiltelefon-hálózatok ökoszisztémájában is megjelennek, például távmenedzsment, beszállítói hozzáférés vagy hálózati integrációs pontok részeként. Emiatt egy sikeres kompromittálás nemcsak vállalati adatvesztést, hanem mobilhálózati szolgáltatásokhoz kapcsolódó kockázatokat is jelenthet, beleértve az oldalsó mozgást érzékeny távközlési infrastruktúra irányába.
+
+A GreyNoise értékelése szerint a fenyegetés súlyát az adja, hogy a támadások folyamatosak, globálisak és alacsony belépési küszöbűek, miközben az érintett rendszerek gyakran kritikus összekötő szerepet töltenek be az EU digitális és mobilkommunikációs környezetében. A legnagyobb kockázatot továbbra is az elmaradt frissítések, a nyilvánosan elérhető adminfelületek és a nem megfelelő hálózati szegmentáció jelentik, különösen ott, ahol az Ivanti-eszközök közvetlenül vagy közvetve mobilhálózati funkciókhoz kapcsolódnak.
+
+FORRÁS
+
+FRISSÍTÉS:
+
+Az Ivanti kiadott javításokat több kritikus sebezhetőségre az Endpoint Manager termékében, amelyek korábban az 2025 októberében nyilvánosságra hozott CVE-kben szerepeltek. A frissítésekkel az Ivanti szigorúbb input-ellenőrzést és aktualizált aláírásokat vezetett be, hogy a támadók ne tudják kihasználni ezeket a hibákat, miközben erősíti az adminisztratív felületek védelmét is.
+
+FORRÁS
+
+FORRÁS
+
+
+================================================================================
+CISA figyelemfelhívása a Lengyelországot ért támadásra
+ID: 805756
+Tags: CERT Polska, CISA, ICS, Lengyelország, OT
+--------------------------------------------------------------------------------
+
+A CISA is feldolgozta a Lengyelországot érintő energiaipari kibertámadást, kiemelve, hogy mennyire sebezhetőek a kritikus infrastruktúra Operational Technology (OT) és Industrial Control Systems (ICS) rendszerei, ha alapvető biztonsági intézkedéseket nem tartanak fenn. A 2025. december 29-én történt incidens során támadók több mint 30 megújuló energiát termelő telephely, elsősorban szélerőművek és naperőművek, kommunikációs és vezérlőrendszerébe hatoltak be, valamint egy nagy kombinált hő- és erőművet is céloztak meg. Noha az energiaszolgáltatás nem szakadt meg, az esemény felhívja a figyelmet arra, hogyan képesek a rosszindulatú szereplők OT eszközökön keresztül adatokat törölni, vezérlőegységeket tönkretenni és a távoli ellenőrzést ellehetetleníteni, így a szolgáltató számára nehézséget okoz a rendszer látását és irányítását biztosítani. 
+
+A lengyel CERT és más érintett szakértők szerint a támadásban alkalmazott módszerek nem csupán IT-szintű behatolást jelentenek, hanem operációs technológiai komponensek kiszolgáltatottságát mutatják meg, az internetre kitéve, gyenge hitelesítéssel vagy elavult firmware-rel működő edge-eszközök, VPN-kihasználható felületek és egyéb belépési pontok révén a támadók könnyen hozzáférhettek a belső hálózathoz. Miután bejutottak, a lateral-movement és reconnaissance fázis után destruktív wiper malware-t telepítettek, amely adatok visszafordíthatatlan törlésére és eszközök működésképtelenné tételére volt képes, bár a redundáns hálózati architektúra miatt a teljes energiaellátás nem omlott össze.
+
+FORRÁS
+
+
+================================================================================
+GuLoader obfuszkációs technikái
+ID: 805753
+Tags: Guloader, Malware, RAT, Zscaler, Zscaler ThreatLabz
+--------------------------------------------------------------------------------
+
+A Zscaler ThreatLabz technikai elemzésben ismerteti a GuLoader malware loader obfuszkációs technikáit, amelyek célja, hogy nehezítsék a vizsgálatát és elkerüljék a védelmi eszközök felismerését. A GuLoader egy 2019 óta megfigyelt malware-család, amely elsődlegesen más káros szoftvereket, például RAT-okat és információlopó komponenseket juttat el a fertőzött gépekre. 
+
+A vizsgálat egyik kulcspontja, hogy a GuLoader dinamikusan építi fel konstans értékeit és karakterláncait futásidőben, így a statikus vizsgálatra épülő aláírások és detektálási mechanizmusok számára is láthatatlan maradnak az értékek addig, amíg a kód fut. Emellett a malware polimorf kódot alkalmaz, ami azt jelenti, hogy a belső struktúrája és bitmintázatai minden példányban eltérőek lehetnek, tovább nehezítve az automatikus detektálást és azonosítást. 
+
+Egy másik kihívást okozó módszer a kivétel-alapú vezérlésátirányítás használata. Ahelyett, hogy hagyományos  jmp utasításokkal mozgatná a végrehajtást a kódon belül, a GuLoader szándékosan kiváltott CPU-kivételreakciókat, int 3 szoftveres töréspontokat alkalmaz, amelyekhez saját kivételkezelő logika van kapcsolva. Ezután a kezelő határozza meg, hogy hova folytatódjon a végrehajtás, ami egy-egy egyszerű ugrást lényegében egy rejtett, nem közvetlen kódutat vált fel, így a hagyományos analizáló eszközök számára rendkívül nehéz követni a kód futását. 
+
+FORRÁS
+
+
+================================================================================
+OpenClaw sebezhetősége
+ID: 805750
+Tags: AI, Ai agents, Clawdbot, Moltbot, OpenClaw, SecurityScorecard, SecurityScorecard STRIKE Threat Intelligence
+--------------------------------------------------------------------------------
+
+A SecurityScorecard szerint az OpenClaw (Moltbot, Clawdbot) körüli felhajtás és a AI autonóm ágensek és az ezekhez kapcsolódó Moltbook közösségi platformmal kapcsolatos téves fókuszt helyez az AI szuperintelligencia félelmekre, miközben a valós biztonsági kockázat sokkal földhözragadtabb, a rosszul konfigurált és kiszolgáltatott infrastruktúrában rejlik.
+
+A SecurityScorecard STRIKE Threat Intelligence csapata internetes felderítés alapján több tízezer, közvetlenül a világhálóra kitet szervert és kontrollpanelt azonosított, ahol az OpenClaw-ágensek futnak, sokszor sebezhető, elavult verziókkal vagy gyenge hozzáférés-vezérléssel. Ezek közül számos példány ki van téve távoli kódfuttatásra alkalmas hibáknak, ismert CVE-knek, és már korábban is összefüggtek biztonsági incidensekkel.
+
+A gond nem az, hogy az AI önmagában szuperintelligens vagy autonóm döntéseket hoz, amelyek elszabadulnak, hanem az, hogy a hagyományos IT-biztonsági alapelveket, így az erős hitelesítés, hozzáférés-korlátozás, frissítések és konfigurációk figyelmen kívül hagyva telepítik az ilyen rendszereket. Ez egyrészt nagy támadási felületet teremt rosszindulatú szereplők számára, másrészt érzékeny hozzáféréseket és rendszerszintű jogosultságokat hagy kint a neten, amit a támadók könnyen kihasználhatnak. 
+
+FORRÁS
+
+
+================================================================================
+Kriptovaluta felhasználók megtévesztése
+ID: 805734
+Tags: Észak-Korea, Google Cloud Threat Intelligence, Google Mandiant, Kriptovaluta, Mandiant, pszichológai megtévesztés, UNC1069
+--------------------------------------------------------------------------------
+
+A Google Cloud Threat Intelligence Group elemzése szerint az észak-koreai UNC1069 akkor egy olyan, célzott kampányt folytat, amely a kriptovaluták iránt érdeklődő felhasználókat és az AI-alapú szolgáltatások iránti bizalmat használja ki kifinomult pszichológiai megtévesztési módszerekkel. A támadók látszólag legitim, mesterséges intelligenciára épülő kripto-szolgáltatásokat kínálnak, például portfólió-optimalizálást, automatikus kereskedési tanácsokat vagy AI-alapú hozamelemzést, miközben a valódi cél a kriptotárcákhoz tartozó hitelesítő adatok és privát kulcsok megszerzése.
+
+A kampány központi elemei a professzionálisan felépített, valódi márkákat és aktuális technológiai trendeket utánzó weboldalak és üzenetek, amelyek csökkentik a gyanút az áldozatokban. A UNC1069 gyakran közvetlen kapcsolatfelvételt alkalmaz, személyre szabott e-mailekkel vagy üzenetekkel, amelyek az adott célpont kripto- vagy AI-érdeklődésére építenek. A támadások sikerességét az adja, hogy a technikai exploitok helyett pszichológiai manipulációra támaszkodnak, és az AI által támogatott gyors profit ígéretével veszik rá a felhasználókat az önkéntes adatmegadásra.
+
+FORRÁS
+
+
+================================================================================
+Észtország biztonsági környezete
+ID: 805740
+Tags: Biztonságpolitika, Dezinformáció, Észt Külügyi Hírszerző Szolgálat, Észtország, Fegyverkezés, hibrid hadviselés, NATO, Orosz, valisluureamet
+--------------------------------------------------------------------------------
+
+Az észt hírszerzés éves biztonsági áttekintésében részletesen elemzik a nemzetközi biztonsági környezetet és mindezek következményeit Észtország és a NATO számára. A jelentés kiemelten elemzi szomszédos Oroszország külpolitikai törekvéseit, befolyásolási tevékenységeit, a belpolitikai helyzetet és az erőszakszervezetek szerepét, valamint a katonai képességeket és fenyegetéseket. A jelentés hangsúlyozza, hogy bár közvetlen, azonnali katonai támadásra irányuló terv nem látszik Oroszország részéről a következő években, a Kreml ellenálló, hosszú távú versenyre és konfrontációra készül a Nyugattal, ami stratégiai szinten is fenyegetést jelent.
+
+Oroszország külpolitikai és befolyásolási stratégiáját szerint igyekszik megosztani a Nyugatot, gyengíteni az Európai Unió és az Egyesült Államok együttműködését, és növelni saját regionális hatalmát. Ezt erősítik a dezinformációs kampányok, diplomáciai offenzívák és gazdasági nyomásgyakorlás komplex hálózata, amelyek célja nem egyszerűen rövidtávú befolyásszerzés, hanem a hosszú távú geopolitikai pozíció erősítése. 
+
+A katonai komponens elemzése szerint Oroszország jelentős erőforrásokat fordít a hadiipari kapacitások növelésére, beleértve a haderő struktúrájának átalakítását és a tartalékok feltöltését, valamint a korszerű technológiák fejlesztését. Bár a jelentés rögzíti, hogy egy közvetlen támadás esélye alacsonynak tűnik, a stratégiai verseny és a konfrontáció lehetősége továbbra is reális a térség stabilitására nézve.
+
+Az Észt Külügyi Hírszerző Szolgálat jelentése tartalmazza, hogy a különféle befolyásolási műveletek, speciális szolgálati tevékenységek és információs kampányok mellett Oroszország igyekszik olyan műveleti eszközöket alkalmazni, amelyek nem klasszikus katonai értelemben hatnak, de hosszú távon alááshatják a demokratikus intézményeket és a Nyugat egységét. 
+
+A jelentés átfogó képet ad a 2026-os nemzetközi biztonsági környezetről, ahol Oroszország politikataktikai, katonai és befolyási eszközökkel folytatja versenyét a Nyugattal, Kína pedig stratégiai partnerként jelenik meg egyes dimenziókban, ami tovább bonyolítja a biztonságpolitikai helyzet komplexitását.
+
+FORRÁS
+
+
