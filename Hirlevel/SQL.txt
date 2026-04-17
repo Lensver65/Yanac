@@ -1,4 +1,4 @@
---Utolsó 7 nap posztjai Editors Oick-ben
+--Utolsó 7 nap posztjai Editors Pick-ben
 
 SELECT
   p.ID,
