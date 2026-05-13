@@ -1,0 +1,691 @@
+================================================================================
+Jelszó világnap
+ID: 854890
+Tags: Jelszó, World Password Day
+--------------------------------------------------------------------------------
+
+A World Password Day egy 2013-ban létrehozott kezdeményezés, amelyet minden évben május első csütörtökén tartanak azzal a céllal, hogy felhívja a figyelmet a jelszóbiztonság fontosságára és a megfelelő hitelesítési gyakorlatokra. 
+
+A kezdeményezés lényege, hogy tudatosítsa a jelszavak továbbra is az egyik legfontosabb védelmi vonalat jelentik a digitális rendszerekben, ugyanakkor a támadók elsődleges célpontjai is. A nap célja ezért a felhasználók ösztönzése arra, hogy erős, egyedi jelszavakat használjanak, és elkerüljék az újrahasznosítást, mivel egyetlen gyenge jelszó akár teljes rendszerek kompromittációjához vezethet. 
+
+A jelszavak már az 1960-as évek óta jelen vannak az informatikában, amikor a korai időosztásos rendszerekben használták őket a felhasználók adatainak védelmére. 
+
+A World Password Day egy tudatosságnövelő kezdeményezés, amely a jelszóalapú hitelesítés kockázataira és a biztonságos hozzáférés-kezelés alapelveire hívja fel a figyelmet a modern, folyamatosan növekvő kiberfenyegetési környezetben.
+
+A jelszóhasználat bevált gyakorlatai közé tartozik az egyedi jelszavak használata minden szolgáltatáshoz, mivel az újrahasznosítás láncszerű kompromittációhoz vezethet. A jelszavak kezelését nem szabad manuálisan vagy nem biztonságos módon végezni, hanem dedikált, titkosított megoldásokkal kell kezelni. Fontos a rendszeres jelszócsere csak akkor, ha kompromittáció gyanúja merül fel, mivel a túl gyakori rotáció gyengébb mintákhoz vezethet. A phishing elleni védelem szintén kulcsfontosságú, mivel a legtöbb jelszó nem technikai támadással, hanem megtévesztéssel kerül ki.
+
+A jó jelszó alapvetően hosszú és kiszámíthatatlan. A modern ajánlások szerint a hossz fontosabb, mint a komplexitás, ezért a legalább 12–16 karakteres, véletlenszerűen generált jelszavak vagy több szóból álló passphrase-ek tekinthetők biztonságosnak. Kerülni kell a szótári szavakat, személyes adatokat és ismert mintákat. A jelszó erőssége az entrópiából adódik, vagyis abból, hogy mennyire nehéz brute force vagy dictionary támadással kitalálni. A véletlenszerű generálás ezért lényegesen biztonságosabb, mint az ember által kitalált kombinációk.
+
+A kétfaktoros hitelesítés jelentősen növeli a védelem szintjét, mivel a jelszó kompromittációja önmagában nem elegendő a hozzáféréshez. A leghatékonyabb megoldások a time-based one-time password (TOTP) alkalmazások vagy a hardveres biztonsági kulcsok, amelyek ellenállóbbak a phishinggel és SIM-cserével szemben, mint az SMS-alapú kódok. A 2FA különösen kritikus olyan rendszereknél, amelyek központi hozzáférést biztosítanak (pl. e-mail, felhőszolgáltatások), mivel ezek kompromittációja további rendszerekhez vezethet. A modern támadások egyre gyakrabban próbálják megkerülni a 2FA-t is, ezért a megfelelő módszer kiválasztása és következetes használata kulcsfontosságú.
+
+Ha Apple eszközöket használ, az iCloud Keychain a legegyszerűbb megoldás. Be van építve az iPhone-ba, iPadbe és Macbe, automatikusan kitölti a jelszavakat, és biztonságosan szinkronizál az eszközök között úgy, hogy még az Apple sem fér hozzá az adatokhoz. 
+
+Androidon és Chrome-ban ugyanezt a szerepet a Google Password Manager tölti be. Alapból benne van az Androidban és a Chrome-ban, a jelszavakat a Google-fiókban tárolja, és minden eszközön automatikusan kitölti őket. Ez kényelmes és ingyenes, de főleg Google-környezetben működik jól.
+
+Ha viszont több platformot használ (pl. Windows + Android + iPhone), akkor érdemes külön, piaci jelszókezelőt választani. Ilyenek például a Bitwarden, 1Password vagy NordPass. Ezek előnye, hogy minden eszközön működnek, gyakran több extra funkciót adnak (pl. biztonsági audit, jelszóellenőrzés), és erős titkosítással védik az adatokat.
+
+
+================================================================================
+Államilag támogatott árnyék
+ID: 856535
+Tags: attribúció, Chaos Ransomware, Irán, MuddyWater, RaaS, Rapid7
+--------------------------------------------------------------------------------
+
+A Rapid7 elemzése egy olyan incidenst tár fel, amelyben a támadók tudatosan elmosták a határt a kiberbűnözés és az állami kiberkémkedés között. A művelet felszíni jegyei alapján egy Chaos ransomware kampánynak tűnt, azonban a részletes vizsgálat kimutatta, hogy a háttérben az iráni kötődésű MuddyWater operátor állt.
+
+A támadás kezdeti fázisa célzott pszichológai megtévesztéssel indult, amely során a támadók Microsoft Teams platformon keresztül léptek kapcsolatba az áldozatokkal. A támadási lánc során a felhasználókat képernyőmegosztásra vették rá, ami lehetővé tette hitelesítési adatok megszerzését és a többfaktoros hitelesítés megkerülését. A kezdeti hozzáférés megszerzése után a támadók legitim felhasználói fiókokkal mozogtak tovább a környezetben, minimalizálva az észlelhetőséget.
+
+A post-exploitation szakaszban a tevékenység egyértelműen eltért a klasszikus ransomware műveletektől. A hangsúly nem a titkosításon volt, hanem a hozzáférés fenntartásán, adatkinyerésen és a környezet mélyebb kompromittálásán. A támadók távoli hozzáférési eszközöket, például DWAgentet és AnyDesket telepítettek, valamint további perzisztencia-mechanizmusokat építettek ki, amelyek hosszú távú jelenlétet biztosítottak.
+
+A ransomware komponens csak a művelet késői szakaszában jelent meg, amikor a támadók váltságdíj-követeléssel léptek fel, és magukat Chaos ransomware affiliátának tüntették fel. A Rapid7 értékelése szerint ez nem valódi pénzügyi motivációt tükrözött, hanem egy tudatosan alkalmazott megtévesztési technikát. A ransomware használata ebben az esetben fedőtörténetként szolgált, amely elfedi a művelet valódi célját, vagyis a hírszerzési hozzáférés megszerzését és fenntartását.
+
+Az állami szereplők egyre gyakrabban integrálják a kiberbűnözői ökoszisztéma eszközeit és módszereit. A ransomware-as-a-service modellek használata lehetővé teszi a tagadhatóságot, miközben a műveleti célok továbbra is stratégiai jellegűek maradnak. Ez a konvergencia jelentősen megnehezíti az attribúciót, és új kihívásokat teremt a védekezésben, mivel a támadások felszíni jellemzői nem tükrözik a mögöttes operátori szándékot.
+
+FORRÁS
+
+
+================================================================================
+Tajvanban leállított vasúti közlekedés
+ID: 856459
+Tags: OT, SDR, Taiwan High Speed Rail, Tajvan, TETRA, vasúti közlekedés
+--------------------------------------------------------------------------------
+
+A tajvani vasúti rendszerben bekövetkezett incidens során egy egyetemista rádiós interfészen keresztül avatkozott be a kritikus kommunikációs infrastruktúrába, ami több vonat vészleállítását eredményezte.
+
+A Taiwan High Speed Rail incidense során egy egyetemista rádiós interfészen keresztül avatkozott be a kritikus kommunikációs infrastruktúrába, ami több vonat vészleállítását eredményezte. A 23 éves egyetemista rádiós a TETRA-alapú (Terrestrial Trunked Radio) vasúti kommunikációt célozta, és Software Defined Radio (SDR) eszközzel passzívan lehallgatta a forgalmat, majd azonosította a hálózati paramétereket és azonosítókat. Ezek felhasználásával egy SDR-el érvényesnek látszó jeladói identitást imitált, és egy magas prioritású general alarm üzenetet injektált a rendszerbe.
+
+A TETRA protokollban a general alarm üzenet a legmagasabb prioritású vészjelzés, amely automatikusan üzemeltetési biztonsági protokollokat aktivál, beleértve a vonatok azonnali vészfékezését. Ennek következtében több, nagy sebességgel közlekedő szerelvény leállt, jelentős, mintegy háromnegyed órás üzemzavart okozva, bár fizikai baleset nem történt.
+
+Az OT rendszerek elleni támadások nem feltétlenül hálózati vagy szoftveres exploitokon alapulnak, hanem fizikai-rádiós interfészek és protokollok visszaélésén is. A biztonsági modell gyengesége itt nem egy konkrét szoftverhiba, hanem a hitelesítés, kulcskezelés és rádiós kommunikáció védelmének hiányossága volt. A rendszer nem tudta megkülönböztetni a legitim és a hamis rádiós parancsot, ami rádiós szintű impersonációra és parancs-injektálásra utal. A vizsgálatok szerint a kommunikációs paraméterek hosszú ideig változatlanok voltak, ami megkönnyítette azok visszafejtését és újrafelhasználását.
+
+Az eset jogi és nemzetbiztonsági aggályok miatt felkeltette a nyilvánosság figyelmét. Az ügyészek és a rendőrség által hivatkozott törvények között szerepel a vasúti törvény és a közbiztonság veszélyeztetésének bűncselekménye, amely maximális büntetési tétele tíz év börtönbüntetés. 
+
+FORRÁS
+
+
+================================================================================
+Németország: digitális megfigyelés bővítése
+ID: 856452
+Tags: Bűnügyi nyomozás, Jogszabály, Németország, online Durchsuchung, Quellen-TKÜ
+--------------------------------------------------------------------------------
+
+Németországban kiadás előtt állnak azok a jogszabálytervezetek, amelyek a bűnüldöző hatóságok digitális megfigyelési jogosítványainak bővítését célozzák, különös tekintettel a titkos kommunikációs csatornákhoz való hozzáférésre.
+
+A tervezett intézkedések közé tartozik az úgynevezett online Durchsuchung és Quellen-TKÜ (forrásoldali lehallgatás) kiterjesztése, amely lehetővé tenné, hogy a hatóságok közvetlenül az eszközökön, még a titkosítás előtt vagy hozzáférjenek az üzenetekhez. Ez gyakorlatilag azt jelenti, hogy a végponti kompromittáció, az állami spyware használatával válik a megfigyelés fő eszközévé, megkerülve az end-to-end titkosítás korlátait.
+
+A javaslatok része a biometrikus azonosítás és arcfelismerés szélesebb körű alkalmazása is, különösen nyilvános terekben és bűnügyi nyomozások során. Emellett szóba került a metaadatok hosszabb idejű megőrzése és elemzése, ami a kommunikációs minták feltérképezését segítené.
+
+A kezdeményezések jelentős vitát váltottak ki. A támogatók szerint ezek az eszközök szükségesek a szervezett bűnözés és terrorizmus elleni hatékony fellépéshez, különösen a titkosított platformok elterjedése miatt. Az ellenzők viszont arra figyelmeztetnek, hogy a javaslatok aránytalanul kiterjesztik az állami megfigyelést, és kockázatot jelentenek az alapvető jogokra, különösen a magánélethez és a kommunikáció titkosságához való jogra.
+
+FORRÁS
+
+
+================================================================================
+PAN-OS kritikus sérülékenység
+ID: 856533
+Tags: CVE-2026-0300, Palo Alto, Palo Alto Networks, PAN-OS
+--------------------------------------------------------------------------------
+
+A Palo Alto Networks által publikált CVE-2026-0300 egy kritikus, távolról kihasználható sérülékenység a PAN-OS operációs rendszerben, amely a tűzfalak User-ID Authentication Portal komponensét érinti. A hiba egy memóriakezelési rendellenességből ered, amely speciálisan kialakított hálózati kérésekkel triggerelhető, és lehetővé teszi, hogy a támadó hitelesítés nélkül kódot futtasson az érintett eszközön.
+
+A sérülékenység kihasználásához nincs szükség felhasználói interakcióra, és amennyiben a Captive Portal szolgáltatás internet felől elérhető, a támadás közvetlenül a hálózati peremről indítható. Sikeres exploit esetén a támadó magas jogosultsági szintet szerez a tűzfalon, ami lehetőséget ad a forgalom manipulálására, megfigyelésére, valamint a biztonsági kontrollok megkerülésére. Mivel ezek az eszközök a hálózati infrastruktúra központi elemei, a kompromittáció nem izolált incidens, hanem a teljes belső környezetre kiható hozzáférést biztosíthat.
+
+A gyártó megerősítette, hogy a sérülékenységet már valós támadásokban is kihasználják, ami növeli a kockázati szintet és azonnali intézkedést indokol. A probléma több PAN-OS verziót érint, különösen azokat a konfigurációkat, ahol a Captive Portal aktív és kívülről elérhető. 
+
+FORRÁS
+
+
+================================================================================
+Kínai APT kormányzati célpontjai
+ID: 856443
+Tags: APT, Cisco talos, DeedRAT, Európa, Kína, SNAPPYBEE, SNOWLIGHT, Talos, UAT-8302, Zero-day
+--------------------------------------------------------------------------------
+
+A Cisco Talos elemzése szerint a UAT-8302 egy kínai kötődésű, kormányzati célpontokra fókuszáló APT-operátor, amely legalább 2024 vége óta folytat műveleteket Dél-Amerikában, majd tevékenységét kiterjesztette európai célpontokra.
+
+A kampány kezdeti hozzáférési vektorai nem minden esetben rekonstruálhatók, azonban a rendelkezésre álló indikátorok alapján a csoport n-day és potenciálisan zero-day sérülékenységek kihasználására is képes, amelyet gyors post-exploitation követ. A kompromittációt követően a támadók azonnal strukturált felderítési fázisba lépnek, amely során rendszer- és tartományi szintű információkat gyűjtenek, beleértve Active Directory objektumokat, jogosultsági viszonyokat és hálózati topológiát. Ezt gyakran automatizált PowerShell szkriptekkel és célzott enumerációs eszközökkel hajtják végre.
+
+A laterális mozgás előkészítése során a csoport SMB-alapú feltérképezést, credential harvestinget és szolgáltatásenumerációt végez, majd megszerzett hitelesítési adatokkal terjeszti ki hozzáférését a hálózaton belül. A műveletek során széles körben alkalmazzák a living-off-the-land technikákat, valamint nyílt forráskódú eszközöket, amelyek csökkentik az észlelhetőséget.
+
+A UAT-8302 egyik meghatározó jellemzője a heterogén malware-ökoszisztéma használata, amely több, más kínai APT-khez köthető eszközt is magában foglal. Ide tartozik a NetDraft, a CloudSorcerer v3, valamint a SNAPPYBEE (DeedRAT) és ZingDoor komponensek. Ezek mellett saját fejlesztésű vagy adaptált loadereket is alkalmaznak, például a Draculoader shellcode loader, a VSHELL-hez kapcsolódó SNOWLIGHT, illetve egy Rust-alapú SNOWRUST. Az eszközök közötti átfedés operatív együttműködésre vagy közös fejlesztési háttérre utal más kínai APT-kel.
+
+A perzisztencia és a C2 kommunikáció fenntartása több rétegben történik. A csoport tunneling megoldásokat telepít a kompromittált környezetben, amely lehetővé teszi a rejtett, proxy-alapú kommunikációt és a belső hálózatból történő forgalomkivezetést. Ez a megközelítés biztosítja a hosszú távú, alacsony zajszintű jelenlétet.
+
+A műveleti profil alapján a UAT-8302 egy klasszikus állami kiberkémkedési szereplő: célzott kormányzati hozzáférés, mély hálózati felderítés, credential-központú terjeszkedés és moduláris eszközkészlet jellemzi. A különböző APT-csoportokkal megfigyelt tooling-átfedések arra utalnak, hogy a csoport egy szélesebb, koordinált kínai kiberoperációs ökoszisztéma részeként működik, nem izolált entitásként.
+
+FORRÁS
+
+
+================================================================================
+InstallFix kampány
+ID: 856440
+Tags: Claude Code, InstallFix, Linux, MacOS, pszichológai megtévesztés, Social engineering, Trend Micro
+--------------------------------------------------------------------------------
+
+A Trend Micro elemzése szerint az InstallFix kampány egy többfázisú, fejlesztőket célzó pszichológiai megtévesztési támadás, amely az Claude Code-ot használja fertőzési belépési pontként.
+
+A támadás első lépése a keresőmotor-manipuláció, a támadók hamis, de vizuálisan hiteles telepítési oldalakat jelenítenek meg fizetett hirdetéseken keresztül, amelyek a legitim projektet imitálják. A felhasználót arra veszik rá, hogy egy egy­soros telepítési parancsot futtasson („curl | bash” vagy PowerShell változat), ami a modern fejlesztői workflow-kban megszokott, így nem kelt gyanút.
+
+A parancs valójában nem a hivatalos forrást, hanem támadói infrastruktúrát hív meg, és egy több lépcsős loader láncot indít. Windows környezetben a lánc jellemzően mshta.exe-t és obfuszkált PowerShell kódot használ a következő payloadok betöltésére, míg Linux/macOS rendszereken shell-alapú letöltők működnek. A végrehajtás részben fileless jellegű, memóriában történik, ami csökkenti a detektálhatóságot.
+
+A fertőzés során a malware rendszerinformációkat gyűjt, módosítja a biztonsági kontrollokat, AMSI megkerülést, majd perzisztenciát alakít ki, például ütemezett feladatokkal vagy indítási mechanizmusokkal. Ezt követően titkosított csatornán kommunikál a C2 infrastruktúrával, amely áldozatonként dinamikusan generált endpointokat használ, így nehezítve a blokkolást és a forenzikai elemzést.
+
+A kampány nem exploitot használ, hanem a felhasználó által végrehajtott legitimnek tűnő telepítési folyamatot kompromittálja. Ez különösen hatékony a fejlesztői és DevOps környezetekben, ahol az ilyen parancsok rutinszerűen futnak, és gyakran magas jogosultsággal hajtják végre őket.
+
+FORRÁS
+
+
+================================================================================
+Fortinet globális fenyegetettségi jelentés 2026
+ID: 855732
+Tags: AI, Brute force, Cybercrime-as-a-Service, Exploit, FortiGuard Labs, Fortinet, Kiberbűnözés, shadow agent, time-to-exploit
+--------------------------------------------------------------------------------
+
+A FortiGuard Labs jelentés alapján a modern kiberbűnözés ipari léptékű működésre állt át, ahol a támadások sebességét, volumenét és hatékonyságát már nem az exploitok kifinomultsága, hanem az automatizáció és az AI határozza meg. A kutatás szerint a fenyegetési környezet alapvetően átalakult, a támadások ma már gépi sebességgel zajlanak, folyamatos, automatizált exploitációval és minimális emberi beavatkozással. 
+
+A legfontosabb változás a time-to-exploit drasztikus csökkenése. Míg korábban napok álltak rendelkezésre egy sérülékenység publikálása után, ma már gyakran 24–48 órán belül aktív kihasználás történik, egyes esetekben órákon belül. Ez gyakorlatilag megszünteti a hagyományos patch-ablakot, és versenyhelyzetet teremt a védők és a támadók között. 
+
+A támadási volumen is ipari szintre nőtt. A Fortinet adatai szerint évente több mint 100 milliárd exploitációs kísérlettörténik globálisan, ami jól mutatja az automatizált scanning és exploitation skáláját. Ezek a folyamatok folyamatosan pásztázzák az internetet, és azonnal kihasználják az új vagy régi, de nem javított sérülékenységeket. 
+
+A támadók már nem manuálisan dolgoznak, hanem fél-autonóm shadow agent rendszereket és AI-alapú eszközöket használnak, amelyek képesek önállóan felderíteni, kiválasztani és kihasználni a célpontokat. Ez csökkenti a szükséges szakértelmet, miközben növeli a támadások sebességét és sikerességét. 
+
+A jelentés szerint a támadók külön szerepkörökre specializálódnak (pl. hozzáférés-brókerek, exploit-fejlesztők, botnet-üzemeltetők), és szolgáltatásként kínálnak eszközöket és infrastruktúrát. Ez a Cybercrime-as-a-Service modell lehetővé teszi, hogy alacsonyabb képzettségű szereplők is komplex támadásokat hajtsanak végre. 
+
+A támadások elsődleges hajtóereje az identitás-lopás. A legtöbb incidens nem infrastruktúra-szintű exploitból indul, hanem ellopott vagy kiszivárgott hitelesítési adatokból, amelyeket infostealer malware-ek gyűjtenek és darknet piactereken terjesztenek. Ezek az adatkészletek lehetővé teszik az azonnali hozzáférést és gyors támadási láncok felépítését. 
+
+Fontos trend a hatékonyság növekedése is, a brute force próbálkozások száma csökken, miközben a sikeresség nő, mert a támadók jobban célzott, intelligens módszereket alkalmaznak. Ez azt jelenti, hogy kevesebb próbálkozással nagyobb arányban érnek el kompromittációt. 
+
+A Fortinet jelentése szerint a kiberfenyegetések új korszakba léptek, ahol a támadások folyamatosak, automatizáltak és skálázhatók. A fő kockázat már nem egy-egy kritikus sérülékenység, hanem az, hogy a támadók ipari sebességgel képesek kihasználni bármilyen gyenge pontot, mielőtt a szervezetek reagálni tudnának.
+
+FORRÁS
+
+
+================================================================================
+Omán kormányzatának támadása
+ID: 855729
+Tags: APT, hunt.io, Irán, Kormányzat, Omán
+--------------------------------------------------------------------------------
+
+A Hunt.io egy iráni kötődésű, célzott kiberkémkedési műveletet tár fel, amely az ománi kormány több intézményét érintette, és klasszikus APT-módszertant követett. A kampány különlegessége, hogy egy hibásan konfigurált, nyilvánosan elérhető szerveren keresztül részletesen rekonstruálhatóvá vált, ezen a rendszeren a támadók eszközei, C2 komponensei, naplói és az exfiltrált adatok egy része is megtalálható volt.
+
+A fő célpont az ománi Igazságügyi Minisztérium volt, de a művelet legalább egy tucat kormányzati szervet érintett. A támadók több tízezer állampolgári, bírósági adatokhoz és rendszerfájlokhoz fértek hozzá, ami azt jelzi, hogy célzott adatgyűjtésről volt szó. A kompromittált rendszereken webshellt telepítettek, amely tartós hozzáférést biztosított, és lehetővé tette az aktív, interaktív műveleteket is.
+
+A támadási láncban a kezdeti hozzáférést követően hitelesítési adatok megszerzése és újrahasználata történt, majd laterális mozgással több minisztériumi rendszerbe jutottak el. Ezt követően célzott adatlekérdezésekkel és exportokkal gyűjtötték össze az érzékeny információkat, miközben fenntartották a hosszú távú jelenlétet a kompromittált infrastruktúrában.
+
+Az infrastruktúraelemzés alapján a művelet egy iráni kötődésű klaszterhez kapcsolódik, amely más kampányokban is megjelent, és állami vagy államközeli operátori háttérre utal. 
+
+FORRÁS
+
+
+================================================================================
+DAEMON Tools szoftver fertőzés
+ID: 855724
+Tags: Backdoor, Daemon Tools, Kaspersky, Securelist
+--------------------------------------------------------------------------------
+
+A Kaspersky Securelist elemzése szerint a Daemon Tools eset egy klasszikus ellátási lánc  kompromittáció, ahol a támadók a legitim szoftverterjesztési folyamatot fertőzték meg.
+
+A támadás során a Daemon Tools hivatalos telepítőcsomagjai kerültek kompromittálásra, és a legitim alkalmazással együtt egy rejtett backdoor komponens is települt a rendszerekre. A fertőzött állományok ráadásul a gyártó digitális aláírásával voltak ellátva, ami jelentősen növelte a bizalmi szintet és megnehezítette a detekciót. 
+
+A backdoor funkcionalitása lehetővé tette a támadók számára a távoli parancsvégrehajtást és a rendszer feletti kontroll megszerzését, így a fertőzés nem pusztán jelenlétet, hanem aktív hozzáférést biztosított. 
+
+A kampány különösen veszélyes eleme, hogy nem exploiton alapult, hanem a felhasználók által megbízhatónak tekintett telepítési folyamatot használta ki. A fertőzés teljesen legitim műveletként jelent meg, miközben a háttérben egy rejtett implant települt, amely később további műveletek alapját képezhette. A támadók nem közvetlenül a célrendszert törik fel, hanem a szoftverterjesztési bizalmi láncot kompromittálják, így a malware hiteles forrásból származó alkalmazásként jut el a felhasználókhoz.
+
+FORRÁS
+
+
+================================================================================
+ScarCruft kapány a játékosok ellen
+ID: 855721
+Tags: APK, APT37, Backdoor, BirdCall, Dél-Korea, ESET, RokRAT, ScarCruft
+--------------------------------------------------------------------------------
+
+Az ESET kutatása szerint a ScarCruft (APT37) kampány egy célzott, többplatformos ellátási lánc kompromittáció, amely a dél-koreai felhasználók körében népszerű játékplatformot érintett.
+
+A támadás a terjesztési lánc manipulálása, a Windows környezetben a hivatalos frissítési mechanizmust kompromittálták,  a kliens egy módosított DLL-t töltött be, amely loaderként működött, és további komponenseket – köztük a RokRAT backdoor újabb variánsait és a BirdCall implantot – töltött le. Ez a lánc biztosította a perzisztens, távoli hozzáférést és a későbbi adatgyűjtést. A fertőzés több lépcsős, moduláris felépítésű volt, ami APT-szintű műveleti érettséget jelez.
+
+Android oldalon a támadók a platformon terjesztett játékok APK csomagjait manipulálták. Az újracsomagolt alkalmazások funkcionálisan változatlanok maradtak, de tartalmazták a BirdCall mobil implantot, amely így legitim alkalmazásként jutott el a felhasználókhoz. Ez a megközelítés minimalizálta a felhasználói gyanút és növelte a fertőzés tartósságát.
+
+A BirdCall mindkét platformon kiterjedt adatgyűjtési képességekkel rendelkezik. Windows rendszereken billentyűnaplózást, képernyőmentést, fájlgyűjtést és parancsvégrehajtást tesz lehetővé, míg Androidon kontaktlistákhoz, SMS-ekhez, hívásnaplókhoz és környezeti hanghoz fér hozzá. A kommunikáció gyakran legitim felhőszolgáltatásokon keresztül történik, ami csökkenti a hálózati detektálhatóságot.
+
+A kampány célzása egyértelműen regionális és hírszerzési jellegű, a Yanbian térség etnikai koreai közössége, amely stratégiai jelentőséggel bír az észak-koreai hírszerzés számára. Ez arra utal, hogy a művelet nem tömeges kiberbűnözés, hanem célzott információszerzés.
+
+A művelet technikai jelentősége abban áll, hogy nem sérülékenységet használ ki, hanem a szoftverterjesztési bizalmi láncot kompromittálja, így a malware legitim frissítésként vagy alkalmazásként kerül a célpontokhoz. Ez a modell különösen hatékony, mert a fertőzés a felhasználó szempontjából normál működésnek tűnik, miközben teljes körű hozzáférést biztosít a támadónak.
+
+FORRÁS
+
+
+================================================================================
+Code of conduct phishing
+ID: 855712
+Tags: adathalászat, Adversary‑in‑the‑Middle, AITM, BEC, Business Email Compromise, CAPTCHA, Code of conduct, credential stuffing, magatartási kódex, Microsoft, Phishing, Token
+--------------------------------------------------------------------------------
+
+A Microsoft kutatása egy kifinomult, többfázisú phishing kampányt mutat be, amely magatartási kódex témájú csalikra épül, és végül AiTM alapú token-lopáshoz vezet.
+
+A támadás első lépése hitelesnek tűnő e-mailek küldése, gyakran legitim e-mail szolgáltatásokon keresztül, amelyek teljesen autentikáltak, így megkerülik a hagyományos szűrőket. A pszichológiai megtévesztés tipikusan szabályzati vagy megfelelőségi dokumentumra hivatkozik, ami növeli a felhasználói interakció esélyét. 
+
+A felhasználó nem közvetlenül egy hamis oldalra jut, hanem egy látszólag legitim bejelentkezési folyamatba, amely valójában egy támadói infrastruktúrán keresztül proxizott hitelesítési folyamat. Ez az AiTM modell lehetővé teszi, hogy a támadó valós időben közvetítse a hitelesítési adatokat a legitim szolgáltatás felé. 
+
+A kritikus pont nem a jelszó megszerzése, hanem az autentikáció után kiadott session tokenek elfogása. Az AiTM proxy a teljes bejelentkezési folyamatot lehallgatja, és a sikeres hitelesítés után megszerzi azokat a tokeneket, amelyek azonnali hozzáférést biztosítanak a fiókhoz. Ez a megközelítés képes megkerülni a nem phishing-rezisztens MFA megoldásokat, mivel a felhasználó valódi környezetben hajtja végre a többfaktoros hitelesítést. 
+
+A támadás hatása túlmutat az egyedi fiókkompromittáción. A megszerzett hozzáférést a támadók további műveletekhez használják, például belső phishing kampányok indítására vagy üzleti e-mail kompromittáció (BEC) láncok kialakítására, ahol a támadás már legitim felhasználói identitásból indul. 
+
+A fókusz a jelszavakról a token-alapú hitelesítés visszaélésére helyeződik át. Ebben a modellben a támadó nem feltöri a rendszert, hanem a legitim hitelesítési folyamatot használja fel, így a védekezésben a hagyományos credential-védelem önmagában már nem elegendő.
+
+FORRÁS
+
+
+================================================================================
+Amazon SES kihasználás
+ID: 855706
+Tags: Amazon, Amazon Simle Email Service, BEC, Business Email Compromise, Kaspersky, Phishing, Securelist
+--------------------------------------------------------------------------------
+
+A Kaspersky Securelist elemzése szerint a támadók egyre gyakrabban használják ki az Amazon Simple Email Service (SES) infrastruktúráját phishing és business email compromise (BEC) kampányokhoz, mivel ez a szolgáltatás technikailag legitim e-maileket generál, amelyek átmennek a szűrőkön.
+
+A SES-en keresztül küldött levelek valós hitelesítési mechanizmusokat (SPF, DKIM, DMARC) használnak, így mind a felhasználók, mind a biztonsági rendszerek számára megbízhatónak tűnnek. A levelek fejlécében gyakran megjelenik az .amazonses.com, ami tovább erősíti a legitimitás látszatát, miközben valójában phishing tartalmat hordoznak. 
+
+A kezdeti hozzáférés tipikusan nem a SES sérülékenységéből fakad, hanem kompromittált AWS hitelesítési adatokból. A támadók gyakran kiszivárgott IAM kulcsokat használnak, amelyeket nyilvános GitHub repositorykból, konfigurációs fájlokból vagy felhő tárolókból gyűjtenek automatizált eszközökkel. 
+
+A phishing kampányok során a támadók legitimnek tűnő linkeket használnak, amelyek redirecteken keresztül valós phishing oldalakra irányítanak, így a felhasználó biztonságos környezetnek érzékeli a folyamatot. Emellett HTML sablonokkal hiteles szolgáltatásokat (DocuSign) imitálnak, és bejelentkezési adatokat gyűjtenek. 
+
+A SES különösen veszélyes BEC kampányokban. A kutatás bemutat olyan eseteket, ahol a támadók teljes, hitelesnek tűnő e-mail beszélgetési láncokat hamisítottak meg, például beszállító és alkalmazott közötti kommunikációként, majd a pénzügyi osztályt sürgős utalásra vették rá. Ezek az üzenetek gyakran nem tartalmaznak klasszikus rosszindulatú linket, csak hamis számlaadatokat, így nehezebben detektálhatók.
+
+FORRÁS
+
+
+================================================================================
+Fosztogatás a Microsoft Copilot mélyén
+ID: 855703
+Tags: Ai-Agent, Copilot, CVE-2026-24299, M365 Copilot, Prompt injection
+--------------------------------------------------------------------------------
+
+Az Embrace The Red kutatás a Microsoft Copilot és M365 Copilot környezetében azonosított támadási láncokat mutatja be, amelyek alapja prompt injection és AI-agent visszaélés.
+
+A bemutatott sebezhetőség (CVE-2026-24299) során a támadó képes olyan bemenetet vagy dokumentumot bejuttatni a rendszerbe, amelyet a Copilot megbízhatóként kezel, és automatikusan végrehajt. Ez a modell lehetővé teszi, hogy az AI-asszisztens a felhasználó nevében hajtson végre műveleteket, például adatlekérdezést vagy fájlhozzáférést, anélkül hogy a felhasználó tudatosan engedélyezné. 
+
+A támadási lánc az indirekt prompt injection, ahol a rosszindulatú utasítás nem közvetlenül a felhasználótól származik, hanem például egy e-mailből, dokumentumból vagy külső forrásból. A Copilot ezt a tartalmat feldolgozza, majd a beépített tool invocation képességein keresztül további rendszerekhez fér hozzá, ami adatok exfiltrációjához vezethet. 
+
+Az AI-agentek implicit bizalmi modellje sérül, a rendszer nem mindig képes megkülönböztetni a legitim és a támadói utasításokat, így a támadó a felhasználó jogosultságait delegáltan kihasználhatja. Ez különösen veszélyes vállalati környezetben, ahol a Copilot széles körű hozzáféréssel rendelkezik, SharePoint, e-mail, dokumentumok.
+
+A demonstrált exploitok között szerepel adatkinyerés vállalati dokumentumokból, valamint olyan láncok, ahol a Copilot több lépésben hajt végre műveleteket, mindezt a felhasználó interakciója nélkül. A támadás így nem klasszikus exploit, hanem AI-vezérelt műveleti lánc, amely a természetes nyelvi interfészt használja támadási felületként.
+
+Az AI-asszisztensek bevezetésével új típusú támadási felület jön létre, nem kódszintű sérülékenységek, hanem bizalmi és vezérlési logikák kihasználása válik a fő kockázattá, különösen akkor, ha az agentek automatizált műveleteket hajtanak végre a felhasználó nevében.
+
+FORRÁS
+
+
+================================================================================
+MOVEit Automation sérülékenyégek
+ID: 855699
+Tags: authentication bypass, CVE-2026-4670, CVE-2026-5174, Managed File Transfer, MOVEit, MOVEit Automation, Progress
+--------------------------------------------------------------------------------
+
+A Progress Software által kiadott biztonsági figyelmeztetés két kritikus sérülékenységet azonosít a MOVEit Automation rendszerben, amelyek a backend command-port interfészekhez kapcsolódnak, és közvetlen rendszerkompromittációt tehetnek lehetővé.
+
+A legsúlyosabb hiba a CVE-2026-4670 (CVSS 9.8), amely egy hitelesítés megkerülési (authentication bypass) sérülékenység. Ez lehetővé teszi, hogy egy támadó hitelesítés nélkül, távolról hozzáférjen a rendszerhez, alacsony komplexitású támadással és felhasználói interakció nélkül. A támadó közvetlenül átveheti az irányítást a fájlátviteli workflow-k felett, és hozzáférhet érzékeny üzleti adatokhoz. 
+
+A második sérülékenység, a CVE-2026-5174 (CVSS ~7.7–8.8), egy nem megfelelő input validációból eredő privilege escalation hiba. Ez már hitelesített kontextusban használható ki, és lehetővé teszi a jogosultságok emelését adminisztrátori szintre. A két hiba kombinációja különösen kritikus, mivel egy támadó először hitelesítés nélkül beléphet, majd teljes rendszerszintű hozzáférést szerezhet.
+
+A sebezhetőségek a MOVEit Automation több verzióját érintik (2024.x–2025.x), és csak verziófrissítéssel javíthatók, workaround nem áll rendelkezésre. A gyártó által kiadott javítások új verziókban (pl. 2025.1.5, 2025.0.9, 2024.1.8) érhetők el. 
+
+A MOVEit egy enterprise Managed File Transfer platform, amely érzékeny üzleti adatokat kezel. Egy sikeres exploit nemcsak az alkalmazás feletti kontrollt adja meg, hanem potenciálisan az egész vállalati hálózat felé pivotolási lehetőséget is biztosít. 
+
+FORRÁS
+
+
+================================================================================
+Quasar Linux - QLNX
+ID: 855694
+Tags: DevOps, Linux, Linux RAT, QLNX, Quasar Linux, RAT
+--------------------------------------------------------------------------------
+
+A Trend Micro elemzése szerint a Quasar Linux (QLNX) egy komplex, többkomponensű malware-keretrendszer, amelyet kifejezetten szoftverellátási láncok kompromittálására és hosszú távú, rejtett hozzáférés biztosítására fejlesztettek Linux környezetben.
+
+A fertőzés után a QLNX a célrendszeren dinamikusan állítja elő komponenseit. A loader gcc segítségével lefordítja a rootkit és PAM-alapú backdoor modulokat, majd azokat az /etc/ld.so.preload mechanizmuson keresztül injektálja, ami lehetővé teszi a glibc hívások elfogását és a rendszer szintű elrejtőzést. Ez a megközelítés különösen hatékony, mivel a jelenlét nem egyetlen fájlhoz kötődik, hanem a rendszer futásidejébe épül be.
+
+A PAM hook modul képes az autentikáció során bevitt jelszavakat plaintext formában elfogni, miközben egy beépített master password mechanizmust is tartalmaz, amely alternatív hozzáférést biztosít a támadó számára. A megszerzett credentialeket lokálisan, rejtett fájlokban tárolja, majd később exfiltrálja.
+
+A malware elsődleges célpontjai fejlesztői és DevOps környezetek. A QLNX szisztematikusan gyűjt hitelesítési adatokat és konfigurációkat olyan forrásokból, mint .npmrc, .pypirc, .git-credentials, SSH kulcsok, valamint AWS, Kubernetes, Docker és Terraform konfigurációk. Ezek birtokában a támadó képes csomagregiszterek manipulálására, CI/CD pipeline-ok módosítására és felhő erőforrásokhoz való hozzáférésre, ami közvetlen supply chain kompromittációt tesz lehetővé.
+
+A QLNX nem hagyományos központi C2 modellt használ, hanem peer-to-peer mesh hálózatot épít a fertőzött gépek között. Ez növeli az ellenállóképességet, mivel a vezérlés nem egyetlen infrastruktúrához kötődik, így a felszámolás nehezebb.
+
+A működés egészét tekintve a QLNX nem egyszerű backdoor, hanem egy olyan, Linuxra optimalizált RAT, amely a rendszer mély rétegeiben biztosít perzisztenciát, miközben kifejezetten a fejlesztési lánc bizalmi pontjait célozza. A támadási modell lényege, hogy egyetlen kompromittált fejlesztői környezeten keresztül széles körű, downstream fertőzésekhez vezető hozzáférés szerezhető meg.
+
+FORRÁS
+
+
+================================================================================
+Bluekit PhaaS
+ID: 854946
+Tags: adathalászat, Bluekit PhaaS, PhaaS, Phishing, pszichológai megtévesztés, Social engineering, Varonis, Varonis Threat Labs
+--------------------------------------------------------------------------------
+
+A Varonis kutatása ismerteti a Bluekit phishing-as-a-service (PhaaS) platformot, amely a klasszikus adathalász eszközöket egyetlen, központosított rendszerbe integrálja, jelentősen csökkentve a támadások végrehajtásához szükséges technikai küszöböt. 
+
+A Bluekit fő sajátossága, hogy a teljes támadási láncot egyetlen dashboardból kezeli. A támadó ugyanazon felületen tud domaint regisztrálni, phishing oldalt létrehozni, kampányt indítani és az ellopott adatokat kezelni, miközben a rendszer automatikusan integrálja az exfiltrációt és a valós idejű monitoringot. Ez a modell lényegében iparosítja a phishinget, mivel korábban külön eszközöket igénylő lépések egyetlen platformba kerülnek.
+
+A kit több mint 40 ismert szolgáltatás bejelentkezési oldalát képes hitelesen imitálni, így a pszichológiai megetévesztés erősen skálázhatóvá válik. A phishing oldalak viselkedése részletesen konfigurálható, beleértve átirányításokat, login detekciót, eszközszűrést és anti-analysis mechanizmusokat, ami növeli a sikerességet és csökkenti a lebukás esélyét.
+
+A technikai szempontból legkritikusabb elem az adversary-in-the-middle képesség. A Bluekit nemcsak jelszavakat gyűjt, hanem session cookie-kat és lokális tárolt adatokat is, amelyekkel a támadók képesek megkerülni a többfaktoros hitelesítést, mivel az aktív munkamenetet újrajátsszák a célrendszer felé. Ez a modell a modern phishing egyik legveszélyesebb irányát képviseli, mert a klasszikus 2FA-védelem ellen is hatékony.
+
+A Bluekit további újítása az integrált AI-asszisztens, amely jellemzően jailbreakelt modellek használatával phishing kampányok szövegét és struktúráját képes generálni. Bár a jelenlegi implementáció inkább vázlatokat készít, mint teljes kampányokat, ez a funkció jelentősen felgyorsítja és automatizálja a támadások előkészítését.
+
+FORRÁS
+
+
+================================================================================
+Protokollok posztkvantum-biztonságának vizsgálata
+ID: 854942
+Tags: Arxiv, BGP, DNSSEC, IPsec, OpenID Connect, OpenVPN, PKI, PQC, QUIC, Signal Protocol, SSH, TLS
+--------------------------------------------------------------------------------
+
+Az arXiv-en megjelent tanulmány egy átfogó elemzés arról, hogy a jelenleg széles körben használt internetes és hálózati protokollok mennyire ellenállóak a kvantumszámítógépek által jelentett jövőbeli fenyegetésekkel szemben.
+
+A kiindulópont az, hogy a kvantumszámítógépek alapvetően veszélyeztetik a klasszikus nyilvános kulcsú kriptográfiát, különösen az olyan algoritmusokat, mint az RSA és az elliptikus görbéken alapuló titkosítás. Ezekre épül a mai internet biztonságának jelentős része, például a kulcscsere és a hitelesítés. 
+
+A tanulmány részletesen vizsgálja a kulcs protokollokat, és arra jut, hogy a legtöbb esetben a legkritikusabb sérülékeny pont a handshake fázis. Például a TLS 1.3 esetében a tényleges adatforgalom titkosítása továbbra is biztonságosnak tekinthető, viszont a kulcscsere és a tanúsítvány-alapú hitelesítés kvantum támadásokkal feltörhető. 
+
+A kutatás szerint a jelenlegi rendszerek jelentős része hibrid kockázatú nem teljesen sérülékenyek, de bizonyos komponenseik igen. Ez különösen veszélyes, mert egy támadó már ma is képes lehet adatokat rögzíteni (harvest now, decrypt later modell), majd a jövőben kvantumszámítógéppel visszafejteni azokat.
+
+A tanulmány hangsúlyozza, hogy az átállás a poszt-kvantum kriptográfiára nem egyszerű szoftverfrissítés kérdése, hanem infrastruktúra-szintű átalakítást igényel. A protokollok, tanúsítványkezelés, kulcscsere-mechanizmusok és teljes PKI rendszerek módosítására van szükség, ami hosszú időt és koordinált iparági lépéseket igényel.
+
+A kutatás arra a következtetésre jut, hogy a jelenlegi internetes biztonsági protokollok csak részben állnak ellen a kvantumfenyegetésnek, és a legnagyobb kockázat a hitelesítési és kulcscsere mechanizmusokban rejlik, ezért ezek mielőbbi poszt-kvantum átállása kulcsfontosságú a jövőbeni biztonság szempontjából.
+
+FORRÁS
+
+
+================================================================================
+OpenEMR sérülékenységei
+ID: 854949
+Tags: Aisle, Egészségügy, OpenEMR
+--------------------------------------------------------------------------------
+
+Az AISLE kutatása egy széles körben használt egészségügyi rendszer, az OpenEMR biztonsági állapotát vizsgálta, és 38 különálló sérülékenységet (CVE) azonosított, amelyek több mint 100 000 egészségügyi szolgáltatót és több százmillió beteg adatát érinthetik. 
+
+A feltárt hibák jelentős része alapvető alkalmazásbiztonsági problémákból ered, például hiányzó vagy hibás jogosultságkezelésből, valamint klasszikus webes sérülékenységekből, mint az SQL injection, cross-site scripting, path traversal és session-kezelési hibák. Ezek közül több kritikus besorolású volt, és egyes esetekben már minimális jogosultságú támadó is teljes adatbázis-kompromittációt érhetett volna el. 
+
+A legsúlyosabb sérülékenységek között SQL injection hibák szerepeltek (CVE-2026-24908, CVE-2026-23627), amelyek lehetővé tették volna betegadatok tömeges exfiltrációját, hitelesítési adatok megszerzését, sőt akár távoli kódfuttatást is a szerveren. Emellett jogosultság-megkerülési hibák is előfordultak, amelyekkel a támadók hozzáférhettek vagy módosíthatták a betegekhez kapcsolódó érzékeny információkat. 
+
+A kutatás egyik fontos megállapítása, hogy a sérülékenységek nagy része nem kifinomult hibákból, hanem alapvető biztonsági kontrollok hiányából adódik, ami arra utal, hogy az egészségügyi szoftverek digitalizációja gyorsabban halad, mint a biztonsági gyakorlatok fejlődése. 
+
+Pozitívum, hogy a feltárt hibákat felelős közzétételi folyamat keretében javították, az OpenEMR fejlesztői és az AISLE együttműködésében. Ugyanakkor az eset jól mutatja, hogy a kritikus egészségügyi rendszerekben egyetlen alkalmazásszintű sérülékenység is közvetlen hatással lehet betegadatok bizalmasságára és a szolgáltatások működésére, ami túlmutat a klasszikus IT-kockázatokon és már operatív, akár betegbiztonsági dimenziót is érint.
+
+FORRÁS
+
+
+================================================================================
+Sérülékenység javítási hullám
+ID: 854930
+Tags: AI, javítás, NCSC, NCSC-UK, patch, Sérülékenység
+--------------------------------------------------------------------------------
+
+A National Cyber Security Centre blogbejegyzése egy közelgő, nagyléptékű sérülékenység javítási hullámra jelenségre figyelmeztet, amely során rövid időn belül nagyszámú biztonsági frissítés jelenik meg, részben az évtizedek alatt felhalmozott technikai adósság felszínre kerülése miatt. 
+
+A jelenség mögött kulcsszerepet játszik a mesterséges intelligencia fejlődése. Az AI képes nagy skálán és gyorsan azonosítani sérülékenységeket nyílt forráskódú, kereskedelmi és SaaS rendszerekben is. Ez kényszerített korrekciót eredményez, vagyis tömegesen jelennek meg javítások olyan hibákra, amelyek korábban rejtve maradtak. 
+
+Az NCSC hangsúlyozza, hogy ez nem egyetlen kritikus sérülékenység, hanem javítások koncentrált hulláma, amely minden technológiai réteget érinthet, beleértve operációs rendszereket, hálózati eszközöket, felhőszolgáltatásokat és beágyazott rendszereket. Ez operatív szinten azt jelenti, hogy a szervezeteknek rövidebb idő alatt, nagyobb volumenben kell frissítéseket telepíteniük. 
+
+A fő kockázat nem maga a sérülékenység, hanem a reakcióképesség hiánya. Ha egy kritikus hiba publikálása után a javítás késik, a szervezetek versenyhelyzetbe kerülnek a támadókkal, különösen akkor, ha az exploit automatizálttá válik. 
+
+Sok szervezet még mindig jelentős technikai adósságot hordoz, elavult rendszerek, nem támogatott szoftverek és nem frissített komponensek halmozódnak fel, amelyek különösen sérülékenyek egy ilyen patch hullám idején. Bizonyos esetekben nem elegendő a patch-elés, hanem teljes rendszercsere vagy modernizáció szükséges. 
+
+Az NCSC ajánlásai stratégiai szintűek. Első lépésként a támadási felület csökkentését emelik ki, különösen az internet felől elérhető rendszereknél. Emellett kulcsfontosságú a gyors, skálázható patch-kezelési képesség kialakítása, beleértve az automatizált frissítéseket és a update by default megközelítést. 
+
+Fontos elem az ellátási lánc is, a szervezeteknek nemcsak saját rendszereikre kell felkészülniük, hanem beszállítóik és nyílt forráskódú komponenseik patch-elési képességére is rálátást kell szerezniük.
+
+FORRÁS
+
+
+================================================================================
+Wireshark javítások
+ID: 854876
+Tags: javítás, patch, Wireshark, Wireshark 4.4.15., Wireshark 4.6.5.
+--------------------------------------------------------------------------------
+
+A Wireshark legújabb frissítéseiben (4.6.5 és 4.4.15) a fejlesztők nagyszámú biztonsági sérülékenységet javítottak, amelyek részben összeomlást, részben súlyosabb kompromittációt is lehetővé tehettek. 
+
+A hibák többsége közepes kockázatú, és tipikusan DoS állapotot idézhet elő, például rosszindulatúan kialakított hálózati forgalom feldolgozásakor egyes protokoll-elemző modulokban. Ugyanakkor több magas kockázatú sérülékenység is szerepelt, amelyek esetében támadók kódfuttatást érhetnek el, például speciálisan manipulált csomagok vagy capture fájlok feldolgozásával. 
+
+A problémák a Wireshark architektúrájában keresendők, a szoftver számos protokoll-dissector modult használ, amelyek bemeneti adatokat dolgoznak fel, és ezekben a komponensekben jelentkeztek a hibák. Egy támadó képes lehet rosszindulatú hálózati adatcsomagokkal vagy fájlokkal triggerelni a sérülékenységeket, ami különösen kockázatos olyan környezetekben, ahol a Wireshark magas jogosultsággal fut.
+
+FORRÁS
+
+
+================================================================================
+Trellix incidens
+ID: 854873
+Tags: Forráskód, Incidens, Trellix
+--------------------------------------------------------------------------------
+
+A Trellix bejelentette, hogy egy incidens során támadók hozzáférést szereztek a vállalat belső forráskód-repositoryjának egy részéhez. A vállalat közlése szerint az illetéktelen hozzáférést belsőleg észlelték, majd azonnal forenzikus vizsgálat indult és a hatóságokat is értesítették. A támadás pontos módját, időtartamát és az elkövetők kilétét nem hozták nyilvánosságra, így a kezdeti hozzáférési vektor egyelőre ismeretlen. 
+
+A jelenlegi vizsgálatok alapján nincs bizonyíték arra, hogy a forráskódot módosították vagy aktívan kihasználták, illetve arra sem, hogy a szoftverek kiadási vagy disztribúciós folyamata sérült volna. Ez azt jelenti, hogy közvetlen supply chain kompromittáció vagy ügyféloldali hatás egyelőre nem igazolt.
+
+Kockázat a hozzáférés természetéből adódik, egy biztonsági termékeket fejlesztő vállalat forráskódjához való hozzáférés lehetővé teszi a támadók számára a belső működés, detekciós logika és potenciális sérülékenységek mély elemzését, ami későbbi, célzott támadások előkészítésére használható. Ez különösen érzékeny egy olyan szereplőnél, amely endpoint védelem és XDR megoldásokat fejleszt.
+
+FORRÁS
+
+
+================================================================================
+Linux Copy Fail sérülékenység
+ID: 854886
+Tags: CISA, Copy Fail, CVE-2026-31431, KEV, Linux
+--------------------------------------------------------------------------------
+
+A Copy Fail (CVE-2026-31431) egy aktívan kihasznált Linux kernel sérülékenység, amelyet a CISA is magas kockázatúként kezelt.
+
+A hiba a Linux kernel kriptográfiai alrendszerében található logikai hibából ered, és lehetővé teszi, hogy egy alacsony jogosultságú helyi felhasználó root szintű hozzáférést szerezzen. A támadás technikai lényege, hogy a támadó manipulálni tudja a page cache tartalmát, így módosíthatja például setuid binárisok memóriában lévő példányát, ami végrehajtáskor privilegizált hozzáférést ad. 
+
+A sérülékenység különösen veszélyes, mert szinte minden 2017 óta kiadott Linux kernel verziót érint, így gyakorlatilag az összes nagy disztribúció (Ubuntu, RHEL, SUSE stb.) érintett. Az exploit egyszerű és megbízható, akár egy rövid script segítségével is működik, és nem igényel speciális környezeti feltételeket, ugyanakkor nem minden Linux verzió érintett.
+
+A támadás további sajátossága, hogy memóriában történik, és nem hagy nyomot, így a hagyományos fájl-integritás ellenőrző eszközök nem érzékelik. Ez jelentősen növeli a stealth jelleget és a detektálás nehézségét.
+
+A CISA azért emelte be a KEV katalógusba, mert a sérülékenységet már valós támadásokban is kihasználják, és különösen veszélyes többfelhasználós rendszerekben, szervereken és konténeres környezetekben, ahol egy alacsony jogosultságú hozzáférés gyorsan teljes rendszerkompromittációvá eszkalálható.
+
+FORRÁS
+
+
+================================================================================
+Délkelet-Ázsia kormányzati komplex támadási lánca
+ID: 854278
+Tags: APT, cPanel, Ctrl-Alt-Intel, CVE-2026-41940, Délkelet-Ázsia
+--------------------------------------------------------------------------------
+
+A Ctrl-Alt-Intel kutatása egy többfázisú APT kampányt ír le, amely Délkelet-Ázsia kormányzati és katonai infrastruktúráját célozta, és amelynek belépési pontja egy kritikus cPanel sérülékenység (CVE-2026-41940) volt.
+
+A támadók a cPanel/WHM hitelesítés-megkerülési hibáját használták ki, amely CRLF injection révén lehetővé tette a whostmgrsession cookie manipulálását és hitelesítés nélküli root szintű hozzáférés megszerzését. A kezdeti hozzáférés után egy indonéz védelmi portál ellen egyedi exploit láncot alkalmaztak. A CAPTCHA védelmet a session cookie-ból kiolvasott értékkel kerülték meg, majd egy sebezhető funkción keresztül SQL injectiont hajtottak végre. Ezt PostgreSQL COPY ... TO PROGRAM funkcióval operációs rendszer szintű kódfuttatásra emelték.
+
+A művelet adatkinyerése során a parancskimenetet ideiglenes fájlokba írták, base64-kódolták, majd adatbázis-funkciókon keresztül olvasták vissza, minimalizálva a forenzikai nyomokat.
+
+A kampány végső célja nagyméretű adatlopás volt, amely során több gigabájtnyi érzékeny dokumentum – köztük személyes és pénzügyi adatok – került exfiltrálásra.
+
+FORRÁS
+
+
+================================================================================
+Apple Hearing Study
+ID: 854312
+Tags: Apple, Apple Hearing Study, Hallás, University of Michigan, Zaj
+--------------------------------------------------------------------------------
+
+Az Apple Hearing Study egy, a University of Michigan és az Apple együttműködésében zajló hosszú távú kutatás, amely a hallás egészségének és a zajexpozíció hatásainak vizsgálatára fókuszál. A program a Research alkalmazáson keresztül működik, és iPhone valamint Apple Watch eszközökből származó adatokra épít, így valós élethelyzetekből gyűjt nagymennyiségű mérési és önbevallásos információt.
+
+A kutatás során a résztvevők napi hangterhelését elemzik, beleértve a fejhallgató-használatból és a környezeti zajból származó expozíciót, miközben rendszeres kérdőívek és digitális hallásvizsgálatok segítségével követik a hallás állapotának változását. A cél annak feltárása, hogy a hosszú távú zajterhelés milyen mértékben járul hozzá a halláskárosodáshoz, illetve hogyan kapcsolódik más egészségi tényezőkhöz.
+
+A tanulmány különlegessége a méretében és módszertanában rejlik, nagyszámú résztvevő és folyamatos adatgyűjtés teszi lehetővé, hogy a kutatók populációs szinten elemezzék a hallásromlás kockázati tényezőit. Az eddigi megállapítások szerint sok felhasználó rendszeresen olyan zajszintnek van kitéve, amely hosszú távon károsíthatja a hallást, miközben a halláscsökkenés gyakran észrevétlen marad.
+
+A kutatás célja, hogy ezekből az eredményekből olyan tudományos és technológiai megoldások szülessenek, amelyek támogatják a halláskárosodás megelőzését, korai felismerését és a felhasználók tudatosabb zajterhelés-kezelését.
+
+FORRÁS
+
+
+================================================================================
+Átfogó elemzés a Fast16 kitettségéről
+ID: 854285
+Tags: Antiy, FAST16, Stuxnet
+--------------------------------------------------------------------------------
+
+Az Antiy elemzés a SentinelOne által feltárt Fast16 műveletet nemcsak technikai szempontból vizsgálja, hanem geopolitikai és információs műveleti kontextusba helyezi, és részletesen elemzi a képességek, az attribúció és a publikáció jelentőségét.
+
+A tanulmány szerint a Fast16 egy rendkívül kifinomult, a 2000-es évek közepén fejlesztett kiberfegyver, amelynek célja nem hagyományos adatlopás vagy kémkedés, hanem ipari és mérnöki folyamatok szabotálása. A malware kernel-szintű beavatkozással manipulálja a szimulációs vagy tervező rendszerek számításait, miközben a felhasználó számára láthatatlan marad. Az Antiy kiemeli, hogy ez a működés alapvetően eltér a későbbi, látványosabb ICS támadásoktól, mivel itt a hatás indirekt: a hibás számítások később fizikai meghibásodásokhoz vezethetnek.
+
+A Fast16 fejlesztése magas szintű mérnöki és szervezeti háttérre utal. A kód strukturált, moduláris, több verzióval és iteratív fejlesztési nyomokkal rendelkezik, ami ipari fejlesztési folyamatra jellemző. Ez alapján az Antiy szerint a művelet mögött állami szintű erőforrások állhattak, nem pedig klasszikus APT-csoportok.
+
+Az attribúció kérdésében az Antiy óvatos, de rámutat, hogy a SentinelOne által felvetett Shadow Brokers kapcsolódás és az amerikai NSA-hoz köthető narratíva nem tekinthető egyértelmű bizonyítéknak. Ehelyett azt hangsúlyozza, hogy a publikációban szereplő bizonyítékok inkább indirekt korrelációk, amelyek nem zárják ki más állami szereplők lehetőségét sem.
+
+Az Antiy szerint a Fast16 feltárása nem pusztán technikai kutatás, hanem pszichológiai és információs műveletként is értelmezhető, amely a nyugati kiberképességek történelmi fejlettségét demonstrálja. A malware fejlesztési ideje évekkel megelőzi a Stuxnetet, így azt sugallja, hogy a kifinomult, fizikai hatású kiberfegyverek már jóval korábban léteztek.
+
+Az elemzés kiemeli, hogy a Fast16 működési modellje – a számítási eredmények finom torzítása – stratégiai szempontból különösen veszélyes. Nem okoz azonnali hibát vagy leállást, hanem rejtett, kumulatív hatást fejt ki, amely hosszabb távon vezethet rendszerhibákhoz, miközben nehezen detektálható és visszakövethető.
+
+FORRÁS
+
+
+================================================================================
+Silver Fox kampány ABCDoor-ral
+ID: 854281
+Tags: ABCDoor, ABCDoor backdoor, Backdoor, Kaspersky, pszichológai megtévesztés, RustSL, Silver Fox, Social engineering, Spear phishing
+--------------------------------------------------------------------------------
+
+A Kaspersky Kaspersky által elemzett Silver Fox kampány egy spear-phishing művelet, amely adóhatósági értesítéseknek álcázott e-mailekkel terjeszti a fertőzést. A támadók hivatalosnak tűnő dokumentumokat küldenek, amelyek megnyitásakor egy több lépcsős loader lánc indul el.
+
+A kezdeti komponens egy módosított Rust-alapú loader (RustSL), amely titkosított payloadot dekódol és memóriában hajt végre, majd további modulokat tölt be. A fertőzési lánc következő eleme a ValleyRAT, amely perzisztens hozzáférést biztosít, illetve az új ABCDoor backdoor, amely Python-alapú és széles körű vezérlési képességekkel rendelkezik.
+
+Az ABCDoor képes rendszerinformációk gyűjtésére, fájlműveletekre, képernyő- és clipboard-adatok megszerzésére, valamint további parancsok végrehajtására, így a kompromittált rendszer teljes távoli kontroll alá kerül. A kommunikáció titkosított csatornákon zajlik, a komponensek pedig erősen obfuszkáltak, ami nehezíti a detekciót.
+
+A kampány több régiót érint, különösen Ázsiában, és a támadók az adózási időszakokhoz igazítják a phishing üzeneteket, növelve a felhasználói interakció valószínűségét. A művelet strukturált, moduláris felépítésű, ahol a kezdeti pszichológiai megtévesztés egy loader-alapú, memóriában futó végrehajtási lánc követi, amely perzisztens hozzáférést és adatkinyerést biztosít a támadók számára.
+
+FORRÁS
+
+
+================================================================================
+Sector 16 csoport tagja bűnösnek vallotta magát
+ID: 854267
+Tags: Artem Vladimirovich Revenskii, Digit, IT, Kiberblog, OT, Sector 16
+--------------------------------------------------------------------------------
+
+Artem Vladimirovich Revenskii (Digit) az orosz államhoz köthető Sector 16 csoport tagjaként vett részt kritikus energetikai infrastruktúrák elleni támadásokban, és bűnösnek vallotta magát több vádpontban.
+
+A műveletek több országot érintettek, köztük az Egyesült Államokat, Ukrajnát, valamint európai NATO-tagállamokat (pl. Németország, Franciaország, Lettország), ahol a csoport olaj- és gázipari létesítményekbe tört be és ipari rendszereket kompromittált. A Sector 16 tevékenysége nemcsak külföldi célpontokra korlátozódott, hanem konkrét magyarországi ICS/OT környezetekben is megjelent. A Kiberblog szerint a csoport 2025-ben egy magyar geotermikus termelőrendszerhez szerzett hozzáférést, amely távfűtési célra használt melegvíz kitermelését és feldolgozását végzi. A kompromittált rendszer ipari folyamatokat kezel, például gázleválasztást, hőcserét és nyomáskezelést, vagyis tipikus SCADA/ICS környezet. A csoport bizonyítékokat publikált arról, hogy képes volt a rendszerbe betekinteni, ami azt jelzi, hogy a kritikus infrastruktúra távolról elérhető és gyenge védelemmel rendelkező interfészen keresztül volt kompromittálható. A támadási minta más hazai esetekben is megjelent, ahol HVAC és épületfelügyeleti rendszerek felett tényleges vezérlést is demonstráltak.
+
+A támadások célja nem csupán hozzáférésszerzés volt, hanem fizikai hatás kiváltása. A vádirat szerint a támadók konkrét terveket dolgoztak ki ipari berendezések túlterhelésére, gázvezetékek deformálására és akár robbanások előidézésére. Egy ukrajnai létesítmény esetében tűz és robbanások kiváltását is kilátásba helyezték, ami emberéleteket és infrastruktúrát is veszélyeztetett volna.
+
+Az IT rendszereken keresztül szereztek kezdeti hozzáférést, majd laterális mozgással jutottak el az OT/ICS környezetekhez, ahol ipari folyamatok manipulációját készítették elő. Több amerikai célpontnál sikeresen hozzáfértek rendszerekhez, beleértve szivattyúk és tároló rendszerek vezérlését is.
+
+A Sector 16 tevékenysége európai dimenzióval is rendelkezett, a célpontok között több európai energetikai infrastruktúra szerepelt, és a műveletek NATO-országokra fókuszáltak, ami geopolitikai motivációt jelez. Ebbe a mintázatba illeszkedik, hogy a csoport magyarországi létesítmények feltérképezésében és kompromittálási kísérleteiben is érintett volt, ami a régió kritikus infrastruktúráinak célzott vizsgálatára utal.
+
+A csoport emellett aktívan próbálta értékesíteni a megszerzett hozzáféréseket és képességeket, akár az orosz állam felé is, és konkrét pénzügyi ajánlatok hangzottak el például egy teljes ukrán áramszünet kiváltására.
+
+FORRÁS
+
+
+================================================================================
+Kínai scam center Srí Lankán
+ID: 854165
+Tags: Colombo, Kínai, Scam, Smishing, Sri Lanka
+--------------------------------------------------------------------------------
+
+Srí Lankán a rendőrség 37 kínai állampolgárt tartóztatott le Colombóban, akik egy szervezett kibercsalási központ működtetésével gyanúsíthatók. A rajtaütés egy bejelentés nyomán történt, az elkövetők többsége turistavízummal lépett be az országba, majd illegálisan folytattak online csalási tevékenységet.
+
+A hatóságok a helyszínen jelentős technikai infrastruktúrát foglaltak le, többek között több tucat tabletet, közel 150 mobiltelefont és nagyszámú SIM-kártyát, ami tipikusan tömeges online csalások, smishing, befektetési csalások végrehajtására utal.
+
+A letartóztatás egy szélesebb regionális trendbe illeszkedik, amelyben kínai kötődésű bűnszervezetek különböző országokban – köztük Dél- és Délkelet-Ázsiában – hoznak létre ilyen központokat. Srí Lankán korábban is több hasonló műveletet számoltak fel, például egy hónappal korábban több mint 150 külföldit tartóztattak le egy másik scam infrastruktúra miatt.
+
+A hatóságok szerint az ország fejlett távközlési infrastruktúrája, földrajzi elhelyezkedése és viszonylag laza vízumszabályai vonzóvá tették a helyszínt az ilyen műveletek számára.
+
+FORRÁS
+
+
+================================================================================
+Nessus kritikus sérülékenység
+ID: 854159
+Tags: Nessus, Nessus Agent, privilege escalation, Tenable
+--------------------------------------------------------------------------------
+
+A Nessus Agent Windows rendszereket érintő sérülékenysége lehetővé teszi, hogy egy alacsony jogosultságú felhasználó SYSTEM szintű jogosultságot szerezzen, így teljes kontrollt kapjon a gép felett. A hiba a nem megfelelő jogosultságkezelés és fájlkezelés, a támadó képes rendszerfájlokat felülírni, törölni vagy akár kódot futtatni magas jogosultsággal, ami klasszikus privilege escalation támadáshoz vezet.
+
+A sérülékenység különösen kritikus, mert a Nessus Agent széles körben telepített vállalati eszköz, így egy sikeres exploit gyorsan további rendszerek kompromittálásához vezethet.
+
+A Tenable kijavította a Nessus Agent 11.1.3-as verziójának sebezhetőségét, amely mostantól elérhető a Tenable letöltési portálon keresztül. 
+
+FORRÁS
+
+
+================================================================================
+AccountDumpling
+ID: 853534
+Tags: Facebook, Google AppSheet, Guard.io, Meta, Netlify, platform-abuse, Vercel
+--------------------------------------------------------------------------------
+
+A Guard.io platform-abuse alapú phishing műveletet smertet, amely a Google AppSheet legitim e-mail infrastruktúráját használta fel hitelesnek tűnő üzenetek küldésére. A támadók a noreply@appsheet.com címről küldtek értesítéseket, amelyek Facebook-felhasználókat céloztak meg szabálysértési, bejelentkezési vagy verifikációs ürüggyel, így megkerülve a hagyományos e-mail szűrőket.
+
+Az áldozatokat Netlify és Vercel által hosztolt phishing oldalakra irányították, miközben Google Drive PDF-eket is használtak a legitimáció erősítésére. A megszerzett hitelesítési adatokat, személyazonosító dokumentumokat és kétfaktoros kódokat valós időben továbbították Telegram botokon keresztül, ami lehetővé tette az azonnali fiókátvételt.
+
+A kampány során több mint 30 000 kompromittált fiókot azonosítottak globálisan. Az ellopott adatokat Telegram-csatornákba gyűjtötték, majd egy szervezett, vietnámi hátterű ökoszisztémában monetizálták, amely nemcsak a feltört fiókok értékesítésére, hanem visszaállítási szolgáltatások kínálatára is épült.
+
+A támadók nem technikai sérülékenységet használtak ki, hanem megbízható SaaS szolgáltatásokból származó kommunikációt és infrastruktúrát kombináltak valós idejű credential harvestinggel, ami jelentősen növelte a támadások sikerességét és skálázhatóságát.
+
+FORRÁS
+
+
+================================================================================
+RaaS felhasználók elítélése
+ID: 853532
+Tags: Alphv, BlackCat, Ransomware
+--------------------------------------------------------------------------------
+
+Két amerikait, Ryan Goldberg és Kevin Martin négy év börtönre ítéltek, mert 2023-ban az ALPHV BlackCat ransomware-as-a-service ökoszisztémában affiliáltként működve több amerikai szervezetet támadtak.
+
+A támadási modell klasszikus RaaS volt, a BlackCat infrastruktúrát használták, a bevétel 20%-át az üzemeltetőknek fizették, miközben saját maguk végezték a kezdeti hozzáférést, adatlopást és titkosítást. Egyetlen áldozattól legalább 1,2 millió dollárnyi bitcoint zsaroltak ki, majd a bevételt pénzmosási lépésekkel rejtették el.
+
+FORRÁS
+
+
+================================================================================
+Forrás mérgezése
+ID: 853529
+Tags: Acronis, Acronis Threat Research Unit, Ellátási lánc, Hugging FAce, OpenClaw, poisoning, Supply Chain
+--------------------------------------------------------------------------------
+
+Az Acronis egy aktív, AI ellátási támadási modellt ír le, ahol a támadók a Hugging Face és a OpenClaw környezetét használják rosszindulatú kód terjesztésére.
+
+A kampány során a támadók AI modelleknek, adatkészleteknek és agentbővítményeknek álcázott komponenseket publikálnak, amelyek valójában többféle malware-t tartalmaznak. Az Acronis több mint 575 fertőzött OpenClaw skillt azonosított 13 fejlesztői fiókhoz kötve, amelyek trójaiakat, kriptobányászokat és AMOS infostealer variánsokat telepítettek Windows és macOS rendszereken. A kódok jellemzően obfuszkáltak, base64-kódolt parancsokat és rejtett függőségeket tartalmaznak, valamint telepítés után külső forrásból további payloadokat töltenek le.
+
+A kezdeti komponens gyakran csak loader szerepet tölt be, amely runtime során tölti be a tényleges kártékony kódot, gyakran memóriában futtatva azt. A Hugging Facerepositorykat a támadók nemcsak terjesztésre, hanem payload-hostingra is használják, így a fertőzési lánc több lépcsőben, legitim infrastruktúrán keresztül valósul meg.
+
+A támadók indirect prompt injection technikát alkalmaznak, amely során a fertőzött komponensek olyan bemeneteket vagy utasításokat tartalmaznak, amelyek AI-alapú agentek futtatása során automatikusan aktiválják a kártékony funkciókat. A végrehajtás nem közvetlen felhasználói interakcióhoz kötött, hanem az AI-vezérelt workflow részeként történik.
+
+A kommunikáció és vezérlés jellemzően rejtett csatornákon keresztül zajlik, gyakran legitim szolgáltatások mögé rejtve, miközben a malware anti-analysis és obfuszkációs technikákat alkalmaz a detekció elkerülésére.
+
+FORRÁS
+
+
+================================================================================
+Deep#Door backdoor
+ID: 852659
+Tags: Backdoor, Deep#Door, Securonix
+--------------------------------------------------------------------------------
+
+A Securonix a Deep#Door egy Python-alapú, többkomponensű backdoor keretrendszer, amely perzisztens hozzáférés és széles körű adatlopás biztosítására készült, és működésében inkább teljes értékű RAT-ként viselkedik, mint klasszikus stealerként.
+
+A fertőzési lánc egy erősen obfuszkált batch loaderrel indul, amely végrehajtáskor letilt bizonyos Windows védelmi mechanizmusokat, majd egy beágyazott Python payloadot rekonstruál és futtat. A malware sajátossága, hogy a payload nem külső forrásból töltődik le, hanem a dropperen belül található, ami csökkenti a hálózati detekció esélyét és a forenzikai nyomokat.
+
+A perzisztencia több rétegben valósul meg, beleértve registry kulcsokat, startup scriptet, ütemezett feladatokat és WMI-alapú mechanizmusokat, valamint watchdog logikát, amely automatikusan visszaállítja az eltávolított komponenseket. Ez biztosítja a hosszú távú jelenlétet kompromittált rendszereken.
+
+A kommunikáció nem klasszikus dedikált C2 infrastruktúrán keresztül történik, hanem egy publikus tunneling szolgáltatás használatával, amely elrejti a támadói végpontot és legitim forgalomként jelenik meg.
+
+Funkcionálisan a Deep#Door teljes körű hozzáférést biztosít a támadónak: távoli parancsvégrehajtás, rendszerfelderítés és kiterjedt adatgyűjtés valósítható meg, beleértve billentyűnaplózást, képernyőkép-készítést, mikrofon és kamera elérését, valamint böngésző-, SSH- és felhő-credentialek exfiltrációját.
+
+A malware jelentős hangsúlyt fektet az észlelés elkerülésére. Többek között sandbox- és VM-detekciót, AMSI és ETW megkerülést, Defender-manipulációt és log-törlést alkalmaz, ami jelentősen nehezíti az incidensfelderítést és a forenzikai elemzést.
+
+FORRÁS
+
+
+================================================================================
+Phoenix System PaaS
+ID: 852649
+Tags: Group-IB, PaaS, Phishing-as-a-Service, Phoenix System, pszichológai megtévesztés, Smishing, Social engineering
+--------------------------------------------------------------------------------
+
+A Group-IB a Phoenix System Phishing-as-a-Service platform elemzi, amely iparosított módon támogat tömeges smishing kampányokat, amelyek több régiót (APAC, Európa, LATAM, MEA) lefednek, és elsősorban pénzügyi, telekommunikációs és logisztikai szervezeteket használnak ki. A támadások két domináns pszichológiai megtévesztési mintára épülnek, jutalompont jellegű csalások és sikertelen kézbesítés témájú üzenetek. Bár ezek különbözőnek tűnnek, a kutatás kimutatta, hogy közös infrastruktúrát és TTP-ket használnak, ami egyetlen backend rendszerhez, a Phoenix Systemhez köti őket.
+
+A Phoenix System egy központosított adminisztrációs platform, amely valós idejű áldozatkövetést, geofencinget és dinamikus kampánykezelést biztosít az affiliált támadók számára. A rendszer képes IP-alapú szűrésre és célzott ország-specifikus phishing oldalak kiszolgálására, ami jelentősen növeli a támadások hatékonyságát.
+
+A kezdeti fázisban hagyományos SMS-küldést használnak, később azonban fejlettebb módszerekre váltanak, például hamis bázisállomások használatára, amellyel képesek a szolgáltatói szűrést megkerülni, és az üzeneteket legitim márkák nevében megjeleníteni. Az áldozati folyamat során a felhasználókat hamis weboldalakra irányítják, ahol több lépcsőben történik az adatgyűjtés. Először alapadatokat kérnek, telefonszám vagy cím, majd pénzügyi adatokat, bankkártya, fizetési adatok egy kisebb díj vagy szolgáltatás ürügyén.
+
+A kampány mérete ipari jellegű, több mint 2500 domain és legalább 70 szervezet impersonációja köthető hozzá, ami egy skálázható, moduláris phishing ökoszisztémára utal.
+
+FORRÁS
+
+
+================================================================================
+ScreenConnect és Windows frissítés a CIA KEV listáján
+ID: 852616
+Tags: ConnectWise ScreenConnect, CVE-2024-1708, CVE-2026-32202, Microsoft Windows, ScreenConnect
+--------------------------------------------------------------------------------
+
+A CISA felvette az aktívan kihasznált sérülékenységek katalógusába a ConnectWise ScreenConnect CVE-2024-1708 és a Microsoft Windows CVE-2026-32202 sebezhetőségeket, mivel mindkettő esetében megerősített az aktív kihasználás.
+
+A ScreenConnect esetében egy path traversal hiba áll fenn, amely lehetővé teszi, hogy a támadó jogosulatlanul hozzáférjen rendszerfájlokhoz, illetve bizonyos konfigurációk mellett hitelesítés nélkül hajtson végre műveleteket a szerveren. Mivel a ScreenConnect tipikusan távoli menedzsment és adminisztrációs célokra használt eszköz, sikeres kihasználása közvetlen hozzáférést biztosíthat menedzselt rendszerekhez, ami gyors laterális mozgást és széles körű kompromittációt tesz lehetővé.
+
+A Windows CVE-2026-32202 egy korábbi sérülékenység nem teljes körű javításából eredő hiba, amely a rendszer védelmi mechanizmusait érinti. A sérülékenység lehetővé teszi, hogy speciálisan kialakított fájlok feldolgozásakor a rendszer automatikusan hitelesítési kérést indítson egy támadói erőforrás felé, ami hitelesítési adatok kiszivárgásához vezethet. Ez a modell nem közvetlen kódfuttatásra, hanem a biztonsági kontrollok megkerülésére és további támadási lépések előkészítésére szolgál.
+
+A CISA a két hibát a 22-01-es kötelező operatív irányelv alapján magas kockázatúként kezeli, ami azt jelenti, hogy a szövetségi rendszerekben rövid határidőn belül kötelező a javításuk. A besorolás alapja nemcsak a technikai súlyosság, hanem az is, hogy mindkét sebezhetőség széles körben használt rendszereket érint, és már bizonyítottan szerepel valós támadási láncokban.
+
+FORRÁS
+
+
+================================================================================
+Lollipopon nem fut a WhatsApp
+ID: 852654
+Tags: Lollipop, WhatsApp
+--------------------------------------------------------------------------------
+
+A WhatsApp 2026. szeptember 8-tól megszünteti a támogatást a régi Android-verziók számára, és csak az Android 6.0 (Marshmallow) vagy újabb rendszereken fog működni.
+
+Az Android 5.0 és 5.1 (Lollipop) rendszert futtató készülékek kiesnek a támogatásból, és a határidő után már nem tudják használni az alkalmazást, illetve nem kapnak frissítéseket. A döntés mögött technikai és biztonsági okok állnak, az elavult operációs rendszerek nem támogatják az új funkciókat, és már nem kapnak biztonsági frissítéseket, így növelik a támadási felületet.
+
+FORRÁS
+
+
